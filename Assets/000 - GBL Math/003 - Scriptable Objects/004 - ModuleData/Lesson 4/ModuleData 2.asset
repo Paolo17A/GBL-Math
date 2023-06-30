@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 2
+  m_EditorClassIdentifier: 
+  LeftPageText: '5. Independent and Dependent Events:
+
+
+    Independent events are
+    events where the occurrence of one event does not affect the probability of the
+    other event. Dependent events are events where the occurrence of one event affects
+    the probability of the other event.
+
+    
+
+
+    6. Complementary Events:
+
+
+    The
+    complement of an event is the event that does not occur. The probability of the
+    complement of an event can be found by subtracting the probability of the event
+    from 1.
+
+'
+  RightPageText: "7. Addition Rule:\r\n\nThe addition rule is used to find the probability
+    of the union of two or more events. It states that the probability of the occurrence
+    of either of two mutually exclusive events is the sum of their individual probabilities.\r\n\r\n\n8.
+    Multiplication Rule:\r\n\nThe multiplication rule is used to find the probability
+    of the intersection of two or more independent events. It states that the probability
+    of the occurrence of both events is the product of their individual probabilities.\r"

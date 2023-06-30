@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b58fbedcec24b47978a7daefc87454, type: 3}
+  m_Name: LessonData 4
+  m_EditorClassIdentifier: 
+  <LessonIndex>k__BackingField: 4
+  <LessonDetails>k__BackingField: 'Lesson Details:
+
+
+    - Multiplying numbers by
+    2
+
+    - Multiplying numbers by 3'
+  <CoinReward>k__BackingField: 11
+  <StarQuota>k__BackingField: 6
+  <IntroductoryMessages>k__BackingField:
+  - Hello again, brave warrior. Great job defeating the Thunder slime.
+  - You have mastered the basic principles of Multiplication. Well done!
+  - Now it's time to put what you know into practice. King Slime's next warriors
+    are a lot stronger.
+  - You need to learn the Multiplication Table to take them all down.
+  - Let's start with learning how to multiply by 2s and 3s. That's all we need to
+    take down the Magma Slime.
+  <IntroTypeSpeed>k__BackingField: 0.03
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <BlackBoardTopics>k__BackingField:
+  - {fileID: 11400000, guid: f36c6a2eb0620124ebf1de44a6dbd4cd, type: 2}
+  - {fileID: 11400000, guid: ea0a4bb32b3e2cb48b19a0f5f02179c1, type: 2}
+  - {fileID: 11400000, guid: a4bbabf119ab3f74798eb4786b450f9c, type: 2}
+  - {fileID: 11400000, guid: 49416254068f8014e86f5adf51b80355, type: 2}
+  - {fileID: 11400000, guid: 2d349ade4a71bac40b587dc9f0340812, type: 2}
+  - {fileID: 11400000, guid: 3ebe407458f9a02479d4bea9c2328fde, type: 2}
+  - {fileID: 11400000, guid: ec47f581820bfb349b4c72d40927dc7b, type: 2}
+  - {fileID: 11400000, guid: a19cfe8b95a4a6741af81ce21befacf3, type: 2}
+  - {fileID: 11400000, guid: df47c645860a99f4b9d85350f5b68ad3, type: 2}
+  - {fileID: 11400000, guid: 8d531332d3bcb7a4f9094355a287d76b, type: 2}
+  - {fileID: 11400000, guid: 72e31d345c2d10b4b9c9a2234010011d, type: 2}
+  - {fileID: 11400000, guid: 1fcb47c1ef190e642bcfc87fbc3a0a25, type: 2}
+  - {fileID: 11400000, guid: b379df9f1cc932a4a9ffb655ac0e058b, type: 2}
+  - {fileID: 11400000, guid: 7ac7d86610322fd42b5cbfff9c820c0b, type: 2}
+  - {fileID: 11400000, guid: 5364063358e0e4d4099d6e6d6367adb8, type: 2}
+  - {fileID: 11400000, guid: b39fb588b5b68c94f94973aa2d493032, type: 2}
+  - {fileID: 11400000, guid: 92ffbbaf6d08df641bc611083a79c09e, type: 2}
+  - {fileID: 11400000, guid: 13744f8c554174c48845bdc7ac0c7eaa, type: 2}
+  - {fileID: 11400000, guid: 86088fb230cffe54d90ce6b026acc6c0, type: 2}
+  - {fileID: 11400000, guid: d0196d3402f19e74a8778bef6ead786d, type: 2}
+  - {fileID: 11400000, guid: 1262d8ba725a3ec4696a71fa24cef8aa, type: 2}
+  - {fileID: 11400000, guid: 23aa67be0c78fb842905844dd91327d5, type: 2}
+  <ModulePages>k__BackingField:
+  - {fileID: 11400000, guid: c907d7df2a4166940b75bb730ed91d73, type: 2}
+  - {fileID: 11400000, guid: 788d5ae60a7331e4b91c95cb52ee11e0, type: 2}
+  - {fileID: 11400000, guid: 1573d1972cb7e184e9d38b88f8de4924, type: 2}
+  - {fileID: 11400000, guid: a2533ee3de049434e86ac759c3597a99, type: 2}
+  - {fileID: 11400000, guid: 611d1419c25351b46bf2829ccd80bca1, type: 2}
+  <EnemyPrefab>k__BackingField: {fileID: 23619443532357410, guid: 0e272584e43a6f042b08446152a08b81, type: 3}
+  <LessonQuestions>k__BackingField:
+  - {fileID: 11400000, guid: 701831f59a970a34da810c39e2b9db05, type: 2}
+  - {fileID: 11400000, guid: b08c8d7b41c4f3b46a2be6c03aa51d8f, type: 2}
+  - {fileID: 11400000, guid: 0e9810984e1f95c49ad56de46647302c, type: 2}
+  - {fileID: 11400000, guid: 96401e7e131e8504ea74445d848d63ae, type: 2}
+  - {fileID: 11400000, guid: 993111f09425ae84eaeea3b88ce9d22c, type: 2}
+  - {fileID: 11400000, guid: aed64588d6b52424d96c1fe90ca127cf, type: 2}
+  - {fileID: 11400000, guid: fb6a22df04126384daaf5fb0494f29d6, type: 2}
+  - {fileID: 11400000, guid: f7b00bbd1cc5046428e96fefedcbcc9e, type: 2}
+  - {fileID: 11400000, guid: 9548b44cfeb47f745af3d09d1ce58534, type: 2}
+  - {fileID: 11400000, guid: ac8e912b7a4e91342b3531408f8f9fab, type: 2}
+  - {fileID: 11400000, guid: 7ba848206380c5641bf1e8584af6d319, type: 2}
+  - {fileID: 11400000, guid: de049137db145cf4a9a414fead80bf2f, type: 2}
+  - {fileID: 11400000, guid: 37f7212bbaa4c4f4b9eabf1e57f22e7e, type: 2}
+  - {fileID: 11400000, guid: 05708c7a8394ab2419d76f2e050fc2ff, type: 2}
+  - {fileID: 11400000, guid: 2f37ff8250567c542ae7d39af1c7fbe8, type: 2}
+  - {fileID: 11400000, guid: a87645cf78869204fab802120eeebed7, type: 2}
+  - {fileID: 11400000, guid: ccb621113ea5bf64781406aee2cf4140, type: 2}
+  - {fileID: 11400000, guid: 95c8548c477021a45a2812f11ffa3180, type: 2}
+  - {fileID: 11400000, guid: ec16cf0c60feed44aaf629f728804ee7, type: 2}
+  - {fileID: 11400000, guid: c775f66750f57ca49b7912fe7b1ae36e, type: 2}

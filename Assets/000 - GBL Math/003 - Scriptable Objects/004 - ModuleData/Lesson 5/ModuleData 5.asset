@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 5
+  m_EditorClassIdentifier: 
+  LeftPageText: '15. Activity: Hypothesis Testing with Samples
+
+
+    In this activity,
+    you will practice conducting hypothesis tests using different t-tests based on
+    provided sample data, hypotheses, and significance levels.
+
+    
+
+
+    16.
+    Nonparametric Tests:
+
+
+    Nonparametric tests are used when data do not meet
+    the assumptions required for parametric tests. These tests, such as the Mann-Whitney
+    U test and Wilcoxon signed-rank test, rely on ranks rather than specific distributional
+    assumptions.
+
+'
+  RightPageText: '17. Summary:
+
+
+    Sampling and sampling distributions are essential
+    components of statistical analysis. By understanding different sampling methods,
+    sampling distributions, hypothesis testing, and confidence intervals, you gain
+    powerful tools for drawing meaningful conclusions from sample data.
+
+    
+
+
+    Congratulations
+    on completing this module! Sampling is a crucial step in statistical analysis,
+    and now you have the knowledge to select representative samples and make accurate
+    inferences. Keep up the great work, and let''s continue our statistical journey!
+
+'

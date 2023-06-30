@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdbbbe4571b1cf4688d6e31b9e4fa6f, type: 3}
+  m_Name: BlackboardData 17
+  m_EditorClassIdentifier: 
+  <ThisBlackboardType>k__BackingField: 1
+  <IsTopicBeginning>k__BackingField: 1
+  <LessonText>k__BackingField: "Example 4: \nTake the following scores of 15 students
+    in a 40-item test: 15,21,9,22,19, 21, 1, 24, 5, 27, 29, 35, 36, 37, 8.\r\n\r\nFirst,
+    we group the data into convenient ranges, called bins. In this example we are
+    going to group the data in bins with a width of 10 each. Changing the size of
+    the bin will change the appearance of the graph.\r"
+  <LessonWriteSpeed>k__BackingField: 0.03
+  <LessonSprite>k__BackingField: {fileID: 0}
+  <LessonDescriptionText>k__BackingField: 

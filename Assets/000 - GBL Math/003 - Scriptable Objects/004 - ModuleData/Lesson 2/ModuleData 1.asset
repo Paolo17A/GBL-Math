@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 1
+  m_EditorClassIdentifier: 
+  LeftPageText: "Welcome to Lesson 2 of the Introduction to Statistics course! In
+    this module, we will explore various methods of data collection. Understanding
+    these methods is essential for obtaining accurate and reliable data for statistical
+    analysis. Let's get started!\r\n\r\n1. What is Data Collection?\r\nData collection
+    is the process of gathering information or data for analysis and research purposes.
+    It involves systematic methods and techniques to ensure the data collected is
+    representative and valid.\r\n\r\n2. Methods of Data Collection:\r\nThere are
+    several common methods of data collection. Let's explore three primary methods:\r"
+  RightPageText: "a. Surveys:\r\nSurveys involve collecting data by asking questions
+    to a sample of individuals or groups. Surveys can be conducted through various
+    mediums, such as paper questionnaires, online surveys, or telephone interviews.
+    They provide insights into people's opinions, attitudes, behaviors, and preferences.\r\n\r\nb.
+    Experiments:\r\nExperiments involve manipulating variables and observing their
+    effects to draw conclusions. They are used to establish cause-and-effect relationships.
+    In experiments, researchers carefully control variables to ensure the accuracy
+    of the results.\r"

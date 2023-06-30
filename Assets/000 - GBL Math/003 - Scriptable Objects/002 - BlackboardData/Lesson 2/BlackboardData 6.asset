@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdbbbe4571b1cf4688d6e31b9e4fa6f, type: 3}
+  m_Name: BlackboardData 6
+  m_EditorClassIdentifier: 
+  <ThisBlackboardType>k__BackingField: 1
+  <IsTopicBeginning>k__BackingField: 0
+  <LessonText>k__BackingField: "Not all surveys gather information about people.
+    There are surveys about cars, building, mobile apps, TV shows, etc.\n\nThe physicist
+    and chemist make use of the experimentation method in gathering data.\r\nThe
+    following questions involve experimentation.\r\n\u2022 Will the fertilizer produce
+    more rice?\r\n\u2022 Can a sawdust be substituted for sand in the production
+    of hallow blocks?\r\n\u2022 Is it possible to produce paper from the manure of
+    cows?\r"
+  <LessonWriteSpeed>k__BackingField: 0.03
+  <LessonSprite>k__BackingField: {fileID: 0}
+  <LessonDescriptionText>k__BackingField: 

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 4
+  m_EditorClassIdentifier: 
+  LeftPageText: "13. The Law of Large Numbers:\r\n\nThe Law of Large Numbers states
+    that as the number of trials or experiments increases, the experimental probability
+    of an event approaches its theoretical probability.\r\n\r\n\n14. Random Variables:\r\n\nRandom
+    variables are variables that take on different values based on the outcome of
+    a random experiment. They can be discrete or continuous.\n\n15. Probability Density
+    Functions:\r\n\nProbability density functions (PDFs) describe the probabilities
+    of different values occurring in a continuous random variable. The area under
+    the curve of a PDF represents the probability of a range of values.\r"
+  RightPageText: "16. Cumulative Distribution Functions:\r\n\nCumulative distribution
+    functions (CDFs) give the probability that a random variable is less than or
+    equal to a specified value. It provides a cumulative view of the probabilities.\r\n\r\n\n17.
+    Confidence Intervals:\r\n\nConfidence intervals provide a range of values within
+    which an unknown population parameter is estimated to lie with a certain level
+    of confidence. They take into account the variability in the data and the sample
+    size.\r\n\n\n18. Hypothesis Testing:\r\n\nHypothesis testing is a statistical
+    procedure used to make inferences and test assumptions about population parameters
+    based on sample data.\r"

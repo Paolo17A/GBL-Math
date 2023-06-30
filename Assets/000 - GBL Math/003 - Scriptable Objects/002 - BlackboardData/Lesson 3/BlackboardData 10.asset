@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdbbbe4571b1cf4688d6e31b9e4fa6f, type: 3}
+  m_Name: BlackboardData 10
+  m_EditorClassIdentifier: 
+  <ThisBlackboardType>k__BackingField: 1
+  <IsTopicBeginning>k__BackingField: 0
+  <LessonText>k__BackingField: "How to construct a group frequency distribution table?\r\n\r\nStep
+    1. Find the range. The range is the highest data minus the lowest data. The highest
+    age is 27 and the lowest age is 13.\r\nRange = Highest \u2013 Lowest\r\n= 27
+    -13\r\n= 14\r\n\r\nThe range for this problem is 14"
+  <LessonWriteSpeed>k__BackingField: 0.03
+  <LessonSprite>k__BackingField: {fileID: 0}
+  <LessonDescriptionText>k__BackingField: 

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 1
+  m_EditorClassIdentifier: 
+  LeftPageText: 'Welcome to the first lesson of the Introduction to Statistics course!
+    In this module, we will explore the basics of statistics and learn how to categorize
+    different types of data. Understanding these fundamental concepts is crucial
+    for data analysis and statistical inference. So let''s dive in!
+
+    
+
+    What
+    is Statistics?
+
+    Statistics is the field of study that involves collecting,
+    organizing, analyzing, interpreting, and presenting data. It provides us with
+    tools and techniques to make sense of the vast amount of information available
+    in various fields, such as social sciences, business, healthcare, and more.
+
+'
+  RightPageText: "Importance of Statistics:\r\nStatistics plays a vital role in decision-making,
+    research, and understanding trends and patterns in data. It helps us draw conclusions,
+    make predictions, and identify relationships between variables. Statistics is
+    widely used in areas like market research, quality control, public policy, and
+    scientific studies.\r\n\r\nTypes of Data:\r\nIn statistics, data can be classified
+    into two main types: categorical and numerical data.\r\n\r\na. Categorical Data:\r\nCategorical
+    data represents qualities or characteristics and is typically non-numeric. It
+    can be further classified into nominal and ordinal data.\r"

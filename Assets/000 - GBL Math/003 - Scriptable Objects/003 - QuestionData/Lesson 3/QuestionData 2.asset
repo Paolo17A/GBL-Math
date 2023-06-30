@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
+  m_Name: QuestionData 2
+  m_EditorClassIdentifier: 
+  ThisQuestionType: 2
+  Direction: "What are the correct class limits for this set of data: 11, 13, 15,
+    12, 11, 14, 12, 14, 17, 13, 18, 18, 11, 11, 12, 15, 13, 13, 12, 16, 19\r"
+  Question: 
+  Choices: []
+  Answer: 
+  ImageChoices:
+  - {fileID: 21300000, guid: c3534caea04b5754f93708679f822f80, type: 3}
+  - {fileID: 21300000, guid: ab1da77cf0ecc9f4f88ce6582b4a3e42, type: 3}
+  - {fileID: 21300000, guid: b9c1a66c289fc474da4f40163be09dcd, type: 3}
+  ImageAnswerIndex: 3

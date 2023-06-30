@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 2
+  m_EditorClassIdentifier: 
+  LeftPageText: "Nominal Data: Nominal data consists of categories or labels with
+    no inherent order. Examples include gender (male/female), colors (red/blue/green),
+    or types of animals (dog/cat/horse).\r\n\r\nOrdinal Data: Ordinal data has categories
+    with a specific order or ranking. For instance, a survey rating scale from \"very
+    satisfied\" to \"very dissatisfied\" or education levels (elementary/high school/college).\r\n\r\nb.
+    Numerical Data:\r\nNumerical data represents quantities and can be measured or
+    counted. It can be further categorized into discrete and continuous data.\r"
+  RightPageText: 'Discrete Data: Discrete data is counted and represents whole numbers
+    or specific values. Examples include the number of siblings, the count of students
+    in a class, or the number of cars passing through a toll booth.
+
+    
+
+    Continuous
+    Data: Continuous data can take any value within a specific range. It is typically
+    measured and includes variables like height, weight, temperature, or time.
+
+    
+
+    Understanding
+    the type of data is essential as it guides us in choosing appropriate statistical
+    methods and techniques for analysis.
+
+'

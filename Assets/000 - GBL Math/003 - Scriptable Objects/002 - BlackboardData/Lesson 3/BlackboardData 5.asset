@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdbbbe4571b1cf4688d6e31b9e4fa6f, type: 3}
+  m_Name: BlackboardData 5
+  m_EditorClassIdentifier: 
+  <ThisBlackboardType>k__BackingField: 2
+  <IsTopicBeginning>k__BackingField: 0
+  <LessonText>k__BackingField: 
+  <LessonWriteSpeed>k__BackingField: 0.03
+  <LessonSprite>k__BackingField: {fileID: 21300000, guid: dcc7318088aa3c74597339274c0846e9, type: 3}
+  <LessonDescriptionText>k__BackingField: "Finally, count up the tally marks and
+    write the frequency in the final column. The frequency is just the total. You
+    have two tally marks for the score of \u201C1\u201D, so put 2 in the last column.\r\n\r\nScores:\r\n1,
+    2, 2, 2, 2, 3, 3,3, 3, 3, 4, 4, 5, 5\r"

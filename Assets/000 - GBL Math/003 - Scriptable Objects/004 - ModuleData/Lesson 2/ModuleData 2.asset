@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 2
+  m_EditorClassIdentifier: 
+  LeftPageText: "c. Observations:\r\nObservations involve systematically watching
+    and recording behaviors, events, or phenomena in their natural settings. Observational
+    studies are often used in social sciences and qualitative research. They provide
+    insights into real-life behaviors and interactions.\r\n\r\n3. Advantages and
+    Limitations of Data Collection Methods:\r\nEach data collection method has its
+    advantages and limitations:\r\n\r\na. Surveys:\r\nAdvantages: Surveys allow for
+    large-scale data collection, reach diverse populations, and provide standardized
+    responses for easy analysis.\r"
+  RightPageText: "Limitations: Surveys may suffer from response bias, inaccurate
+    reporting, or limited response options.\r\n\r\nb. Experiments:\r\nAdvantages:
+    Experiments allow researchers to establish cause-and-effect relationships and
+    control variables for accurate results.\r\n\nLimitations: Experiments may have
+    limited generalizability and can be resource-intensive or ethically challenging
+    in some cases.\r"

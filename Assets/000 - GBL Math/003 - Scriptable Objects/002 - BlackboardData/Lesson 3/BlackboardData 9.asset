@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdbbbe4571b1cf4688d6e31b9e4fa6f, type: 3}
+  m_Name: BlackboardData 9
+  m_EditorClassIdentifier: 
+  <ThisBlackboardType>k__BackingField: 1
+  <IsTopicBeginning>k__BackingField: 1
+  <LessonText>k__BackingField: 'It is also possible to group the values. in a frequency
+    distribition table
+
+
+    Example 1.
+
+    The data represent the ages of 40 women
+    when they start to have a job. Construct a group frequency distribution with
+    five classes.
+
+
+    18  20 20 20 20 21 20 17 19 20 13 18 22 26 20 19 22 15 18
+    27 16 23 24 17 25 24 16 20 26 15 21 17 23 16 21 17 26 16 23 19
+
+
+'
+  <LessonWriteSpeed>k__BackingField: 0.03
+  <LessonSprite>k__BackingField: {fileID: 0}
+  <LessonDescriptionText>k__BackingField: 

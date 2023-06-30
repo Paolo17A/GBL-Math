@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 2
+  m_EditorClassIdentifier: 
+  LeftPageText: 'a. Range: The difference between the maximum and minimum values
+    in a dataset.
+
+
+    b. Variance: The average of squared differences between
+    each data point and the mean.
+
+
+    c. Standard Deviation: The square root of
+    the variance, providing a measure of the average distance between data points
+    and the mean.
+
+    
+
+
+    4. Frequency Distributions:
+
+    Frequency distributions
+    display the number of times each value occurs in a dataset. They can be presented
+    in tables, histograms, or bar charts to visualize the distribution patterns.
+
+'
+  RightPageText: '5. Graphical Representations:
+
+    Graphical representations,
+    such as histograms, box plots, and scatter plots, help us visualize and understand
+    the data. They provide insights into patterns, outliers, and relationships within
+    the dataset.
+
+    
+
+    6. Measures of Position:
+
+    Measures of position,
+    such as percentiles and quartiles, divide the dataset into specific intervals
+    to determine the relative position of a value within the dataset.
+
+
+    7. Interpreting
+    Descriptive Statistics:
+
+    Understanding and interpreting descriptive statistics
+    is crucial for making meaningful conclusions about data. Consider the context
+    of the dataset, the measures of central tendency, variability, and graphical
+    representations to draw appropriate conclusions.
+
+'

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b58fbedcec24b47978a7daefc87454, type: 3}
+  m_Name: LessonData 5
+  m_EditorClassIdentifier: 
+  <LessonIndex>k__BackingField: 5
+  <LessonDetails>k__BackingField: 'Lesson Details:
+
+
+    - Multiplying numbers by
+    4
+
+    - Multiplying numbers by 5'
+  <CoinReward>k__BackingField: 15
+  <StarQuota>k__BackingField: 9
+  <IntroductoryMessages>k__BackingField: []
+  <IntroTypeSpeed>k__BackingField: 0.03
+  <BlackBoardTopics>k__BackingField: []
+  <ModulePages>k__BackingField:
+  - {fileID: 11400000, guid: dabd531d6de09754a9be0e907f25c7a9, type: 2}
+  - {fileID: 11400000, guid: 964708479ee029b4284488d6ac771fb9, type: 2}
+  - {fileID: 11400000, guid: 5d4deddbfd51b3e4faee661f21db520d, type: 2}
+  - {fileID: 11400000, guid: a473dfd0540c6e7418157a1d71db430b, type: 2}
+  - {fileID: 11400000, guid: f71b1be47d65c9c449c291a6178e64ad, type: 2}
+  <EnemyPrefab>k__BackingField: {fileID: 23619443532357410, guid: 0e272584e43a6f042b08446152a08b81, type: 3}
+  <LessonQuestions>k__BackingField:
+  - {fileID: 11400000, guid: cc8ac0e4c8bd6c24884b45e331518da2, type: 2}
+  - {fileID: 11400000, guid: 268b46b56e4aa05498cf66c636fd0f1b, type: 2}
+  - {fileID: 11400000, guid: b8c2adbff4f403b45ad48b7554006a4d, type: 2}
+  - {fileID: 11400000, guid: c2cb3135c39516f4b8473ec9bc7574c0, type: 2}
+  - {fileID: 11400000, guid: 7f6f48c098670214792e3e16ff0cd7c7, type: 2}
+  - {fileID: 11400000, guid: 93204f8e5a489a14b82820fc9470dee9, type: 2}
+  - {fileID: 11400000, guid: 9418154ed9349874cb7f7f4b2289286f, type: 2}
+  - {fileID: 11400000, guid: f406162d16f8eef4d95a39d482575e96, type: 2}
+  - {fileID: 11400000, guid: 6d76e0d365aeb7447a24bce6d5dff768, type: 2}
+  - {fileID: 11400000, guid: 9bea3f20d4b3108488bbf990badb913b, type: 2}
+  - {fileID: 11400000, guid: 965b58c8deb309047894532b17b4644a, type: 2}
+  - {fileID: 11400000, guid: 0cc68a261ffed6049b2ae2edf0f59260, type: 2}
+  - {fileID: 11400000, guid: e78a4ab52dbe7c444a42d3d40847f773, type: 2}
+  - {fileID: 11400000, guid: 44d87bdabdb34a24aab12e8ab28fb09a, type: 2}
+  - {fileID: 11400000, guid: c9c96e640ec033640ae0f20c0cc54a8a, type: 2}
+  - {fileID: 11400000, guid: ccb608b4da5a10a4ba7b7e906d4ebe6f, type: 2}
+  - {fileID: 11400000, guid: 5bb680ab482de4c4fb43396cf7eeb1dc, type: 2}
+  - {fileID: 11400000, guid: 0ba8630fa75654b4585940140b993325, type: 2}
+  - {fileID: 11400000, guid: f0cdcc511ef1a9342af0bb4f5b7d19ad, type: 2}
+  - {fileID: 11400000, guid: 1e69d934454c0254aaac566c2062d793, type: 2}

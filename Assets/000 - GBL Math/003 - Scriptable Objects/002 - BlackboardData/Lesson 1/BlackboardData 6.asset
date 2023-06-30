@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdbbbe4571b1cf4688d6e31b9e4fa6f, type: 3}
+  m_Name: BlackboardData 6
+  m_EditorClassIdentifier: 
+  <ThisBlackboardType>k__BackingField: 1
+  <IsTopicBeginning>k__BackingField: 1
+  <LessonText>k__BackingField: 'What is data?
+
+
+    Data are facts, or a set of information
+    or observations under study. Data are gathered from a population or from a sample.
+    Data may be classified as quantitative or qualitative.
+
+'
+  <LessonWriteSpeed>k__BackingField: 0.03
+  <LessonSprite>k__BackingField: {fileID: 0}
+  <LessonDescriptionText>k__BackingField: 

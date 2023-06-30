@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b58fbedcec24b47978a7daefc87454, type: 3}
+  m_Name: LessonData 7
+  m_EditorClassIdentifier: 
+  <LessonIndex>k__BackingField: 7
+  <LessonDetails>k__BackingField: 'Lesson Details:
+
+
+    - Multiplying numbers by
+    8
+
+    - Multiplying numbers by 9'
+  <CoinReward>k__BackingField: 24
+  <StarQuota>k__BackingField: 15
+  <IntroductoryMessages>k__BackingField: []
+  <IntroTypeSpeed>k__BackingField: 0.03
+  <BlackBoardTopics>k__BackingField: []
+  <ModulePages>k__BackingField: []
+  <EnemyPrefab>k__BackingField: {fileID: 0}
+  <LessonQuestions>k__BackingField: []

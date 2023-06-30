@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 3
+  m_EditorClassIdentifier: 
+  LeftPageText: "7. Confidence Intervals for Means:\r\n\nConfidence intervals provide
+    a range of values within which the population mean is estimated to lie with a
+    certain level of confidence. The formula for a confidence interval depends on
+    the sample size, standard deviation, and desired level of confidence.\r\n\r\n\n8.
+    Sample Size Determination:\r\n\nDetermining the sample size is crucial to ensure
+    that the sample provides reliable results. Factors to consider include the desired
+    level of confidence, margin of error, population variability, and research objectives.\r"
+  RightPageText: '9. Hypothesis Testing with Samples:
+
+
+    Hypothesis testing is
+    used to make inferences about population parameters based on sample data. The
+    process involves formulating null and alternative hypotheses, selecting a significance
+    level, performing statistical tests, and drawing conclusions.
+
+    
+
+
+    10.
+    Type I and Type II Errors:
+
+
+    Type I error occurs when we reject the null
+    hypothesis when it is true. Type II error occurs when we fail to reject the null
+    hypothesis when it is false. Understanding these errors helps assess the accuracy
+    of hypothesis testing results.
+
+'

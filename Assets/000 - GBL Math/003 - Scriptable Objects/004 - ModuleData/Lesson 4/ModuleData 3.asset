@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 3
+  m_EditorClassIdentifier: 
+  LeftPageText: "9. Conditional Probability:\r\n\nConditional probability is the
+    probability of an event occurring given that another event has already occurred.
+    It is calculated by dividing the probability of the intersection of the two events
+    by the probability of the condition event.\r\n\r\n\n10. Permutations and Combinations:\r\n\nPermutations
+    and combinations are techniques used to count and calculate the number of possible
+    arrangements or selections of items from a set.\r"
+  RightPageText: "11. Probability Distributions:\r\n\nProbability distributions describe
+    the likelihood of different outcomes in a random experiment. Common probability
+    distributions include the binomial distribution, the normal distribution, and
+    the Poisson distribution.\r\n\r\n\n12. Expected Value:\r\n\nThe expected value,
+    also known as the mean or average value, is a measure of the long-term average
+    outcome of a random experiment. It is calculated by multiplying each possible
+    outcome by its corresponding probability and summing them.\r"

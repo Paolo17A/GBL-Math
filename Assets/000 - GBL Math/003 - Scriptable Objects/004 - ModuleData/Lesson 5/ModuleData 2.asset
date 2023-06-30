@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 2
+  m_EditorClassIdentifier: 
+  LeftPageText: '3. Sampling Bias:
+
+
+    Sampling bias occurs when the sample selected
+    does not accurately represent the population, leading to misleading results.
+    It is crucial to minimize bias to ensure the validity of statistical analyses.
+
+    
+
+
+    4.
+    Sampling Distribution:
+
+
+    A sampling distribution is the distribution of
+    a statistic, such as the mean or proportion, based on multiple samples taken
+    from the same population. It provides insights into the behavior of the statistic
+    and allows for making inferences about the population.
+
+'
+  RightPageText: "5. Central Limit Theorem:\r\n\nThe Central Limit Theorem states
+    that the sampling distribution of the mean approaches a normal distribution as
+    the sample size increases, regardless of the shape of the population distribution.
+    This property is essential for statistical inference.\r\n\r\n\n6. Standard Error:\r\n\nThe
+    standard error is a measure of the variability of the sample statistic. It quantifies
+    the average difference between the sample statistic and the population parameter.\r"

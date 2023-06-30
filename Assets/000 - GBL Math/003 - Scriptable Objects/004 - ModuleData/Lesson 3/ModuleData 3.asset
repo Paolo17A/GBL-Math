@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3df9979cc79aff46a2c8ab5d2cb35e5, type: 3}
+  m_Name: ModuleData 3
+  m_EditorClassIdentifier: 
+  LeftPageText: '8. Summary:
+
+
+    Descriptive statistics provide essential tools
+    for summarizing and understanding data. Measures of central tendency, variability,
+    and graphical representations help us identify patterns, outliers, and the distribution
+    of data. By interpreting these statistics, we can gain insights into the dataset
+    and make informed decisions.
+
+    
+
+    Congratulations on completing this
+    module! You are now equipped with the knowledge of descriptive statistics, and
+    you can apply these techniques to analyze and summarize data effectively. Keep
+    up the great work, and let''s continue our statistical exploration!
+
+'
+  RightPageText: 

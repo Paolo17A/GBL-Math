@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b58fbedcec24b47978a7daefc87454, type: 3}
+  m_Name: LessonData 2
+  m_EditorClassIdentifier: 
+  <LessonIndex>k__BackingField: 2
+  <LessonDetails>k__BackingField: 'Lesson Details:
+
+
+    - Repeated Addition'
+  <CoinReward>k__BackingField: 5
+  <StarQuota>k__BackingField: 1
+  <IntroductoryMessages>k__BackingField:
+  - Hello, brave explorer. Well done taking down the Barbed Slime.
+  - Your knowledge of visualizing Math really came in handy.
+  - 'Oh I forgot to tell you: everytime Gumball defeats an enemy slime for the first
+    time, he gets stronger.'
+  - Keep fighting and both of you can take a few more hits.
+  - Your next opponent is the Leaf Slime. This one can be taken down with knowledge
+    of Multiplication as repeated addition.
+  - Let's get started.
+  <IntroTypeSpeed>k__BackingField: 0.03
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <BlackBoardTopics>k__BackingField:
+  - {fileID: 11400000, guid: f9343c0edc2c3554d8798499fb8c1306, type: 2}
+  - {fileID: 11400000, guid: 9ba292d84a7be974dacf9e0b698ab44c, type: 2}
+  - {fileID: 11400000, guid: 6b18a7bd51de5384a90bb9a925e05ccb, type: 2}
+  - {fileID: 11400000, guid: 637b57f8a7677fa43a8a3b4ff012650f, type: 2}
+  - {fileID: 11400000, guid: 4dff3a732c10d724292e7558c19d3ecd, type: 2}
+  - {fileID: 11400000, guid: c3216d4c27960e645b2da9f3e1aa7891, type: 2}
+  - {fileID: 11400000, guid: ea26027dde8024149acd22a74c1b392a, type: 2}
+  - {fileID: 11400000, guid: f75a105f29d8c5042b99df20f10ea0dc, type: 2}
+  - {fileID: 11400000, guid: 3c78135103e4f3d46a95b8f32dee71c9, type: 2}
+  - {fileID: 11400000, guid: 19a00fef9e3009c47b5a79d2fc61a6f7, type: 2}
+  - {fileID: 11400000, guid: 1c8f545921ddd6c4cad5f6d81fa9376d, type: 2}
+  - {fileID: 11400000, guid: eee3710ab90da7847917808ca800778d, type: 2}
+  <ModulePages>k__BackingField:
+  - {fileID: 11400000, guid: c3940f40f03a10a4e91665c58cc3cb6a, type: 2}
+  - {fileID: 11400000, guid: 71b65cf9038aec748bc618de2dea1aa8, type: 2}
+  - {fileID: 11400000, guid: 49fa001f6f23e624a9c6595b3756cc14, type: 2}
+  - {fileID: 11400000, guid: 02fff9deb995d144d9909aad7e6592ec, type: 2}
+  <EnemyPrefab>k__BackingField: {fileID: 6843458367036956808, guid: 6de6c6f91a0237b45a9dfd6c5a123533, type: 3}
+  <LessonQuestions>k__BackingField:
+  - {fileID: 11400000, guid: c13f028286d639749b40eaf8511fe9c5, type: 2}
+  - {fileID: 11400000, guid: f84022a81993c5743885f99ae1f35ea2, type: 2}
+  - {fileID: 11400000, guid: c9da43cc2bbdb7c478073c947658613d, type: 2}
+  - {fileID: 11400000, guid: 6b66524f786b4854193b2da0537876d1, type: 2}
+  - {fileID: 11400000, guid: dcd8b98c1f2e193438e1b4812406b870, type: 2}
+  - {fileID: 11400000, guid: 71e49bdf8b93fdd4c88ed6bd82119b3a, type: 2}
+  - {fileID: 11400000, guid: 23cefe03b7bb3eb48842b0679fcf3b26, type: 2}
+  - {fileID: 11400000, guid: 03aaf6f64b5fc0e4b9e8e207e0f3e9b6, type: 2}
+  - {fileID: 11400000, guid: 272ac093502c1454fa9d7a9d7eee4835, type: 2}
+  - {fileID: 11400000, guid: 695a0d4a82e0a38408e35825e2fbdbc5, type: 2}
+  - {fileID: 11400000, guid: 8b04cf07539eb434fb40900e9b2c1632, type: 2}
+  - {fileID: 11400000, guid: a0bb1f7945ed8164f8e491dbf42d1def, type: 2}
+  - {fileID: 11400000, guid: e011b7070078e8946b869dac8f199283, type: 2}
+  - {fileID: 11400000, guid: b0dfb54d44f0f704cadc17507f67c793, type: 2}
+  - {fileID: 11400000, guid: e0d0f8c538a6c8746be3ccf859de4283, type: 2}
+  - {fileID: 11400000, guid: d807a7893aa13804b81cd4490900d5a3, type: 2}
+  - {fileID: 11400000, guid: b0d90f9b1ee4cc549bdb06682bef6f25, type: 2}
+  - {fileID: 11400000, guid: f4232ad2687172c4bb8b955fdf99b482, type: 2}
+  - {fileID: 11400000, guid: a4d6529ca6dc065428f0f51661cafc7f, type: 2}
+  - {fileID: 11400000, guid: a467b944d5afa1249a60e383a4521464, type: 2}
