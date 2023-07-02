@@ -17,11 +17,11 @@ MonoBehaviour:
     letter (A, B, C, or D).
   Question: What is a limitation of using observations for data collection?
   Choices:
-  - Limited generalizability
-  - Difficulty in obtaining ethical approval
-  - Potential for interviewer bias
-  - High cost
-  Answer: Limited generalizability
+  - Limited generalizability.
+  - Difficulty in obtaining ethical approval.
+  - Potential for interviewer bias.
+  - High cost.
+  Answer: Limited generalizability.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

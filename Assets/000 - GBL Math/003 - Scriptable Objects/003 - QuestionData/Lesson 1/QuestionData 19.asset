@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 19
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Identify if the following data is continuous or discrete data.
-  Question: Number of Guests in a Wedding
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which of the following is an example of nominal data?
   Choices:
-  - DISCRETE
-  - CONTINUOUS
-  Answer: DISCRETE
+  - Blood pressure readings.
+  - Number of goals scored in a game.
+  - Types of music genres.
+  - Height in inches.
+  Answer: Types of music genres.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

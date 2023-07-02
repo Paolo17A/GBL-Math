@@ -65,10 +65,16 @@
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\006 - Intro Story\IntroStoryController.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\MainMenuCore.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\SettingsManager.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\Interfaces\IDialogue.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\005 - Trivia\TriviaData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\006 - Intro Story\GumballAudioHandler.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\007 - Discussion\DiscussionController.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\007 - Discussion\DiscussionCore.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\002 - BlackboardData\BlackboardData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
@@ -90,14 +96,15 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\ModuleDataHandler.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\BackgroundScroller.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\AudioManager.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\AnimationsLT.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\003 - QuestionData\QuestionData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\PostGameCore.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\001 - LessonData\LessonData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
@@ -113,14 +120,10 @@
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\CharacterCombatController.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\004 - ModuleData\ModuleData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\BackgroundScroller.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\006 - Intro Story\GumballAudioHandler.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\007 - Discussion\DiscussionCore.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\007 - Discussion\DiscussionController.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\SettingsManager.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\Interfaces\IDialogue.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\PostGameCore.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\005 - Trivia\TriviaData.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\004 - DoubleDialogue\DoubleDialogueCore.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\004 - DoubleDialogue\DoubleDialogueController.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\006 - Dialogue\DialogueData.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\007 - Hat\HatData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ReadOnlyAttribute\README.txt" />
@@ -843,6 +846,9 @@
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
@@ -872,6 +878,9 @@
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -956,12 +965,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>

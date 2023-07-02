@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 14
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Your height
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What does ordinal data allow for?
   Choices:
-  - QUALITATIVE
-  - QUANTITATIVE
-  Answer: QUANTITATIVE
+  - Ranking or ordering of categories.
+  - Calculation of averages and means.
+  - Detailed measurements within a specific range.
+  - All of the above.
+  Answer: Ranking or ordering of categories.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

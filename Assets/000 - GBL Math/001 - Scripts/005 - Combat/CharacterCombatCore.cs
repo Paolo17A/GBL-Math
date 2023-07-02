@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -74,6 +75,7 @@ public class CharacterCombatCore : MonoBehaviour
     [SerializeField] private int shakeIndex;
 
     [Header("AUDIO")]
+    [SerializeField] private AudioClip walkSFX;
     [SerializeField] private AudioClip hitSFX;
     //==========================================================================================================
     #endregion
@@ -102,7 +104,6 @@ public class CharacterCombatCore : MonoBehaviour
     {
         CurrentHealth--;
         SetHeartSprites();
-
         if (CurrentHealth <= 0)
         {
             CurrentCharacterCombatState = CharacterCombatState.DYING;
@@ -138,6 +139,7 @@ public class CharacterCombatCore : MonoBehaviour
     public void StartShake()
     {
         float initialX = transform.position.x;
+        GameManager.Instance.AudioManager.PlayAudioClip(hitSFX);
         LeanTween.moveX(transform.gameObject, thisCharacterType == CharacterType.PLAYER ? initialX - 1 : initialX + 1, 0.15f).setOnComplete(() =>
         {
             LeanTween.moveX(transform.gameObject, initialX, 0.15f);
@@ -175,7 +177,7 @@ public class CharacterCombatCore : MonoBehaviour
     public void ApproachOpponent()
     {
         if (Vector2.Distance(transform.position, CharacterAttackPoint) > Mathf.Epsilon)
-            transform.position = Vector2.MoveTowards(transform.position, CharacterAttackPoint, 5 * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, CharacterAttackPoint, 8 * Time.deltaTime);
         else
         {
             CurrentTravelState = TravelState.NONE;
@@ -186,7 +188,7 @@ public class CharacterCombatCore : MonoBehaviour
     public void ReturnToOrigin()
     {
         if (Vector2.Distance(transform.position, CharacterOriginPoint) > Mathf.Epsilon)
-            transform.position = Vector2.MoveTowards(transform.position, CharacterOriginPoint, 5 * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, CharacterOriginPoint, 8 * Time.deltaTime);
         else
         {
             CurrentTravelState = TravelState.NONE;
@@ -201,6 +203,17 @@ public class CharacterCombatCore : MonoBehaviour
             else
                 CombatCore.CurrentCombatState = CombatCore.CombatStates.TIMER;
         }
+    }
+
+    public void PlayWalkSFX()
+    {
+        if (GameManager.Instance.SceneController.CurrentScene != "CombatScene")
+            return;
+
+        if (CurrentTravelState == TravelState.NONE)
+            return;
+
+        GameManager.Instance.AudioManager.PlayAudioClip(walkSFX);
     }
 
     public void FinishMeleeAttack()

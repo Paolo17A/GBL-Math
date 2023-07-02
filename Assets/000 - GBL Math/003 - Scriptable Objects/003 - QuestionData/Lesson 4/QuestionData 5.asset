@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the best answer among the given choices.
-  Question: What graph is used to show frequencies of data within equal intervals?
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is the formula for calculating the theoretical probability of an
+    event?
   Choices:
-  - Bar Graph
-  - Histogram
-  - Pie Graph
-  - Ogive
-  Answer: Histogram
+  - Number of favorable outcomes / Total number of possible outcomes
+  - Total number of possible outcomes / Number of favorable outcomes
+  - Number of favorable outcomes * Total number of possible outcomes
+  - Total number of favorable outcomes / Total number of possible outcomes
+  Answer: Number of favorable outcomes / Total number of possible outcomes
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

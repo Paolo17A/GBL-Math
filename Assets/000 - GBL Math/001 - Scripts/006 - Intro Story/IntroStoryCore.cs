@@ -133,7 +133,7 @@ public class IntroStoryCore : MonoBehaviour, IDialogue
     public void MoveGumball()
     {
         if (Vector2.Distance(Gumball.transform.position, GumballDestination) > Mathf.Epsilon)
-            Gumball.transform.position = Vector2.MoveTowards(Gumball.transform.position, GumballDestination, 5 * Time.deltaTime);
+            Gumball.transform.position = Vector2.MoveTowards(Gumball.transform.position, GumballDestination, 8.5f * Time.deltaTime);
         else
         {
             DialogueButtons.SetActive(true);
@@ -175,8 +175,21 @@ public class IntroStoryCore : MonoBehaviour, IDialogue
             {
                 failedCallbackCounter = 0;
                 PlayerData.SlimeMaxHealth = 5;
+                GetUserInventoryPlayFab();
             },
             errorCallback => ErrorCallback(errorCallback.Error, () => InitializeBasicSlimeDataPlayFab(characterID), () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
+    }
+
+    private void GetUserInventoryPlayFab()
+    {
+        PlayFabClientAPI.GetUserInventory(new PlayFab.ClientModels.GetUserInventoryRequest(),
+            resultCallback =>
+            {
+                failedCallbackCounter = 0;
+                PlayerData.EnergyCount = resultCallback.VirtualCurrency["EN"];
+                PlayerData.CoinCount = resultCallback.VirtualCurrency["CO"];
+            },
+            errorCallback => ErrorCallback(errorCallback.Error, GetUserInventoryPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
     }
     #endregion
 

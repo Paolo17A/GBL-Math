@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Height of a Family Member
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which of the following is an example of discrete data?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUANTITATIVE
+  - Weight in kilograms.
+  - Age in years.
+  - Number of pets.
+  - Temperature in degrees Fahrenheit.
+  Answer: Number of pets.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

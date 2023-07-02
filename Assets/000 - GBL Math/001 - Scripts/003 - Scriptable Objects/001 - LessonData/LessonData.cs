@@ -12,6 +12,10 @@ public class LessonData : ScriptableObject
     [field: SerializeField] public int CoinReward { get; set; }
     [field: SerializeField] public int StarQuota { get; set; }
 
+    [field: Header("DIALOGUE SCENE DATA")]
+    [field: SerializeField] public bool HasDialogueScene { get; set; }
+    [field: SerializeField] public string CorrespondingDialogueScene { get; set; }
+
     [field: Header("DISCUSSION DATA")]
     [field: SerializeField][field: TextArea] public List<string> IntroductoryMessages { get; set; }
     [field: SerializeField] public float IntroTypeSpeed { get; set; }
@@ -19,5 +23,6 @@ public class LessonData : ScriptableObject
      
     [field: Header("GAME DATA")]
     [field: SerializeField] public GameObject EnemyPrefab { get; set; }
+    [field: SerializeField] public Sprite BackgroundSprite { get; set; }
     [field: SerializeField] public List<QuestionData> LessonQuestions { get; set; }
 }

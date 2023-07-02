@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 3
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Number of Computers in the School
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What does nominal data represent?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUANTITATIVE
+  - Qualities or characteristics with no inherent order.
+  - Continuous measurements within a specific range.
+  - Specific values or counts.
+  - Ordered categories or rankings.
+  Answer: Qualities or characteristics with no inherent order.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/000 - GBL Math/000 - Scenes/CombatScene.unity
     guid: 4e55515594dbae849872680689bb02f9
+  - enabled: 1
+    path: Assets/000 - GBL Math/000 - Scenes/DoubleDialogueScene.unity
+    guid: 66119fbd072b15846af65497f5dd67ad
+  - enabled: 1
+    path: Assets/000 - GBL Math/000 - Scenes/EndingScene.unity
+    guid: 2650d0aafa216a948beb4ce68d9911a6
   m_configObjects: {}

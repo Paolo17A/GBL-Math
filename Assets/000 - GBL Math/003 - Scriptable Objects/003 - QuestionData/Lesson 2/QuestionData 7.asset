@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 7
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Which is the best way of collecting data for this situation?
-  Question: Favorite Brand of Shoes
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is an advantage of using experiments for data collection?
   Choices:
-  - Conducting Surveys
-  - Observing Event Outcome
-  - Taking Measurements
-  - Reading Statistical Publication
-  Answer: Conducting Surveys
+  - Large sample size.
+  - Ability to establish cause-and-effect relationships.
+  - Low cost.
+  - Naturalistic observations.
+  Answer: Ability to establish cause-and-effect relationships.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

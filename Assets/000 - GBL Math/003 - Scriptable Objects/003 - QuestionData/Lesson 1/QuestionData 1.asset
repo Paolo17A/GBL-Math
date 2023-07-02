@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Age of Students
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is statistics?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUANTITATIVE
+  - The study of stars and galaxies.
+  - The field of study involving data collection and analysis.
+  - The study of ancient civilizations.
+  - The art of storytelling.
+  Answer: The field of study involving data collection and analysis.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

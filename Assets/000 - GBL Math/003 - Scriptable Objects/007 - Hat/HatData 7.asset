@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c82b504cda77f4f9c24f1369e417f0, type: 3}
+  m_Name: HatData 7
+  m_EditorClassIdentifier: 
+  <HatID>k__BackingField: Hat007
+  <HatName>k__BackingField: Birthday Hat
+  <HatSprite>k__BackingField: {fileID: 21300000, guid: b7214e8c39337634bbfe7872c0cbd320, type: 3}
+  <HatPrice>k__BackingField: 8

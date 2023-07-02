@@ -17,11 +17,11 @@ MonoBehaviour:
     letter (A, B, C, or D).
   Question: What is a limitation of using interviews for data collection?
   Choices:
-  - Limited sample size
-  - Potential for response bias
-  - Lack of control over variables
-  - High cost
-  Answer: Potential for response bias
+  - Limited sample size.
+  - Potential for response bias.
+  - Lack of control over variables.
+  - High cost.
+  Answer: Potential for response bias.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -4756,7 +4756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2075250978, guid: 1e4f72b0b4520aa40a93b272a6d11130, type: 3}
+  m_Sprite: {fileID: 1845219106, guid: 1e4f72b0b4520aa40a93b272a6d11130, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11583,10 +11583,6 @@ MonoBehaviour:
   SettingsCG: {fileID: 1322674302}
   QuitRT: {fileID: 1165099043}
   QuitCG: {fileID: 1165099046}
-  ModuleSelectRT: {fileID: 0}
-  ModuleSelectCG: {fileID: 0}
-  SelectedModuleRT: {fileID: 0}
-  SelectedModuleCG: {fileID: 0}
   LoginEmailTMPInput: {fileID: 584022860}
   LoginPasswordTMPInput: {fileID: 1012363751}
   RegisterEmailTMPInput: {fileID: 712313598}

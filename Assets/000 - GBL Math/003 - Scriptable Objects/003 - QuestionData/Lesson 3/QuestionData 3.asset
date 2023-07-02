@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: QuestionData 3
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Select the number which does not have a frequency of 4 is the following
-    dataset
-  Question: "11, 13, 15, 12, 11, 14, 12, 14, 17, 13, 18, 18, 11, 11, 12, 15, 13,
-    13, 12, 16, 19\r"
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: 'The difference between the highest and lowest values in a dataset is
+    called:'
   Choices:
-  - 11
-  - 12
-  - 13
-  - 14
-  Answer: 14
+  - Mean
+  - Median
+  - Range
+  - Variance
+  Answer: Range
   ImageChoices: []
-  ImageAnswerIndex: 2
+  ImageAnswerIndex: 0
+  NumberAnswer: 0

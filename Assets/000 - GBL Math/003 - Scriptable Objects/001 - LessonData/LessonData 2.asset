@@ -16,7 +16,10 @@ MonoBehaviour:
   <LessonDetails>k__BackingField: 'Lesson Details:
 
 
-    - Repeated Addition'
+    - Repeated Addition
+
+    -
+    Parts of Multiplication'
   <CoinReward>k__BackingField: 5
   <StarQuota>k__BackingField: 1
   <IntroductoryMessages>k__BackingField:
@@ -25,30 +28,13 @@ MonoBehaviour:
   - 'Oh I forgot to tell you: everytime Gumball defeats an enemy slime for the first
     time, he gets stronger.'
   - Keep fighting and both of you can take a few more hits.
-  - Your next opponent is the Leaf Slime. This one can be taken down with knowledge
-    of Multiplication as repeated addition.
+  - Your next opponent is the Leaf Slime. This one can be taken down by knowing the
+    different parts of multiplication.
   - Let's get started.
   <IntroTypeSpeed>k__BackingField: 0.03
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
-  <BlackBoardTopics>k__BackingField:
-  - {fileID: 11400000, guid: f9343c0edc2c3554d8798499fb8c1306, type: 2}
-  - {fileID: 11400000, guid: 9ba292d84a7be974dacf9e0b698ab44c, type: 2}
-  - {fileID: 11400000, guid: 6b18a7bd51de5384a90bb9a925e05ccb, type: 2}
-  - {fileID: 11400000, guid: 637b57f8a7677fa43a8a3b4ff012650f, type: 2}
-  - {fileID: 11400000, guid: 4dff3a732c10d724292e7558c19d3ecd, type: 2}
-  - {fileID: 11400000, guid: c3216d4c27960e645b2da9f3e1aa7891, type: 2}
-  - {fileID: 11400000, guid: ea26027dde8024149acd22a74c1b392a, type: 2}
-  - {fileID: 11400000, guid: f75a105f29d8c5042b99df20f10ea0dc, type: 2}
-  - {fileID: 11400000, guid: 3c78135103e4f3d46a95b8f32dee71c9, type: 2}
-  - {fileID: 11400000, guid: 19a00fef9e3009c47b5a79d2fc61a6f7, type: 2}
-  - {fileID: 11400000, guid: 1c8f545921ddd6c4cad5f6d81fa9376d, type: 2}
-  - {fileID: 11400000, guid: eee3710ab90da7847917808ca800778d, type: 2}
-  <ModulePages>k__BackingField:
-  - {fileID: 11400000, guid: c3940f40f03a10a4e91665c58cc3cb6a, type: 2}
-  - {fileID: 11400000, guid: 71b65cf9038aec748bc618de2dea1aa8, type: 2}
-  - {fileID: 11400000, guid: 49fa001f6f23e624a9c6595b3756cc14, type: 2}
-  - {fileID: 11400000, guid: 02fff9deb995d144d9909aad7e6592ec, type: 2}
   <EnemyPrefab>k__BackingField: {fileID: 6843458367036956808, guid: 6de6c6f91a0237b45a9dfd6c5a123533, type: 3}
+  <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: dc0a10a54f7042d459bcef1cc9bcd9e8, type: 3}
   <LessonQuestions>k__BackingField:
   - {fileID: 11400000, guid: c13f028286d639749b40eaf8511fe9c5, type: 2}
   - {fileID: 11400000, guid: f84022a81993c5743885f99ae1f35ea2, type: 2}

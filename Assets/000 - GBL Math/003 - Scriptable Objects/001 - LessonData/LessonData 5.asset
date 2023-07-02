@@ -17,21 +17,16 @@ MonoBehaviour:
 
 
     - Multiplying numbers by
-    4
+    6
 
-    - Multiplying numbers by 5'
+    - Multiplying numbers by 7'
   <CoinReward>k__BackingField: 15
   <StarQuota>k__BackingField: 9
   <IntroductoryMessages>k__BackingField: []
   <IntroTypeSpeed>k__BackingField: 0.03
-  <BlackBoardTopics>k__BackingField: []
-  <ModulePages>k__BackingField:
-  - {fileID: 11400000, guid: dabd531d6de09754a9be0e907f25c7a9, type: 2}
-  - {fileID: 11400000, guid: 964708479ee029b4284488d6ac771fb9, type: 2}
-  - {fileID: 11400000, guid: 5d4deddbfd51b3e4faee661f21db520d, type: 2}
-  - {fileID: 11400000, guid: a473dfd0540c6e7418157a1d71db430b, type: 2}
-  - {fileID: 11400000, guid: f71b1be47d65c9c449c291a6178e64ad, type: 2}
-  <EnemyPrefab>k__BackingField: {fileID: 23619443532357410, guid: 0e272584e43a6f042b08446152a08b81, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <EnemyPrefab>k__BackingField: {fileID: 8126981473651609928, guid: 3d528f2a2ac18864ba1f48b6b2cecacd, type: 3}
+  <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 24f7af68e122e6343ad1258e310913fb, type: 3}
   <LessonQuestions>k__BackingField:
   - {fileID: 11400000, guid: cc8ac0e4c8bd6c24884b45e331518da2, type: 2}
   - {fileID: 11400000, guid: 268b46b56e4aa05498cf66c636fd0f1b, type: 2}

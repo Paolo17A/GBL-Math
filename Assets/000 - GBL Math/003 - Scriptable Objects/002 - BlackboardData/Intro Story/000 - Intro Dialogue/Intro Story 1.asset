@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 1
-  <LessonText>k__BackingField: Hi there, brave hero Welcome to Slime Valley. I've
+  <LessonText>k__BackingField: Hi there, brave hero! Welcome to Slime Valley. I've
     got an important mission for you.
   <LessonWriteSpeed>k__BackingField: 0.03
   <LessonSprite>k__BackingField: {fileID: 0}

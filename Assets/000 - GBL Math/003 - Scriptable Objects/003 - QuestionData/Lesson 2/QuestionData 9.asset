@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Which is the best way of collecting data for this situation?
-  Question: Asking students to raise their hand about certain questions
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is a potential limitation of using experiments for data collection?
   Choices:
-  - Conducting Surveys
-  - Observing Event Outcome
-  - Taking Measurements
-  - Reading Statistical Publication
-  Answer: Observing Event Outcome
+  - Limited control over variables.
+  - Difficulty in recruiting participants.
+  - High cost.
+  - Potential for response bias.
+  Answer: Limited control over variables.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

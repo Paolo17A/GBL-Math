@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the best answer among the given choices.
-  Question: On a pie graph, how many degrees represent 25%?
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: If two events are mutually exclusive, what is the probability of both
+    events occurring?
   Choices:
-  - 90 degrees
-  - 100 degrees
-  - 180 degrees
-  - 50 degrees
-  Answer: 90 degrees
+  - 0
+  - 1
+  - 0.5
+  - It depends on the specific events.
+  Answer: 0
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

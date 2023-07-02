@@ -8,9 +8,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: isDead
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: index
+    m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4873689757811933892}
   m_Solo: 0
@@ -33,9 +33,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: isAttacking
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: index
+    m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 313320963603678425}
   m_Solo: 0
@@ -58,9 +58,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: isAttacking
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: index
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3793426988213212882}
   m_Solo: 0
@@ -84,48 +84,12 @@ AnimatorController:
   m_Name: Slime10Controller
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: isAttacking
-    m_Type: 4
+  - m_Name: index
+    m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: isDead
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: isHit
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Attack
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: GetHit
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Die
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: ReturnToIdle
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -146,7 +110,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slime10Attack
+  m_Name: BossSlimeAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -160,7 +124,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 82a9528c4ee814145afec8d645a3e2d2, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7c84251e23f438541a2dc65a4967035d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -174,9 +138,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: isHit
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: index
+    m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9200335912775218461}
   m_Solo: 0
@@ -199,9 +163,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: isHit
-    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: index
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3793426988213212882}
   m_Solo: 0
@@ -233,10 +197,10 @@ AnimatorStateMachine:
     m_Position: {x: 310, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 9200335912775218461}
-    m_Position: {x: 310, y: 240, z: 0}
+    m_Position: {x: 310, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4873689757811933892}
-    m_Position: {x: 610, y: 100, z: 0}
+    m_Position: {x: 620, y: 100, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -254,7 +218,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slime10Idle
+  m_Name: BossSlimeIdle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -270,7 +234,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9d7efb81d350f1c4ea69168eaa1d3728, type: 2}
+  m_Motion: {fileID: 7400000, guid: 140b1a5cd0999054ea771ae12337b20b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -283,7 +247,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slime10Death
+  m_Name: BossSlimeDeath
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -296,7 +260,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3f4778792b2fff04f8f2bcdf980b1eeb, type: 2}
+  m_Motion: {fileID: 7400000, guid: 4d7ff8ee07ec8ea4e80347951af39b99, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -323,8 +287,8 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 58cdb3a3613a88d4a8957666b6b1abe7, type: 2}
-  m_Tag: 
+  m_Motion: {fileID: 7400000, guid: d154d98d4e7422542899ae36b297118e, type: 2}
+  m_Tag: BossSlimeHit
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 

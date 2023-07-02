@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string SceneToLoad;
     [field: SerializeField][field: ReadOnly] public bool CanUseButtons { get; set; }
     [SerializeField] public bool CheatsActivated;
-    [SerializeField] public bool wasDefeated;
 
     [field: Header("CAMERA")]
     [field: SerializeField] public Camera MainCamera { get; set; }

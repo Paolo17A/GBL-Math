@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using PlayFab.ClientModels;
 using System;
+using TMPro;
 
 public class PostGameCore : MonoBehaviour
 {
@@ -15,12 +16,14 @@ public class PostGameCore : MonoBehaviour
     [Header("GAME OVER")]
     [ReadOnly] public GameManager.Result FinalResult;
     [SerializeField] private GameObject VictoryPanel;
+    [SerializeField] private Transform EarnedStarsContainer;
+    [SerializeField] private TextMeshProUGUI RewardedCoinsTMP;
     [SerializeField] private GameObject DefeatPanel;
 
     private int failedCallbackCounter;
     //=====================================================================================================================================
-    #region GAME OVER
 
+    #region GAME OVER
     public void ResetPostGame()
     {
         FinalResult = GameManager.Result.NONE;
@@ -30,7 +33,6 @@ public class PostGameCore : MonoBehaviour
 
     public void ProcessVictory()
     {
-        GameManager.Instance.wasDefeated = false;
         VictoryPanel.SetActive(true);
         if (GameManager.Instance.DebugMode)
         {
@@ -46,7 +48,6 @@ public class PostGameCore : MonoBehaviour
 
     public void ProcessDefeat()
     {
-        GameManager.Instance.wasDefeated = true;
         DefeatPanel.SetActive(true);
         if (GameManager.Instance.DebugMode)
             PlayerData.EnergyCount--;  
@@ -81,15 +82,17 @@ public class PostGameCore : MonoBehaviour
                     //  Playing the lesson for the nth time
                     else
                     {
+                        //  The user has an improved performance
                         if (CombatCore.PlayerCharacter.GetStarCount() > PlayerData.GetLevelStar(GameManager.Instance.CurrentLesson.LessonIndex).LevelStars)
                         {
                             PlayerData.GetLevelStar(GameManager.Instance.CurrentLesson.LessonIndex).LevelStars = CombatCore.PlayerCharacter.GetStarCount();
                             UpdateLevelStarsPlayFab();
                         }
-                        else if (CombatCore.PlayerCharacter.GetStarCount() > 1)
-                            GrantCoinsToUser();
                         else
+                        {
                             GameManager.Instance.LoadingPanel.SetActive(false);
+                            DisplayVictoryVisuals();
+                        }    
                     }
                 }
                 else if (FinalResult == GameManager.Result.DEFEAT)
@@ -152,7 +155,10 @@ public class PostGameCore : MonoBehaviour
                 if (CombatCore.PlayerCharacter.GetStarCount() > 1)
                     GrantCoinsToUser();
                 else
+                {
                     GameManager.Instance.LoadingPanel.SetActive(false);
+                    DisplayVictoryVisuals();
+                }
             },
             errorCallback => ErrorCallback(errorCallback.Error, UpdateLevelStarsPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
     }
@@ -200,8 +206,27 @@ public class PostGameCore : MonoBehaviour
                 PlayerData.CoinCount = resultCallback.VirtualCurrency["CO"];
                 PlayerData.EnergyCount = resultCallback.VirtualCurrency["EN"];
                 GameManager.Instance.LoadingPanel.SetActive(false);
+                DisplayVictoryVisuals();
             },
             errorCallback => ErrorCallback(errorCallback.Error, GetUpdatedVirtualCurrency, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
+    }
+
+    private void DisplayVictoryVisuals()
+    {
+        //  Display Stars
+        for (int i = 0; i < EarnedStarsContainer.transform.childCount; i++)
+        {
+            if (i < CombatCore.PlayerCharacter.GetStarCount())
+                EarnedStarsContainer.transform.GetChild(i).gameObject.SetActive(true);
+            else
+                EarnedStarsContainer.transform.GetChild(i).gameObject.SetActive(false);
+        }
+
+        //  Display Coins
+        if (CombatCore.PlayerCharacter.GetStarCount() < 2)
+            RewardedCoinsTMP.text = "Earned Coins: 0";
+        else
+            RewardedCoinsTMP.text = "Earned Coins: " + GameManager.Instance.CurrentLesson.CoinReward.ToString("n0");
     }
 
     #endregion

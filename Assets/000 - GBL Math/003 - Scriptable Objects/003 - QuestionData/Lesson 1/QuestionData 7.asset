@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 7
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Weekly Allowance
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which type of data represents quantities that can be counted?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUANTITATIVE
+  - Nominal data.
+  - Ordinal data.
+  - Discrete data.
+  - Continuous data.
+  Answer: Discrete data.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

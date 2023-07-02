@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: QuestionData 15
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Your weight
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is the correct term for a data point that can take any value within
+    a specific range?
   Choices:
-  - QUALITATIVE
-  - QUANTITATIVE
-  Answer: QUANTITATIVE
+  - Nominal data.
+  - Discrete data.
+  - Continuous data.
+  - Categorical data.
+  Answer: Continuous data.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

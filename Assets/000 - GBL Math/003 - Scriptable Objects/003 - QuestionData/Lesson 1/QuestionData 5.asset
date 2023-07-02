@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Score in the Entrance Tests
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What does numerical data represent?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUANTITATIVE
+  - Ordered categories or rankings.
+  - Qualities or characteristics with no inherent order.
+  - Continuous measurements within a specific range.
+  - Specific values or counts.
+  Answer: Continuous measurements within a specific range.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

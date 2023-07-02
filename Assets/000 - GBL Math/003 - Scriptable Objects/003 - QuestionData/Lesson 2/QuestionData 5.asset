@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Which is the best way of collecting data for this situation?
-  Question: Actual Volume of Each Pack of Mango Juice
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is a limitation of using surveys for data collection?
   Choices:
-  - Conducting Surveys
-  - Observing Event Outcome
-  - Taking Measurements
-  - Reading Statistical Publication
-  Answer: Taking Measurements
+  - Limited sample size.
+  - Difficulty in obtaining ethical approval.
+  - High cost.
+  - Potential for observer bias.
+  Answer: Limited sample size.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

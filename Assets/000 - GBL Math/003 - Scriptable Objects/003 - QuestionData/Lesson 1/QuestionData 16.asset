@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 16
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Identify if the following data is continuous or discrete data.
-  Question: Number of Mangoes Harvested
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which of the following is an example of numerical data?
   Choices:
-  - DISCRETE
-  - CONTINUOUS
-  Answer: DISCRETE
+  - 'Colors of cars '
+  - Favorite movies
+  - Age of students
+  - Types of food
+  Answer: Age of students
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

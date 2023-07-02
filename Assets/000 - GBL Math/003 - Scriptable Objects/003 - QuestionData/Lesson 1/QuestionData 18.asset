@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 18
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Identify if the following data is continuous or discrete data.
-  Question: Area of a Circle
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What type of data is used to represent qualities or characteristics?
   Choices:
-  - DISCRETE
-  - CONTINUOUS
-  Answer: CONTINUOUS
+  - Numerical data.
+  - Continuous data.
+  - Categorical data.
+  - Discrete data.
+  Answer: Categorical data.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

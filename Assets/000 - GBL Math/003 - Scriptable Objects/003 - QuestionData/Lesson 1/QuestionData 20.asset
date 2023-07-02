@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 20
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Identify if the following data is continuous or discrete data.
-  Question: Dimensions of a White Board
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What does statistics provide us with?
   Choices:
-  - DISCRETE
-  - CONTINUOUS
-  Answer: DISCRETE
+  - Magic tricks and illusions.
+  - Tools and techniques for analyzing data.
+  - All the answers to life's mysteries.
+  - Nothing of value.
+  Answer: Tools and techniques for analyzing data.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

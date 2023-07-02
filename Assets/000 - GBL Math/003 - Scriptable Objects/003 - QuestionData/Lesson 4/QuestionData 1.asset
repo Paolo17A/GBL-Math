@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the best answer among the given choices.
-  Question: What graph is used to represent changes in data over a period?
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is the probability of getting a tail when flipping a fair coin?
   Choices:
-  - Bar Graph
-  - Ogive
-  - Line Graph
-  - Pie Graph
-  Answer: Line Graph
+  - 0.5
+  - 0.25
+  - 1
+  - 0
+  Answer: 0.5
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

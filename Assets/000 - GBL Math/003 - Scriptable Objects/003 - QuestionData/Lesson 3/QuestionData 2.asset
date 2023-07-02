@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
-  ThisQuestionType: 2
-  Direction: "What are the correct class limits for this set of data: 11, 13, 15,
-    12, 11, 14, 12, 14, 17, 13, 18, 18, 11, 11, 12, 15, 13, 13, 12, 16, 19\r"
-  Question: 
-  Choices: []
-  Answer: 
-  ImageChoices:
-  - {fileID: 21300000, guid: c3534caea04b5754f93708679f822f80, type: 3}
-  - {fileID: 21300000, guid: ab1da77cf0ecc9f4f88ce6582b4a3e42, type: 3}
-  - {fileID: 21300000, guid: b9c1a66c289fc474da4f40163be09dcd, type: 3}
-  ImageAnswerIndex: 3
+  ThisQuestionType: 1
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which measure of central tendency is affected by extreme values?
+  Choices:
+  - Mean
+  - Median
+  - Mode
+  - Range
+  Answer: Mean
+  ImageChoices: []
+  ImageAnswerIndex: 0
+  NumberAnswer: 0

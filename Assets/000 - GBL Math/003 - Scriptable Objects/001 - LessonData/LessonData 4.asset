@@ -17,9 +17,9 @@ MonoBehaviour:
 
 
     - Multiplying numbers by
-    2
+    4
 
-    - Multiplying numbers by 3'
+    - Multiplying numbers by 5'
   <CoinReward>k__BackingField: 11
   <StarQuota>k__BackingField: 6
   <IntroductoryMessages>k__BackingField:
@@ -28,40 +28,12 @@ MonoBehaviour:
   - Now it's time to put what you know into practice. King Slime's next warriors
     are a lot stronger.
   - You need to learn the Multiplication Table to take them all down.
-  - Let's start with learning how to multiply by 2s and 3s. That's all we need to
+  - Let's start with learning how to multiply by 4s and 5s. That's all we need to
     take down the Magma Slime.
   <IntroTypeSpeed>k__BackingField: 0.03
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
-  <BlackBoardTopics>k__BackingField:
-  - {fileID: 11400000, guid: f36c6a2eb0620124ebf1de44a6dbd4cd, type: 2}
-  - {fileID: 11400000, guid: ea0a4bb32b3e2cb48b19a0f5f02179c1, type: 2}
-  - {fileID: 11400000, guid: a4bbabf119ab3f74798eb4786b450f9c, type: 2}
-  - {fileID: 11400000, guid: 49416254068f8014e86f5adf51b80355, type: 2}
-  - {fileID: 11400000, guid: 2d349ade4a71bac40b587dc9f0340812, type: 2}
-  - {fileID: 11400000, guid: 3ebe407458f9a02479d4bea9c2328fde, type: 2}
-  - {fileID: 11400000, guid: ec47f581820bfb349b4c72d40927dc7b, type: 2}
-  - {fileID: 11400000, guid: a19cfe8b95a4a6741af81ce21befacf3, type: 2}
-  - {fileID: 11400000, guid: df47c645860a99f4b9d85350f5b68ad3, type: 2}
-  - {fileID: 11400000, guid: 8d531332d3bcb7a4f9094355a287d76b, type: 2}
-  - {fileID: 11400000, guid: 72e31d345c2d10b4b9c9a2234010011d, type: 2}
-  - {fileID: 11400000, guid: 1fcb47c1ef190e642bcfc87fbc3a0a25, type: 2}
-  - {fileID: 11400000, guid: b379df9f1cc932a4a9ffb655ac0e058b, type: 2}
-  - {fileID: 11400000, guid: 7ac7d86610322fd42b5cbfff9c820c0b, type: 2}
-  - {fileID: 11400000, guid: 5364063358e0e4d4099d6e6d6367adb8, type: 2}
-  - {fileID: 11400000, guid: b39fb588b5b68c94f94973aa2d493032, type: 2}
-  - {fileID: 11400000, guid: 92ffbbaf6d08df641bc611083a79c09e, type: 2}
-  - {fileID: 11400000, guid: 13744f8c554174c48845bdc7ac0c7eaa, type: 2}
-  - {fileID: 11400000, guid: 86088fb230cffe54d90ce6b026acc6c0, type: 2}
-  - {fileID: 11400000, guid: d0196d3402f19e74a8778bef6ead786d, type: 2}
-  - {fileID: 11400000, guid: 1262d8ba725a3ec4696a71fa24cef8aa, type: 2}
-  - {fileID: 11400000, guid: 23aa67be0c78fb842905844dd91327d5, type: 2}
-  <ModulePages>k__BackingField:
-  - {fileID: 11400000, guid: c907d7df2a4166940b75bb730ed91d73, type: 2}
-  - {fileID: 11400000, guid: 788d5ae60a7331e4b91c95cb52ee11e0, type: 2}
-  - {fileID: 11400000, guid: 1573d1972cb7e184e9d38b88f8de4924, type: 2}
-  - {fileID: 11400000, guid: a2533ee3de049434e86ac759c3597a99, type: 2}
-  - {fileID: 11400000, guid: 611d1419c25351b46bf2829ccd80bca1, type: 2}
   <EnemyPrefab>k__BackingField: {fileID: 23619443532357410, guid: 0e272584e43a6f042b08446152a08b81, type: 3}
+  <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: daaca68ee7760924587af205357705fa, type: 3}
   <LessonQuestions>k__BackingField:
   - {fileID: 11400000, guid: 701831f59a970a34da810c39e2b9db05, type: 2}
   - {fileID: 11400000, guid: b08c8d7b41c4f3b46a2be6c03aa51d8f, type: 2}

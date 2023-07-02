@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
-  ThisQuestionType: 2
-  Direction: "Which ungrouped frequency distribution table is approriate for this
-    set of data: 11, 13, 15, 12, 11, 14, 12, 14, 17, 13, 18, 18, 11, 11, 12, 15,
-    13, 13, 12, 16, 19\r"
-  Question: 
-  Choices: []
-  Answer: 
-  ImageChoices:
-  - {fileID: 21300000, guid: 49d538041d5607148ba7d3407b333f12, type: 3}
-  - {fileID: 21300000, guid: a6e9e7392f29c0941aeb7c7490dbc2c7, type: 3}
-  - {fileID: 21300000, guid: 70990b1acc5dc474cb0b4bf4065b2a96, type: 3}
+  ThisQuestionType: 1
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which branch of statistics focuses on summarizing and describing data?
+  Choices:
+  - Descriptive statistics.
+  - Inferential statistics.
+  - Exploratory statistics.
+  - Diagnostic statistics.
+  Answer: Descriptive statistics.
+  ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

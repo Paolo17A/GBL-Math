@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Which is the best way of collecting data for this situation?
-  Question: Population of Region 4, Region 5, and Region 6
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is data collection?
   Choices:
-  - Conducting Surveys
-  - Reading Statistical Publication
-  - Observing Event Outcome
-  - Taking Measurements
-  Answer: Reading Statistical Publication
+  - The analysis of data.
+  - The process of gathering information or data.
+  - The interpretation of statistical results.
+  - The representation of data visually.
+  Answer: The process of gathering information or data.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 10
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: School ID
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is the importance of statistics?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUALITATIVE
+  - It is not important in any field.
+  - It helps in decision-making, research, and understanding data trends.
+  - It is only relevant in scientific studies.
+  - It can predict the future with 100% accuracy.
+  Answer: It helps in decision-making, research, and understanding data trends.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

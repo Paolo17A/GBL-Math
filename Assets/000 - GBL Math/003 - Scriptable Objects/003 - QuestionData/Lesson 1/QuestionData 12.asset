@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 12
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Number of Students
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which type of data can be measured or counted?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUANTITATIVE
+  - Categorical data.
+  - Numerical data.
+  - Discrete data.
+  - None of the above.
+  Answer: Numerical data.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

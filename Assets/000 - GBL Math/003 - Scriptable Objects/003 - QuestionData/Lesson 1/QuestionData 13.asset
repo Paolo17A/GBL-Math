@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 13
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Number of Books
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which of the following represents a discrete variable?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUANTITATIVE
+  - Time spent on a task.
+  - Temperature in degrees Celsius.
+  - Number of students in a classroom.
+  - Height in centimeters.
+  Answer: Number of students in a classroom.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

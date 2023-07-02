@@ -52,6 +52,7 @@ public class CombatCore : MonoBehaviour
 
     [Header("LESSON")]
     [SerializeField] private TextMeshProUGUI LessonIndexTMP;
+    [SerializeField] private SpriteRenderer BackgroundSprite;
 
     [Header("COUNTDOWN VARIABLES")]
     [SerializeField] private GameObject CountdownPanel;
@@ -60,20 +61,11 @@ public class CombatCore : MonoBehaviour
     [SerializeField][ReadOnly] private float CountdownValue;
 
     [Header("TIMER")]
+    [SerializeField] private GameObject TimerContainer;
     [SerializeField] private TextMeshProUGUI TimerTMP;
     [SerializeField] private int MaxTimerValue;
     [ReadOnly] public int CurrentTimerValue;
     [SerializeField][ReadOnly] private float TimerValueLeft;
-
-    [Header("DIRECTION")]
-    [SerializeField] private GameObject DirectionContainer;
-    [SerializeField] private TextMeshProUGUI DirectionTMP;
-
-    [Header("SCORE")]
-    [SerializeField] private TextMeshProUGUI CurrentScoreTMP;
-    [SerializeField] private TextMeshProUGUI FinalScoreVictoryTMP;
-    [SerializeField] private TextMeshProUGUI FinalScoreDefeatTMP;
-
 
     [Header("TEXT QUESTION 2 CHOICE")]
     [SerializeField] private GameObject TwoChoiceQuestionContainer;
@@ -109,6 +101,7 @@ public class CombatCore : MonoBehaviour
     [Header("PAUSE")]
     [SerializeField] private GameObject PausePanel;
     [SerializeField] private AudioClip CombatBGMusic;
+    [SerializeField] private SettingsManager SettingsManager;
 
     [Header("POST GAME")]
     [SerializeField] private PostGameCore PostGameCore;
@@ -123,6 +116,8 @@ public class CombatCore : MonoBehaviour
     public void InitializeQuizGame()
     {
         LessonIndexTMP.text = "Lesson " + GameManager.Instance.CurrentLesson.LessonIndex;
+        BackgroundSprite.sprite = GameManager.Instance.CurrentLesson.BackgroundSprite;
+        SettingsManager.SetInitialVolume();
         GameManager.Instance.AudioManager.SetBackgroundMusic(CombatBGMusic);
         #region COUNTDOWN
         CountdownPanel.SetActive(true);
@@ -182,6 +177,7 @@ public class CombatCore : MonoBehaviour
 
     public void DecreaseTimer()
     {
+        //  Timer is ongoing
         if (CurrentTimerValue > 0)
         {
             TimerValueLeft -= Time.deltaTime;
@@ -194,9 +190,11 @@ public class CombatCore : MonoBehaviour
                 CurrentCombatState = CombatStates.PLAYERTURN;
             }
         }
+        //  Out of Time
         else
         {
             ToggleQuestionObjects(false);
+            TimerContainer.SetActive(false);
             CurrentCombatState = CombatStates.ENEMYTURN;
         }
     }
@@ -205,7 +203,6 @@ public class CombatCore : MonoBehaviour
     #region QUESTIONS
     private void ToggleQuestionObjects(bool _bool)
     {
-        DirectionContainer.SetActive(_bool);
         TwoChoiceQuestionContainer.SetActive(_bool);
         FourChoiceQuestionContainer.SetActive(_bool);
         ImageQuestionContainer.SetActive(_bool);
@@ -214,9 +211,8 @@ public class CombatCore : MonoBehaviour
 
     private void DisplayCurrentQuestion()
     {
-        ToggleQuestionObjects(false);
-        DirectionContainer.SetActive(true);
-        DirectionTMP.text = GameManager.Instance.CurrentLesson.LessonQuestions[CurrentQuestionIndex].Direction;
+        //ToggleQuestionObjects(false);
+        TimerContainer.SetActive(true);
         if (GameManager.Instance.CurrentLesson.LessonQuestions[CurrentQuestionIndex].ThisQuestionType == QuestionData.QuestionType.TEXT)
         {
             Shuffle(GameManager.Instance.CurrentLesson.LessonQuestions[CurrentQuestionIndex].Choices);
@@ -256,7 +252,6 @@ public class CombatCore : MonoBehaviour
         else if (GameManager.Instance.CurrentLesson.LessonQuestions[CurrentQuestionIndex].ThisQuestionType == QuestionData.QuestionType.NUMBER)
         {
             NumberInputQuestionContainer.SetActive(true);
-            DirectionTMP.text = GameManager.Instance.CurrentLesson.LessonQuestions[CurrentQuestionIndex].Direction;
             NumericalQuestionTMP.text = GameManager.Instance.CurrentLesson.LessonQuestions[CurrentQuestionIndex].Question;
             NumberTMPInput.text = "";
             SubmitNumberBtn.interactable = false;
@@ -272,8 +267,9 @@ public class CombatCore : MonoBehaviour
             Shuffle(GameManager.Instance.CurrentLesson.LessonQuestions);
         }
         ToggleQuestionObjects(false);
+        TimerContainer.SetActive(false);
     }
-    
+
     #region IMAGE QUESTION
     private void DisplayCurrentImageChoice()
     {
@@ -349,12 +345,16 @@ public class CombatCore : MonoBehaviour
     {
         Time.timeScale = 0;
         PausePanel.SetActive(true);
+        GameManager.Instance.AudioManager.PauseBGM();
+        GameManager.Instance.AudioManager.PauseSFX();
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1;
         PausePanel.SetActive(false);
+        GameManager.Instance.AudioManager.ResumeSFX();
+        GameManager.Instance.AudioManager.ResumeBGM();
     }
 
     public void RestartGame()
@@ -379,8 +379,25 @@ public class CombatCore : MonoBehaviour
 
     public void ContinueToNextLevel()
     {
-        GameManager.Instance.CurrentLesson = GameManager.Instance.AllLessons[PlayerData.CurrentLessonIndex - 1];
-        GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
+        if (PlayerData.CurrentLessonIndex > GameManager.Instance.AllLessons.Count)
+        {
+            GameManager.Instance.AudioManager.KillBackgroundMusic();
+            GameManager.Instance.SceneController.CurrentScene = "EndingScene";
+        }
+        else
+        {
+            GameManager.Instance.CurrentLesson = GameManager.Instance.AllLessons[PlayerData.CurrentLessonIndex - 1];
+            if (GameManager.Instance.CurrentLesson.LessonIndex == PlayerData.CurrentLessonIndex)
+            {
+                GameManager.Instance.AudioManager.KillBackgroundMusic();
+                GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
+            }
+            else
+            {
+                CurrentCombatState = CombatStates.COUNTDOWN;
+                ResumeGame();
+            }
+        }
     }
     #endregion
 

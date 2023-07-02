@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
-  ThisQuestionType: 3
-  Direction: 30, 32, 11, 14, 40, 37, 16, 26, 12, 33, 13, 19, 38, 12, 28, 15, 39,
-    11, 37, 17, 27, 14, 36
-  Question: Get the frequency for the data range 11-15 in the dataset above
-  Choices: []
-  Answer: 
+  ThisQuestionType: 1
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: A standard deck of cards has 52 cards, including 4 suits with 13 cards
+    each. What is the probability of drawing a heart?
+  Choices:
+  - 1/4
+  - 1/13
+  - 1/52
+  - 13/52
+  Answer: 1/4
   ImageChoices: []
   ImageAnswerIndex: 0
-  NumberAnswer: 8
+  NumberAnswer: 0

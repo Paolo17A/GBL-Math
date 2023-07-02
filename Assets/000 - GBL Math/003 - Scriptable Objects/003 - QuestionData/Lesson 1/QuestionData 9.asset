@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Zip Code
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which of the following is an example of continuous data?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUALITATIVE
+  - Number of books read in a month.
+  - 'Blood type '
+  - Shoe size.
+  - Favorite ice cream flavor.
+  Answer: Shoe size.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

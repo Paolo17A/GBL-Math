@@ -9,7 +9,6 @@ public class QuestionData : ScriptableObject
 
     [field: Header("UNIVERSAL")]
     [field: SerializeField] public QuestionType ThisQuestionType;
-    [field: SerializeField][field: TextArea(minLines: 5, maxLines: 10)] public string Direction;
     [field: SerializeField][field: TextArea(minLines: 5, maxLines:10)] public string Question;
     [field: SerializeField] public List<string> Choices;
     [field: SerializeField] public string Answer;

@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 8
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Select the class limit which has an odd number frequency
-  Question: 
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which graphical representation shows the five-number summary of a dataset?
   Choices:
-  - 43-45
-  - 46-48
-  - 37-39
-  - 28-30
-  Answer: 43-45
+  - Histogram.
+  - Scatter plot.
+  - Box plot.
+  - Bar chart.
+  Answer: Box plot.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

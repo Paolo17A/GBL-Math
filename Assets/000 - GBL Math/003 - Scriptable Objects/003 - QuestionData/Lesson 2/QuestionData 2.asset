@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Which is the best way of collecting data for this situation?
-  Question: Height of th Job Applicants
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: hich data collection method involves interviewing participants face-to-face?
   Choices:
-  - Conducting Surveys
-  - Observing Event Outcome
-  - Taking Measurements
-  - Reading Statistical Publication
-  Answer: Taking Measurements
+  - Surveys
+  - Experiments
+  - Interviews
+  - Observations
+  Answer: Interviews
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

@@ -17,11 +17,11 @@ MonoBehaviour:
     letter (A, B, C, or D).
   Question: What is an advantage of using surveys for data collection?
   Choices:
-  - Real-time data collection
-  - Ability to establish cause-and-effect relationships
-  - ' Low cost'
-  - Detailed qualitative data
-  Answer: ' Low cost'
+  - Real-time data collection.
+  - Ability to establish cause-and-effect relationships.
+  - Low cost.
+  - Detailed qualitative data.
+  Answer: Low cost.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

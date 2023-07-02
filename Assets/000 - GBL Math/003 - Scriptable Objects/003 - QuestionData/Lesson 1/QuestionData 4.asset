@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 4
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: School Logo
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which of the following is an example of ordinal data?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUALITATIVE
+  - Gender (Male/Female).
+  - Eye color (Blue/Brown/Green).
+  - Satisfaction rating scale (Very satisfied/Satisfied/Neutral/Dissatisfied/Very
+    dissatisfied).
+  - Number of hours slept.
+  Answer: Satisfaction rating scale (Very satisfied/Satisfied/Neutral/Dissatisfied/Very
+    dissatisfied).
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

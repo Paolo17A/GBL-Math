@@ -17,11 +17,11 @@ MonoBehaviour:
     letter (A, B, C, or D).
   Question: What is an advantage of using observations for data collection?
   Choices:
-  - Ability to establish cause-and-effect relationships
-  - Standardized responses
-  - Real-time data collection
-  - Low cost
-  Answer: Real-time data collection
+  - Ability to establish cause-and-effect relationships.
+  - Standardized responses.
+  - Real-time data collection.
+  - Low cost.
+  Answer: Real-time data collection.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

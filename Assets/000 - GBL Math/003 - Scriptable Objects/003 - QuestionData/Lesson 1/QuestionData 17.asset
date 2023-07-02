@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 17
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Identify if the following data is continuous or discrete data.
-  Question: Height of a Building
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: How is statistics used in decision-making?
   Choices:
-  - DISCRETE
-  - CONTINUOUS
-  Answer: CONTINUOUS
+  - By flipping a coin.
+  - By analyzing data to inform choices and actions.
+  - By relying on intuition and guess work.
+  - By asking random people on the street.
+  Answer: By analyzing data to inform choices and actions.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

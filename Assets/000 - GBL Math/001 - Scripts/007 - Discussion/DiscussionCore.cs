@@ -6,6 +6,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using PlayFab;
+using PlayFab.ClientModels;
 
 public class DiscussionCore : MonoBehaviour, IDialogue
 {
@@ -46,6 +48,8 @@ public class DiscussionCore : MonoBehaviour, IDialogue
 
     #region VARIABLES
     //=============================================================================================================
+    [SerializeField] private PlayerData PlayerData;
+
     [Header("WIZARD SPEECH BUBBLES")]
     [SerializeField] private GameObject WizardSpeechBubble;
     [SerializeField] private TextMeshProUGUI WizardSpeechTMP;
@@ -61,6 +65,8 @@ public class DiscussionCore : MonoBehaviour, IDialogue
     [Header("USER INPUT")]
     [SerializeField] private Button ProceedBtn;
     [SerializeField] private GameObject PausePanel;
+
+    private int failedCallbackCounter;
     //=============================================================================================================
     #endregion
 
@@ -138,8 +144,56 @@ public class DiscussionCore : MonoBehaviour, IDialogue
     {
 
     }
+    #endregion
 
-    
+    #region PLAYFAB API
+    private void GetUserDataPlayFab()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest(),
+            resultCallback =>
+            {
+                failedCallbackCounter = 0;
+                if (resultCallback.Data["GUID"].Value != PlayerData.GUID)
+                {
+                    GameManager.Instance.DisplayErrorPanel("You have logged into multiple devices");
+                    return;
+                }
+                GetUserVirtualCurrencyPlayFab();
+            },
+            errorCallback => ErrorCallback(errorCallback.Error, GetUserDataPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
+    }
+
+    private void GetUserVirtualCurrencyPlayFab()
+    {
+        PlayFabClientAPI.GetUserInventory(new GetUserInventoryRequest(),
+            resultCallback =>
+            {
+                failedCallbackCounter = 0;
+                PlayerData.CoinCount = resultCallback.VirtualCurrency["CO"];
+                PlayerData.EnergyCount = resultCallback.VirtualCurrency["EN"];
+                if(PlayerData.EnergyCount == 3)
+                    CurrentDiscussionState = DiscussionStates.INVITATION;
+                else
+                    GrantEnergyPlayFab();
+            },
+            errorCallback => ErrorCallback(errorCallback.Error, GetUserVirtualCurrencyPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
+    }
+    private void GrantEnergyPlayFab()
+    {
+        AddUserVirtualCurrencyRequest addUserVirtualCurrency = new AddUserVirtualCurrencyRequest();
+        addUserVirtualCurrency.VirtualCurrency = "EN";
+        addUserVirtualCurrency.Amount = 3 - PlayerData.EnergyCount;
+
+        PlayFabClientAPI.AddUserVirtualCurrency(addUserVirtualCurrency,
+            resultCallback =>
+            {
+                failedCallbackCounter = 0;
+                GameManager.Instance.LoadingPanel.SetActive(false);
+                PlayerData.EnergyCount = resultCallback.Balance;
+                CurrentDiscussionState = DiscussionStates.INVITATION;
+            },
+            errorCallback => ErrorCallback(errorCallback.Error, GrantEnergyPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
+    }
     #endregion
 
     #region USER INPUT
@@ -162,7 +216,13 @@ public class DiscussionCore : MonoBehaviour, IDialogue
         else if (CurrentDiscussionState == DiscussionStates.VIDEO)
         {
             videoPlaybackImage.gameObject.SetActive(false);
-            CurrentDiscussionState = DiscussionStates.INVITATION;
+            if(GameManager.Instance.DebugMode)
+                CurrentDiscussionState = DiscussionStates.INVITATION;
+            else
+            {
+                GameManager.Instance.LoadingPanel.SetActive(true);
+                GetUserDataPlayFab();
+            }
         }
         else if (CurrentDiscussionState == DiscussionStates.INVITATION)
             GameManager.Instance.SceneController.CurrentScene = "CombatScene";
@@ -174,9 +234,7 @@ public class DiscussionCore : MonoBehaviour, IDialogue
         PausePanel.SetActive(true);
 
         if(CurrentDiscussionState == DiscussionStates.VIDEO && videoPlayer.isPlaying)
-        {
             videoPlayer.Pause();
-        }
     }
 
     public void HidePausePanel()
@@ -185,9 +243,7 @@ public class DiscussionCore : MonoBehaviour, IDialogue
         PausePanel.SetActive(false);
 
         if (CurrentDiscussionState == DiscussionStates.VIDEO && !videoPlayer.isPlaying)
-        {
             videoPlayer.Play();
-        }
     }
 
     public void ReturnToMainMenu()
@@ -215,6 +271,22 @@ public class DiscussionCore : MonoBehaviour, IDialogue
         CurrentDialogueIndex++;
         WizardSpeechTMP.text = string.Empty;
         StartCoroutine(TypeDialogueContent());
+    }
+    #endregion
+
+    #region ERROR
+    public void ErrorCallback(PlayFabErrorCode errorCode, Action restartAction, Action errorAction)
+    {
+        if (errorCode == PlayFabErrorCode.ConnectionError)
+        {
+            failedCallbackCounter++;
+            if (failedCallbackCounter >= 5)
+                GameManager.Instance.DisplayErrorPanel("Connectivity error. Please connect to strong internet");
+            else
+                restartAction();
+        }
+        else
+            errorAction();
     }
     #endregion
 }

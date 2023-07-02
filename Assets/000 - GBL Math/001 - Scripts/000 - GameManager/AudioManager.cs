@@ -14,10 +14,31 @@ public class AudioManager : MonoBehaviour
         BGMSource.volume = volume;
     }
 
+    public void PauseBGM()
+    {
+        BGMSource.Pause();
+    }
+
+    public void ResumeBGM()
+    {
+        BGMSource.Play();
+    }
+
     public void SetSFXVolume(float volume)
     {
         SFXSource.volume = volume;
     }
+
+    public void PauseSFX()
+    {
+        SFXSource.Pause();
+    }
+
+    public void ResumeSFX()
+    {
+        SFXSource.Play();
+    }
+
 
     public void KillBackgroundMusic()
     {

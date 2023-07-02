@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Color of Eye
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which of the following is an example of categorical data?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUALITATIVE
+  - Temperature in degrees Celsius.
+  - Height in centimeters.
+  - Number of siblings.
+  - Time taken to complete a task.
+  Answer: Number of siblings.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

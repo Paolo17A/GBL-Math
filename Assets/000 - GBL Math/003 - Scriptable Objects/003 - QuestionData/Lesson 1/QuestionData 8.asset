@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 8
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Birth Date
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which type of data can take any value within a specific range?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUALITATIVE
+  - Nominal data.
+  - Ordinal data.
+  - Discrete data.
+  - Continuous data.
+  Answer: Continuous data.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

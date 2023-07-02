@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: QuestionData 8
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Which is the best way of collecting data for this situation?
-  Question: Google Form
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: Which data collection method relies on self-reported information from
+    participants?
   Choices:
-  - Conducting Surveys
-  - Observing Event Outcome
-  - Taking Measurements
-  - Reading Statistical Publication
-  Answer: Conducting Surveys
+  - Surveys
+  - Experiments
+  - Interviews
+  - Observations
+  Answer: Surveys
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

@@ -1819,11 +1819,10 @@ MonoBehaviour:
   - {fileID: 126056084}
   - {fileID: 1566619191}
   - {fileID: 839950472}
-  <DebugMode>k__BackingField: 0
-  SceneToLoad: IntroStoryScene
+  <DebugMode>k__BackingField: 1
+  SceneToLoad: DoubleDialogueScene
   <CanUseButtons>k__BackingField: 0
   CheatsActivated: 0
-  wasDefeated: 0
   <MainCamera>k__BackingField: {fileID: 1879988193}
   <MyUICamera>k__BackingField: {fileID: 380094852}
   <SceneController>k__BackingField: {fileID: 458658884}
@@ -2815,7 +2814,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 22.47
+  orthographic size: 19.66
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
@@ -3236,7 +3235,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.00024975, y: 52.38}
-  m_SizeDelta: {x: 700, y: 400}
+  m_SizeDelta: {x: 800, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2135673746
 MonoBehaviour:
@@ -3291,7 +3290,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

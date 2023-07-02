@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
   m_Name: QuestionData 7
   m_EditorClassIdentifier: 
-  ThisQuestionType: 3
-  Direction: 30, 32, 11, 14, 40, 37, 16, 26, 12, 33, 13, 19, 38, 12, 28, 15, 39,
-    11, 37, 17, 27, 14, 36
-  Question: Get the frequency for the data range 16-20 in the dataset above
-  Choices: []
-  Answer: 
+  ThisQuestionType: 1
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is the expected value of rolling a fair six-sided die?
+  Choices:
+  - 3
+  - 6
+  - 2.5
+  - 1/6
+  Answer: 2.5
   ImageChoices: []
   ImageAnswerIndex: 0
-  NumberAnswer: 3
+  NumberAnswer: 0

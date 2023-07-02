@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 4
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the best answer among the given choices.
-  Question: Which of the following graphs shows cumulative frequencies?
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: 'The multiplication rule is used to calculate the probability of:'
   Choices:
-  - Bar Graph
-  - Line Graph
-  - Ogive
-  - Pie Graph
-  Answer: Ogive
+  - Independent events.
+  - Dependent events.
+  - Mutually exclusive events.
+  - Complementary events.
+  Answer: Independent events.
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

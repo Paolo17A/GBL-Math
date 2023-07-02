@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: What is the range for this set of data
-  Question: "11, 13, 15, 12, 11, 14, 12, 14, 17, 13, 18, 18, 11, 11, 12, 15, 13,
-    13, 12, 16, 19\r"
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What do percentiles represent in a dataset?
   Choices:
-  - 7
-  - 8
-  - 9
-  - 10
-  Answer: 8
+  - Measures of central tendency.
+  - Measures of position.
+  - Measures of variability.
+  - Measures of correlation.
+  Answer: Measures of position.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

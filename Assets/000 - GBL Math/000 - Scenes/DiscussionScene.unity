@@ -1058,6 +1058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   discussionState: 0
+  PlayerData: {fileID: 11400000, guid: 0eb238cc3ab2cb945895e67ab85bd1ca, type: 2}
   WizardSpeechBubble: {fileID: 377190611}
   WizardSpeechTMP: {fileID: 133878633}
   WelcomeBackText:

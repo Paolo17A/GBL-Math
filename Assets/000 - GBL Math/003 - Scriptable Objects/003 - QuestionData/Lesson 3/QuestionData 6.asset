@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: 'What should be the total frequency of this dataset:'
-  Question: "43, 44, 34, 35, 36, 37, 38, 40, 41, 43, 45, 42, 41, 37, 42, 35, 36,
-    37, 37, 28, 30, 43, 45, 46, 48, 34, 36, 36, 41, 42, 43, 42, 42, 32, 33, 38, 36,
-    34, 32, 31, 29, 30, 39, 38, 40\r"
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: What is the measure of central tendency most affected by outliers?
   Choices:
-  - 39
-  - 41
-  - 43
-  - 45
-  Answer: 45
+  - Mean.
+  - Median.
+  - Mode.
+  - Standard deviation.
+  Answer: Median.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 11
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Classify each of the following data sa quantitiative or qualitative
-    kind of data.
-  Question: Telephone Numbers
+  Direction: Choose the correct answer for each question by selecting the corresponding
+    letter (A, B, C, or D).
+  Question: In statistics, what is the purpose of data categorization?
   Choices:
-  - QUANTITATIVE
-  - QUALITATIVE
-  Answer: QUALITATIVE
+  - To confuse researchers.
+  - To make data collection more challenging.
+  - To help choose appropriate statistical methods and techniques for analysis.
+  - To waste time and resources.
+  Answer: To help choose appropriate statistical methods and techniques for analysis.
   ImageChoices: []
   ImageAnswerIndex: 0
+  NumberAnswer: 0

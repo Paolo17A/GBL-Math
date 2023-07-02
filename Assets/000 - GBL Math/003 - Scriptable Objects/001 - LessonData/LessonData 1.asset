@@ -16,7 +16,12 @@ MonoBehaviour:
   <LessonDetails>k__BackingField: 'Lesson Details:
 
 
-    - Visualization of Multiplication'
+    - Identity Property of Multiplication
+
+    -
+    Zero Property of Multiplication
+
+    - Commutative Property of Multiplication'
   <CoinReward>k__BackingField: 3
   <StarQuota>k__BackingField: 0
   <IntroductoryMessages>k__BackingField:
@@ -24,46 +29,20 @@ MonoBehaviour:
     prepare. '
   - King Slime has seven powerful slime warriors that you will have to fight first.
   - Your first opponent will be the Spiked Slime. To defeat it, you must be knowledgable
-    on how to visualize multiplication.
-  - Let me teach you how.
+    on multiplication properties.
+  - Let me help you
   <IntroTypeSpeed>k__BackingField: 0.03
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
-  <BlackBoardTopics>k__BackingField:
-  - {fileID: 11400000, guid: 6eade78bbe7df9146916ff0e2355ab63, type: 2}
-  - {fileID: 11400000, guid: 4662932c58dbe3d4e8c736892ea208ed, type: 2}
-  - {fileID: 11400000, guid: 29809dd92253e6c4cab8f46d2e4dead0, type: 2}
-  - {fileID: 11400000, guid: 97b8f8f1c3280ef498fa778cc0280e4f, type: 2}
-  - {fileID: 11400000, guid: 24894aa5b4a87174d8ffb61f0ddec3d1, type: 2}
-  - {fileID: 11400000, guid: a620160917254f74daeafe0759ec53aa, type: 2}
-  - {fileID: 11400000, guid: b726a190a96f0a149bec2a414f7663e6, type: 2}
-  - {fileID: 11400000, guid: ccaa84f7ed2ea834db136fb62013bb22, type: 2}
-  - {fileID: 11400000, guid: 8bdce2743ed992b4eb4a85988aa1555b, type: 2}
-  - {fileID: 11400000, guid: 3943f945fd89cb54eb73656813e5a05b, type: 2}
-  - {fileID: 11400000, guid: d2589299e6a02724a9d95d0c670c5bb4, type: 2}
-  - {fileID: 11400000, guid: ac79b65a4a06319429ba7df3c29df252, type: 2}
-  <ModulePages>k__BackingField:
-  - {fileID: 11400000, guid: c6fbbacf1b9f4b845a4dbd97a3225ca4, type: 2}
-  - {fileID: 11400000, guid: d1b442fb223525f4e87e116fe52487bb, type: 2}
-  - {fileID: 11400000, guid: 75346fa41a417ab4882149cc43958754, type: 2}
   <EnemyPrefab>k__BackingField: {fileID: 452180268159858161, guid: 11adf4c9efa5efc49a4f6a3759734c8c, type: 3}
+  <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 47b4dda971af52e41be6fcf8e7b09465, type: 3}
   <LessonQuestions>k__BackingField:
-  - {fileID: 11400000, guid: e7580640b3681de4482514bc7445deb9, type: 2}
-  - {fileID: 11400000, guid: 9b2eef21092d2284cb31884a86e333a7, type: 2}
-  - {fileID: 11400000, guid: 782b2880285dfe944b6aa2c6bdbf5812, type: 2}
   - {fileID: 11400000, guid: f322f5a9932b6cf488d47332bd0030c8, type: 2}
-  - {fileID: 11400000, guid: 6832ade23d032c94cad49f8a2e69ddb5, type: 2}
-  - {fileID: 11400000, guid: aa9cccbd552db8c4f9458829645b4a8d, type: 2}
-  - {fileID: 11400000, guid: 7039653856ebc1b439ed1613b5f15a05, type: 2}
-  - {fileID: 11400000, guid: c7ff9153a8b5aa148b09a907920e26c9, type: 2}
-  - {fileID: 11400000, guid: e16ad71073e682f47a29c25368a8a8d3, type: 2}
   - {fileID: 11400000, guid: cd2a52f4262d9ea4a8c9979d5973a6c3, type: 2}
-  - {fileID: 11400000, guid: 7727449817c451347aa2004b9eedefd7, type: 2}
-  - {fileID: 11400000, guid: 0987779aa7078624791f7f85df27f087, type: 2}
-  - {fileID: 11400000, guid: c5f9b79f18f1aba46b6bf6a26166eb3b, type: 2}
-  - {fileID: 11400000, guid: f549d8109be77af48bb4191043fee958, type: 2}
   - {fileID: 11400000, guid: 7673674b225569d4c8997bd9137d14f7, type: 2}
+  - {fileID: 11400000, guid: 782b2880285dfe944b6aa2c6bdbf5812, type: 2}
+  - {fileID: 11400000, guid: 6832ade23d032c94cad49f8a2e69ddb5, type: 2}
+  - {fileID: 11400000, guid: 9b2eef21092d2284cb31884a86e333a7, type: 2}
+  - {fileID: 11400000, guid: 7727449817c451347aa2004b9eedefd7, type: 2}
   - {fileID: 11400000, guid: 4b2cac2a26eae254d80eb9003067fae3, type: 2}
-  - {fileID: 11400000, guid: a4935a31d801aaf4986325744bd5abce, type: 2}
   - {fileID: 11400000, guid: 4b3f5f9fecde23c4b9f8ee99c88fb220, type: 2}
-  - {fileID: 11400000, guid: 90b83c21210a7214f89730b2802c7bb3, type: 2}
-  - {fileID: 11400000, guid: b526627758c8fac42b96e15b98cce71a, type: 2}
+  - {fileID: 11400000, guid: e16ad71073e682f47a29c25368a8a8d3, type: 2}

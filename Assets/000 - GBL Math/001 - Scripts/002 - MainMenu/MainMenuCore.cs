@@ -67,10 +67,6 @@ public class MainMenuCore : MonoBehaviour
     [SerializeField] private CanvasGroup SettingsCG;
     [SerializeField] private RectTransform QuitRT;
     [SerializeField] private CanvasGroup QuitCG;
-    [SerializeField] private RectTransform ModuleSelectRT;
-    [SerializeField] private CanvasGroup ModuleSelectCG;
-    [SerializeField] private RectTransform SelectedModuleRT;
-    [SerializeField] private CanvasGroup SelectedModuleCG;
 
     [Header("LOGIN")]
     [SerializeField] private TMP_InputField LoginEmailTMPInput;
@@ -136,6 +132,7 @@ public class MainMenuCore : MonoBehaviour
     }
     public void ShowMainMenuPanel()
     {
+        EnergyCountTMP.text = PlayerData.EnergyCount.ToString();
         GameManager.Instance.AnimationsLT.FadePanel(MainMenuRT, null, MainMenuCG, 0, 1, () => { });
     }
 
@@ -172,16 +169,6 @@ public class MainMenuCore : MonoBehaviour
     public void HideQuitPanel()
     {
         GameManager.Instance.AnimationsLT.FadePanel(QuitRT, QuitRT, QuitCG, 1, 0, () => { });
-    }
-
-    public void ShowModuleSelectPanel()
-    {
-        GameManager.Instance.AnimationsLT.FadePanel(ModuleSelectRT, null, ModuleSelectCG, 0, 1, () => { });
-    }
-
-    public void HideModuleSelectPanel()
-    {
-        GameManager.Instance.AnimationsLT.FadePanel(ModuleSelectRT, ModuleSelectRT, ModuleSelectCG, 1, 0, () => { });
     }
 
     public void MainMenuStateToIndex(int index)
@@ -363,7 +350,6 @@ public class MainMenuCore : MonoBehaviour
                 failedCallbackCounter = 0;
                 GameManager.Instance.LoadingPanel.SetActive(false);
                 PlayerData.EnergyCount = resultCallback.VirtualCurrency["EN"];
-                EnergyCountTMP.text = PlayerData.EnergyCount.ToString();
                 PlayerData.CoinCount = resultCallback.VirtualCurrency["CO"];
                 HideLoginPanel();
                 ResetLoginFields();
