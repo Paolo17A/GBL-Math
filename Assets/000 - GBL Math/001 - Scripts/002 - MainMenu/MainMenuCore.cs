@@ -516,6 +516,11 @@ public class MainMenuCore : MonoBehaviour
         else
             GameManager.Instance.SceneController.CurrentScene = "CombatScene";
     }
+
+    public void OpenWardrobeScene()
+    {
+        GameManager.Instance.SceneController.CurrentScene = "WardrobeScene";
+    }
     #endregion
 
     #region SETTINGS

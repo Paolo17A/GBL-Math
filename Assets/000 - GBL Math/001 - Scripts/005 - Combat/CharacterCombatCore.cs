@@ -61,6 +61,8 @@ public class CharacterCombatCore : MonoBehaviour
     public Animator anim;
     [SerializeField] private Vector3 CharacterOriginPoint;
     [SerializeField] private Vector3 CharacterAttackPoint;
+    [SerializeField] private GameObject AnimatedHat;
+    [SerializeField] private SpriteRenderer HatSprite;
 
     [Header("HEALTH")]
     [SerializeField] private int MaxHealth;
@@ -92,7 +94,16 @@ public class CharacterCombatCore : MonoBehaviour
 
         #region HEALTH
         if (thisCharacterType == CharacterType.PLAYER)
+        {
             MaxHealth = PlayerData.SlimeMaxHealth;
+            if (PlayerData.EquippedHat.HatInstanceID == "")
+                AnimatedHat.SetActive(false);
+            else
+            {
+                AnimatedHat.SetActive(true);
+                HatSprite.sprite = PlayerData.EquippedHat.ThisHatData.HatSprite;
+            }
+        }
         CurrentHealth = MaxHealth;
         SetHeartSprites();
         #endregion

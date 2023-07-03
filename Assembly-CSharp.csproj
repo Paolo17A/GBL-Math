@@ -79,6 +79,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\007 - Hat\HatData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\006 - Intro Story\IntroStoryCore.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\006 - Dialogue\DialogueData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
@@ -99,6 +101,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\BackgroundScroller.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\AudioManager.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\004 - DoubleDialogue\DoubleDialogueCore.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\AnimationsLT.cs" />
@@ -106,6 +109,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\PostGameCore.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\004 - DoubleDialogue\DoubleDialogueController.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\001 - LessonData\LessonData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\ReadOnlyAttribute\Scripts\ReadOnlyAttribute.cs" />
@@ -120,10 +124,10 @@
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\CharacterCombatController.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\004 - ModuleData\ModuleData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\004 - DoubleDialogue\DoubleDialogueCore.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\004 - DoubleDialogue\DoubleDialogueController.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\006 - Dialogue\DialogueData.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\007 - Hat\HatData.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\WardrobeCore.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\WardrobeController.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\HatDataHandler.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\PurchaseCore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ReadOnlyAttribute\README.txt" />

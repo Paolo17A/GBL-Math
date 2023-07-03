@@ -18,10 +18,12 @@ public class PlayerData : ScriptableObject
     [field: Header("SLIME DATA")]
     [field: SerializeField] public string SlimeCharacterID { get; set; }
     [field: SerializeField] public int SlimeMaxHealth { get; set; }
+    [field: SerializeField] public OwnedHat EquippedHat { get; set; }
 
     [field: Header("INVENTORY")]
     [field: SerializeField] public int EnergyCount { get; set; }
     [field: SerializeField] public int CoinCount { get; set; }
+    [field: SerializeField] public List<OwnedHat> OwnedHats { get; set; }
 
 
     [field: Header("VOLUME")]
@@ -39,6 +41,7 @@ public class PlayerData : ScriptableObject
         SlimeMaxHealth = 5;
         EnergyCount = 0;
         CoinCount = 0;
+        OwnedHats.Clear();
     }
 
     #region LEVEL STARS
@@ -77,6 +80,25 @@ public class PlayerData : ScriptableObject
     #endregion
 
     #region HATS
-    
+    [Serializable]
+    public class OwnedHat
+    {
+        public string HatInstanceID;
+        public HatData ThisHatData;
+
+        public OwnedHat(string hatInstanceID, HatData thisHatData)
+        {
+            HatInstanceID = hatInstanceID;
+            ThisHatData = thisHatData;
+        }
+    }
+
+    public OwnedHat GetSelectedHat(string hatInstanceID)
+    {
+        foreach (OwnedHat hat in OwnedHats)
+            if (hat.HatInstanceID == hatInstanceID)
+                return hat;
+        return null;
+    }
     #endregion
 }

@@ -10,18 +10,17 @@ public class CombatController : MonoBehaviour
 
     private void Awake()
     {
-        CombatCore.onCombatStateChange += CombatStateChange;
+        GameManager.Instance.SceneController.GetActionLoadingList.Clear();
+        GameManager.Instance.SceneController.AddActionLoadinList(CombatCore.GetCharacterData());
+        GameManager.Instance.SceneController.AddActionLoadinList(CombatCore.GetCharacterInventory());
         GameManager.Instance.SceneController.ActionPass = true;
+
+        CombatCore.onCombatStateChange += CombatStateChange;
     }
 
     private void OnDisable()
     {
         CombatCore.onCombatStateChange -= CombatStateChange;
-    }
-
-    private void Start()
-    {
-        CombatCore.CurrentCombatState = CombatCore.CombatStates.COUNTDOWN;
     }
 
     private void CombatStateChange(object sender, EventArgs e)

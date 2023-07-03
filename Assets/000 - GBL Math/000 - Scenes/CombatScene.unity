@@ -9650,6 +9650,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   combatState: 0
   PlayerData: {fileID: 11400000, guid: 0eb238cc3ab2cb945895e67ab85bd1ca, type: 2}
+  AllAvailableHats:
+  - {fileID: 11400000, guid: 702617699e979d9448a560d4f137b180, type: 2}
+  - {fileID: 11400000, guid: 0e86b0c0d5c22a7488c21a5accd4ba4d, type: 2}
+  - {fileID: 11400000, guid: 5933052b0bf78d64f9563fd0b85ba83b, type: 2}
+  - {fileID: 11400000, guid: a443fe0f48c6d454e94c9fa04fd05866, type: 2}
+  - {fileID: 11400000, guid: 0827e91008c8faf4cbb1b03c22d77c26, type: 2}
+  - {fileID: 11400000, guid: 95eea4bfc9db35c4e87a7eff3a7e3949, type: 2}
+  - {fileID: 11400000, guid: 38ce0abd486442441aeead1db2d56863, type: 2}
+  - {fileID: 11400000, guid: b7443bce1b23adc43b02c02c4aa0a4a4, type: 2}
+  - {fileID: 11400000, guid: 05a5a50f1afa11245806b14e39989d5c, type: 2}
+  - {fileID: 11400000, guid: 7605474edfe71b94883764ed24403720, type: 2}
+  - {fileID: 11400000, guid: 90d1e583f6dea4746bbad92684625125, type: 2}
+  - {fileID: 11400000, guid: 6887502defbeeab4a8a572e6187082fc, type: 2}
+  - {fileID: 11400000, guid: 0d742296830f27040adf5d66e6bb1f33, type: 2}
+  - {fileID: 11400000, guid: 0f006428e5a4b414ea6442acb65048a3, type: 2}
+  - {fileID: 11400000, guid: c8f18a0f9c0fdbe45a0f99e45a631a22, type: 2}
+  - {fileID: 11400000, guid: 5015f245af38d8d479a8b6dc9d8a3776, type: 2}
+  - {fileID: 11400000, guid: b838be2ad92e8144cbc08e51a2b8faad, type: 2}
+  - {fileID: 11400000, guid: d3409568107dfd84aa20a8eb8c4ef75e, type: 2}
+  - {fileID: 11400000, guid: 922a64bad345309409c271047602e133, type: 2}
+  - {fileID: 11400000, guid: 8fbdd6ffff2532c4ba02ddc679c3ba81, type: 2}
+  - {fileID: 11400000, guid: a18f16bf43b02fb4a8d00def14bab314, type: 2}
+  - {fileID: 11400000, guid: dbfb1501b562c3849b14a11ce7113d78, type: 2}
+  - {fileID: 11400000, guid: 798bd53137505ca4db48a444330f00b6, type: 2}
+  - {fileID: 11400000, guid: 8349c257f25a98b4c9b47039798993b4, type: 2}
+  - {fileID: 11400000, guid: 77ebf420250810b47a06c914e46b6f60, type: 2}
+  - {fileID: 11400000, guid: 8e499b61966461749a97b5a7bd0cf8c5, type: 2}
+  - {fileID: 11400000, guid: 96133e0860ef026499403d2e845b18cf, type: 2}
+  - {fileID: 11400000, guid: 4d79a6ae1cef81340b500217c73eb858, type: 2}
+  - {fileID: 11400000, guid: c22b8571a3e7b85499b197440e2f4e7c, type: 2}
+  - {fileID: 11400000, guid: 8d6afeefa64435641bb639bdb3e72b63, type: 2}
+  - {fileID: 11400000, guid: 8d12deb50b9ddc84a9a8aed6a45d483a, type: 2}
+  - {fileID: 11400000, guid: bd1b0ee219b02724c9e1ac5d6092c306, type: 2}
+  - {fileID: 11400000, guid: 6283541989ce2d34bbf23572f17f1b60, type: 2}
+  - {fileID: 11400000, guid: 017e74a0e57f95e499ea70ce27260251, type: 2}
+  - {fileID: 11400000, guid: 5b25afbad7a31ef438842cda55f2d795, type: 2}
+  - {fileID: 11400000, guid: 73dc4a552c1dedb4896b561feb8fb66f, type: 2}
   LessonIndexTMP: {fileID: 1264146654}
   BackgroundSprite: {fileID: 1501404468}
   CountdownPanel: {fileID: 716259681}

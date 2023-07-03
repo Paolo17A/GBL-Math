@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/000 - GBL Math/000 - Scenes/EndingScene.unity
     guid: 2650d0aafa216a948beb4ce68d9911a6
+  - enabled: 1
+    path: Assets/000 - GBL Math/000 - Scenes/WardrobeScene.unity
+    guid: 68713e5428472b54d97e36f2e6a5833a
   m_configObjects: {}

@@ -49,6 +49,7 @@ public class CombatCore : MonoBehaviour
     #region VARIABLES
     //==================================================================================================================
     [SerializeField] private PlayerData PlayerData;
+    [SerializeField] private List<HatData> AllAvailableHats;
 
     [Header("LESSON")]
     [SerializeField] private TextMeshProUGUI LessonIndexTMP;
@@ -109,10 +110,60 @@ public class CombatCore : MonoBehaviour
     [Header("DEBUGGER")]
     GameObject player;
     GameObject enemy;
+    int failedCallbackCounter;
     //==================================================================================================================
     #endregion
 
     #region INITIALIZATION
+    public IEnumerator GetCharacterData()
+    {
+        GetCharacterDataPlayFab();
+        yield return null;
+    }
+
+    private void GetCharacterDataPlayFab()
+    {
+        GetCharacterDataRequest getCharacterData = new GetCharacterDataRequest();
+        getCharacterData.CharacterId = PlayerData.SlimeCharacterID;
+
+        PlayFabClientAPI.GetCharacterData(getCharacterData,
+            resultCallback =>
+            {
+                failedCallbackCounter = 0;
+                PlayerData.SlimeMaxHealth = int.Parse(resultCallback.Data["MaxHealth"].Value);
+            },
+            errorCallback => ErrorCallback(errorCallback.Error, GetCharacterDataPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
+    }
+
+    public IEnumerator GetCharacterInventory()
+    {
+        GetCharacterInventoryPlayFab();
+        yield return null;  
+    }
+
+    private void GetCharacterInventoryPlayFab()
+    {
+        GetCharacterInventoryRequest getCharacterInventory = new GetCharacterInventoryRequest();
+        getCharacterInventory.CharacterId = PlayerData.SlimeCharacterID;
+        PlayFabClientAPI.GetCharacterInventory(getCharacterInventory,
+            resultCallback =>
+            {
+                failedCallbackCounter = 0;
+                if (resultCallback.Inventory.Count == 0)
+                {
+                    PlayerData.EquippedHat.HatInstanceID = "";
+                    PlayerData.EquippedHat.ThisHatData = null;
+                }
+                else
+                {
+                    PlayerData.EquippedHat.HatInstanceID = resultCallback.Inventory[0].ItemInstanceId;
+                    PlayerData.EquippedHat.ThisHatData = GetProperHat(resultCallback.Inventory[0].ItemId);
+                }
+                CurrentCombatState = CombatCore.CombatStates.COUNTDOWN;
+            },
+            errorCallback => ErrorCallback(errorCallback.Error, GetCharacterInventoryPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
+    }
+
     public void InitializeQuizGame()
     {
         LessonIndexTMP.text = "Lesson " + GameManager.Instance.CurrentLesson.LessonIndex;
@@ -413,6 +464,28 @@ public class CombatCore : MonoBehaviour
             ts[i] = ts[r];
             ts[r] = tmp;
         }
+    }
+
+    public HatData GetProperHat(string hatID)
+    {
+        foreach (HatData hat in AllAvailableHats)
+            if (hat.HatID == hatID)
+                return hat;
+        return null;
+    }
+
+    public void ErrorCallback(PlayFabErrorCode errorCode, Action restartAction, Action errorAction)
+    {
+        if (errorCode == PlayFabErrorCode.ConnectionError)
+        {
+            failedCallbackCounter++;
+            if (failedCallbackCounter >= 5)
+                GameManager.Instance.DisplayErrorPanel("Connectivity error. Please connect to strong internet");
+            else
+                restartAction();
+        }
+        else
+            errorAction();
     }
     #endregion
 }
