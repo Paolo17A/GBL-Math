@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 4
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the standard error?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 4 = ?'
   Choices:
-  - A measure of the variability of the sample statistic.
-  - The average difference between the sample mean and the population mean.
-  - A measure of the variability of the population parameter.
-  - The average difference between the sample standard deviation and the population
-    standard deviation.
-  Answer: A measure of the variability of the sample statistic.
+  - 24
+  - 30
+  - 18
+  - 10
+  Answer: 24
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 15
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which type of random variable can take on any value within a given range?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 5 = ?'
   Choices:
-  - Discrete random variable.
-  - Continuous random variable.
-  - Independent random variable.
-  - Dependent random variable.
-  Answer: Continuous random variable.
+  - 25
+  - 30
+  - 35
+  - 20
+  Answer: 25
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

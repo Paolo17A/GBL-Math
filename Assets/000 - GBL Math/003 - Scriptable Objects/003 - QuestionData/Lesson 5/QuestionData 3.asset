@@ -13,20 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 3
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the Central Limit Theorem?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 3 = ?'
   Choices:
-  - The sampling distribution of the mean approaches a normal distribution as the
-    sample size increases.
-  - The sampling distribution of the mean approaches a uniform distribution as the
-    sample size increases.
-  - The sampling distribution of the mean approaches a binomial distribution as the
-    sample size increases.
-  - The sampling distribution of the mean approaches a Poisson distribution as the
-    sample size increases.
-  Answer: The sampling distribution of the mean approaches a normal distribution
-    as the sample size increases.
+  - 18
+  - 24
+  - 12
+  - 16
+  Answer: 18
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: hich data collection method involves interviewing participants face-to-face?
+  Question: 'Select the proper equation for the following repeated addition.
+
+
+    7
+    + 7 + 7 + 7 + 7 + 7'
   Choices:
-  - Surveys
-  - Experiments
-  - Interviews
-  - Observations
-  Answer: Interviews
+  - 7 x 7
+  - 6 x 7
+  - 7 x 6
+  - 6 x 6
+  Answer: 7 x 6
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

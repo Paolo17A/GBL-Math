@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: QuestionData 20
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does statistics provide us with?
+  Question: 'Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.
+
+
+    5 x
+    6 = ____ x _____'
   Choices:
-  - Magic tricks and illusions.
-  - Tools and techniques for analyzing data.
-  - All the answers to life's mysteries.
-  - Nothing of value.
-  Answer: Tools and techniques for analyzing data.
+  - 6, 5
+  - 6, 7
+  - 7, 6
+  - 1, 0
+  Answer: 6, 5
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which data collection method involves the manipulation of variables?
+  Question: 'Choose the correct repeated addition to show identity property of multiplication
+
+
+    6
+    x 1'
   Choices:
-  - Surveys.
-  - Experiments.
-  - Interviews.
-  - Observations.
-  Answer: Experiments.
+  - 1 + 1 + 1 + 1 + 1 + 1 + 1
+  - 1 + 1 + 1 + 1 + 1 + 1
+  - 1 + 1 + 1 + 1 + 1
+  - 1 + 1 + 1
+  Answer: 1 + 1 + 1 + 1 + 1 + 1
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 19
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does the term "statistically significant" mean in hypothesis testing?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 9 = ?'
   Choices:
-  - The results are practically significant.
-  - The results are unlikely to occur by chance alone.
-  - The results are completely accurate.
-  - The results are easily replicable.
-  Answer: The results are unlikely to occur by chance alone.
+  - 63
+  - 70
+  - 56
+  - 49
+  Answer: 63
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

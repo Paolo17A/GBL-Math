@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: QuestionData 7
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which type of data represents quantities that can be counted?
+  Question: Changing the order of the factors does not affect the product. This property
+    of multiplication is called Commutative Property of Multiplication.
   Choices:
-  - Nominal data.
-  - Ordinal data.
-  - Discrete data.
-  - Continuous data.
-  Answer: Discrete data.
+  - True
+  - False
+  Answer: True
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

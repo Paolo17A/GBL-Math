@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 18
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does a box plot display?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    3
+    x 8 = ?'
   Choices:
-  - Measures of central tendency
-  - Measures of variability
-  - Data distribution
-  - Outliers
-  Answer: Outliers
+  - 24
+  - 27
+  - 21
+  - 18
+  Answer: 24
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 11
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: In which data collection method do researchers control and manipulate
-    independent variables?
+  Question: 'Choose the correct repeated addition to show commutative property of
+    multiplication
+
+
+    4 x 8 = ______ x ________'
   Choices:
-  - Surveys
-  - Experiments
-  - Interviews
-  - Observations
-  Answer: Experiments
+  - 4 x 8
+  - 8 x 4
+  - 4 x 4
+  - 8 x 8
+  Answer: 8 x 4
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

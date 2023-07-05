@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the measure of central tendency most affected by outliers?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    2
+    x 6 = ?'
   Choices:
-  - Mean.
-  - Median.
-  - Mode.
-  - Standard deviation.
-  Answer: Median.
+  - 12
+  - 14
+  - 16
+  - 10
+  Answer: 12
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

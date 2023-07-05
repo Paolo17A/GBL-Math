@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
-  m_Name: QuestionData 20
+  m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is an advantage of using surveys for data collection?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    10
+    x 6 = ?'
   Choices:
-  - Real-time data collection.
-  - Ability to establish cause-and-effect relationships.
-  - Low cost.
-  - Detailed qualitative data.
-  Answer: Low cost.
+  - 60
+  - 50
+  - 40
+  - 70
+  Answer: 60
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

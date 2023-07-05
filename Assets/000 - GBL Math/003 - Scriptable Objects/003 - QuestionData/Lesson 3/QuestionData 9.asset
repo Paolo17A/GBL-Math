@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What do percentiles represent in a dataset?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    2
+    x 9 = ?'
   Choices:
-  - Measures of central tendency.
-  - Measures of position.
-  - Measures of variability.
-  - Measures of correlation.
-  Answer: Measures of position.
+  - 18
+  - 14
+  - 16
+  - 20
+  Answer: 18
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

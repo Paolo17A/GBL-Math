@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which measure of central tendency is affected by extreme values?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    2
+    x 2 = ?'
   Choices:
-  - Mean
-  - Median
-  - Mode
-  - Range
-  Answer: Mean
+  - 0
+  - 4
+  - 8
+  - 10
+  Answer: 4
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

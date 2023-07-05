@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 17
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which statistical test is used when data do not meet the assumptions
-    required for parametric tests?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 7 = ?'
   Choices:
-  - One-Sample t-test.
-  - Two-Sample t-test.
-  - Mann-Whitney U test.
-  - Chi-square test.
-  Answer: Mann-Whitney U test.
+  - 49
+  - 42
+  - 35
+  - 56
+  Answer: 49
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

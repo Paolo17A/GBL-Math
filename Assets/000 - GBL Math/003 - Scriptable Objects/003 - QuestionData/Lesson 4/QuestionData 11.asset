@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 11
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the probability density function (PDF) used to describe?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 1 = ?'
   Choices:
-  - Discrete random variables.
-  - Continuous random variables.
-  - Mutually exclusive events.
-  - Complementary events.
-  Answer: Continuous random variables.
+  - 5
+  - 0
+  - 1
+  - 15
+  Answer: 5
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

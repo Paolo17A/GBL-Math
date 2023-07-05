@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: QuestionData 14
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does ordinal data allow for?
+  Question: 'Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.
+
+
+    5 x
+    1 = _____'
   Choices:
-  - Ranking or ordering of categories.
-  - Calculation of averages and means.
-  - Detailed measurements within a specific range.
-  - All of the above.
-  Answer: Ranking or ordering of categories.
+  - 5
+  - 0
+  - 1
+  - 10
+  Answer: 5
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

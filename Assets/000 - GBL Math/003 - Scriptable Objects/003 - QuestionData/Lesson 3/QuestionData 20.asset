@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 20
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: 'Which graphical representation shows the relationship between two continuous
-    variables? '
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    3
+    x 10 = ?'
   Choices:
-  - Histogram
-  - Scatter plot
-  - Box plot
-  - Bar chart
-  Answer: Scatter plot
+  - 10
+  - 20
+  - 30
+  - 40
+  Answer: 30
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

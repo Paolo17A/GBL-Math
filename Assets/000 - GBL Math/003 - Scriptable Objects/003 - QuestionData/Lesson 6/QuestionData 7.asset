@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
-  m_Name: QuestionData 18
+  m_Name: QuestionData 7
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is a limitation of using interviews for data collection?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    8
+    x 7 = ?'
   Choices:
-  - Limited sample size.
-  - Potential for response bias.
-  - Lack of control over variables.
-  - High cost.
-  Answer: Potential for response bias.
+  - 56
+  - 48
+  - 50
+  - 42
+  Answer: 56
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: QuestionData 19
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which of the following is an example of nominal data?
+  Question: 'Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.
+
+
+    50 x
+    1 = _____'
   Choices:
-  - Blood pressure readings.
-  - Number of goals scored in a game.
-  - Types of music genres.
-  - Height in inches.
-  Answer: Types of music genres.
+  - 50
+  - 11
+  - 0
+  - 1
+  Answer: 50
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

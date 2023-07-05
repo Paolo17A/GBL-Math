@@ -159,7 +159,7 @@ public class CombatCore : MonoBehaviour
                     PlayerData.EquippedHat.HatInstanceID = resultCallback.Inventory[0].ItemInstanceId;
                     PlayerData.EquippedHat.ThisHatData = GetProperHat(resultCallback.Inventory[0].ItemId);
                 }
-                CurrentCombatState = CombatCore.CombatStates.COUNTDOWN;
+                CurrentCombatState = CombatStates.COUNTDOWN;
             },
             errorCallback => ErrorCallback(errorCallback.Error, GetCharacterInventoryPlayFab, () => GameManager.Instance.DisplayErrorPanel(errorCallback.GenerateErrorReport())));
     }
@@ -262,7 +262,6 @@ public class CombatCore : MonoBehaviour
 
     private void DisplayCurrentQuestion()
     {
-        //ToggleQuestionObjects(false);
         TimerContainer.SetActive(true);
         if (GameManager.Instance.CurrentLesson.LessonQuestions[CurrentQuestionIndex].ThisQuestionType == QuestionData.QuestionType.TEXT)
         {

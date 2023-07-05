@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: QuestionData 12
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is an advantage of using observations for data collection?
+  Question: Mario harvested 5 okras and 4 eggplants from his garden. He sold the
+    vegetables in their neighbors at P 3.00 each. How much is his total sales?
   Choices:
-  - Ability to establish cause-and-effect relationships.
-  - Standardized responses.
-  - Real-time data collection.
-  - Low cost.
-  Answer: Real-time data collection.
+  - 12 pesos
+  - 27 pesos
+  - 15 pesos
+  - 24 pesos
+  Answer: 27 pesos
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

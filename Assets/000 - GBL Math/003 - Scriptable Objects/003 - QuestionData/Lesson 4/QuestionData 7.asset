@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 7
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the expected value of rolling a fair six-sided die?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 7 = ?'
   Choices:
-  - 3
-  - 6
-  - 2.5
-  - 1/6
-  Answer: 2.5
+  - 28
+  - 24
+  - 32
+  - 16
+  Answer: 28
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

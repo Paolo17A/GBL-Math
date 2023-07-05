@@ -13,16 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 15
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the correct term for a data point that can take any value within
-    a specific range?
+  Question: "Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.\n\n50 x ____
+    = 0\t\t"
   Choices:
-  - Nominal data.
-  - Discrete data.
-  - Continuous data.
-  - Categorical data.
-  Answer: Continuous data.
+  - 0
+  - 1
+  - 50
+  - None
+  Answer: 0
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

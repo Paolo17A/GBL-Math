@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 3
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which data collection method is commonly used in market research?
+  Question: 'Select the proper equation for the following repeated addition.
+
+
+    4
+    + 4 + 4 + 4 + 4 + 4 + 4 + 4'
   Choices:
-  - Surveys
-  - Experiments
-  - Interviews
-  - Observations
-  Answer: Surveys
+  - 4 x 4
+  - 4 x 8
+  - 8 x 4
+  - 8 x 8
+  Answer: 4 x 8
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

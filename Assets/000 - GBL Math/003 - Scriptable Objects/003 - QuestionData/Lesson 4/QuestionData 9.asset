@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which probability distribution is commonly used to model the number of
-    successes in a fixed number of independent Bernoulli trials?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 9 = ?'
   Choices:
-  - Normal distribution.
-  - Binomial distribution.
-  - Poisson distribution.
-  - Exponential distribution.
-  Answer: Binomial distribution.
+  - 36
+  - 32
+  - 40
+  - 12
+  Answer: 36
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

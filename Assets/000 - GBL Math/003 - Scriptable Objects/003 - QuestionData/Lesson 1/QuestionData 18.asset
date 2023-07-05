@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: QuestionData 18
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What type of data is used to represent qualities or characteristics?
+  Question: 'Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.
+
+
+    30 x
+    0 = _____'
   Choices:
-  - Numerical data.
-  - Continuous data.
-  - Categorical data.
-  - Discrete data.
-  Answer: Categorical data.
+  - 0
+  - 1
+  - 30
+  - 1/3
+  Answer: 0
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

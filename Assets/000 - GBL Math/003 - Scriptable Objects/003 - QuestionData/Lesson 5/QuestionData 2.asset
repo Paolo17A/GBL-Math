@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the purpose of stratified sampling?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 2 = ?'
   Choices:
-  - To ensure that every individual has an equal chance of being selected.
-  - To select individuals based on their availability or accessibility.
-  - To divide the population into subgroups and take a random sample from each subgroup.
-  - To select every nth individual from the population after an initial random start.
-  Answer: To divide the population into subgroups and take a random sample from each
-    subgroup.
+  - 12
+  - 6
+  - 18
+  - 24
+  Answer: 12
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

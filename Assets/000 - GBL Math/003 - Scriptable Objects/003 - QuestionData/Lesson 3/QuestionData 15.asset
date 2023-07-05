@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 15
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does the mode represent in a dataset?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    3
+    x 5 = ?'
   Choices:
-  - The most frequent value(s).
-  - The middle value.
-  - The average value.
-  - The highest value.
-  Answer: The most frequent value(s).
+  - 15
+  - 18
+  - 12
+  - 9
+  Answer: 15
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

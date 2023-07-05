@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is a limitation of using surveys for data collection?
+  Question: 'Select the proper equation for the following repeated addition.
+
+
+    2
+    + 2 + 2 +2 + 2 + 2 + 2 + 2 + 2'
   Choices:
-  - Limited sample size.
-  - Difficulty in obtaining ethical approval.
-  - High cost.
-  - Potential for observer bias.
-  Answer: Limited sample size.
+  - 2 x 9
+  - 9 x 2
+  - 2 x 2
+  - 9 x 9
+  Answer: 2 x 9
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

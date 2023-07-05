@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 20
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does the Central Limit Theorem state?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 10 = ?'
   Choices:
-  - The mean of a sample is equal to the mean of the population.
-  - The distribution of sample means approaches a normal distribution as the sample
-    size increases.
-  - The range of a sample is equal to the range of the population.
-  - The distribution of sample proportions is always normal.
-  Answer: The distribution of sample means approaches a normal distribution as the
-    sample size increases.
+  - 30
+  - 40
+  - 50
+  - 60
+  Answer: 50
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 16
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which measure of central tendency can be used for ordinal data?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    3
+    x 6 = ?'
   Choices:
-  - Mean
-  - Median
-  - Mode
-  - Variance
-  Answer: Median
+  - 18
+  - 21
+  - 15
+  - 24
+  Answer: 18
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

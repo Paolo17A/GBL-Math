@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which t-test is used to compare the means of two independent samples?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 9 = ?'
   Choices:
-  - One-Sample t-test.
-  - Paired t-test.
-  - Two-Sample t-test.
-  - Mann-Whitney U test.
-  Answer: Two-Sample t-test.
+  - 54
+  - 48
+  - 60
+  - 42
+  Answer: 54
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

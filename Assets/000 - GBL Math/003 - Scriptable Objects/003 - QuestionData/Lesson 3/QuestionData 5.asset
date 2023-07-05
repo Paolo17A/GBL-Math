@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: 'A histogram is used to visualize the:'
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    2
+    x 5 = ?'
   Choices:
-  - Measures of central tendency.
-  - Measures of variability.
-  - Data distribution.
-  - Measures of position.
-  Answer: Data distribution.
+  - 10
+  - 14
+  - 16
+  - 6
+  Answer: 10
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 14
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does a large sample size typically imply for the standard error?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 4 = ?'
   Choices:
-  - The standard error increases.
-  - The standard error decreases.
-  - The standard error remains the same.
-  - The standard error cannot be determined from the sample size.
-  Answer: The standard error decreases.
+  - 28
+  - 21
+  - 14
+  - 35
+  Answer: 28
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

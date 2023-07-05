@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is a potential limitation of using experiments for data collection?
+  Question: 'Choose the correct repeated addition to show identity property of multiplication
+
+
+    7
+    x 0'
   Choices:
-  - Limited control over variables.
-  - Difficulty in recruiting participants.
-  - High cost.
-  - Potential for response bias.
-  Answer: Limited control over variables.
+  - 0 + 0 + 0 + 0 + 0 + 0
+  - 0 + 0 + 0 + 0 + 0
+  - 0 + 0 + 0 + 0 + 0 + 0 + 0
+  - 0 + 0 + 0
+  Answer: 0 + 0 + 0 + 0 + 0 + 0 + 0
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

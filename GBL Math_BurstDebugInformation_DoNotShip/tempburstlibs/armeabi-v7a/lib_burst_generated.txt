@@ -162,9 +162,9 @@ Library: lib_burst_generated
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
+--root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
---root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
 --root-assembly=D:\Project Files\GBL Math\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll

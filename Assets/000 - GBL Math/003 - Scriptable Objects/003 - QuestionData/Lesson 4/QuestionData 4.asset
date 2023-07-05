@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 4
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: 'The multiplication rule is used to calculate the probability of:'
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 4 = ?'
   Choices:
-  - Independent events.
-  - Dependent events.
-  - Mutually exclusive events.
-  - Complementary events.
-  Answer: Independent events.
+  - 16
+  - 12
+  - 14
+  - 18
+  Answer: 16
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

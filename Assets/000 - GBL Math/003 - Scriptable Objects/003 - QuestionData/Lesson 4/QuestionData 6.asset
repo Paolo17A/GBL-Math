@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: A standard deck of cards has 52 cards, including 4 suits with 13 cards
-    each. What is the probability of drawing a heart?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 6 = ?'
   Choices:
-  - 1/4
-  - 1/13
-  - 1/52
-  - 13/52
-  Answer: 1/4
+  - 16
+  - 24
+  - 32
+  - 10
+  Answer: 24
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

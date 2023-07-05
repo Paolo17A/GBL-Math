@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 13
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What type of data is represented by a bar chart?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    3
+    x 3 = ?'
   Choices:
-  - Continuous data.
-  - Categorical data.
-  - Ordinal data.
-  - Interval data.
-  Answer: Categorical data.
+  - 6
+  - 9
+  - 12
+  - 15
+  Answer: 9
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the purpose of a confidence interval?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 5 = ?'
   Choices:
-  - To estimate the population parameter with a certain level of confidence.
-  - To calculate the sample mean with a certain level of confidence.
-  - To determine the probability of a specific outcome occurring.
-  - To perform hypothesis testing.
-  Answer: To estimate the population parameter with a certain level of confidence.
+  - 18
+  - 24
+  - 30
+  - 36
+  Answer: 30
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

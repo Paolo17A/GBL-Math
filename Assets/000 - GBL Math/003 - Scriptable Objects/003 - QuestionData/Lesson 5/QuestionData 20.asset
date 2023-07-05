@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 20
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the purpose of cluster sampling?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 10 = ?'
   Choices:
-  - To ensure that every individual has an equal chance of being selected.
-  - To select individuals based on their availability or accessibility.
-  - To divide the population into clusters and randomly select clusters.
-  - To select every nth individual from the population after an initial random start.
-  Answer: To divide the population into clusters and randomly select clusters.
+  - 70
+  - 60
+  - 50
+  - 77
+  Answer: 70
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

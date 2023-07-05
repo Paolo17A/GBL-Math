@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the probability of getting a tail when flipping a fair coin?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 1 = ?'
   Choices:
-  - 0.5
-  - 0.25
+  - 4
   - 1
   - 0
-  Answer: 0.5
+  - 8
+  Answer: 4
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

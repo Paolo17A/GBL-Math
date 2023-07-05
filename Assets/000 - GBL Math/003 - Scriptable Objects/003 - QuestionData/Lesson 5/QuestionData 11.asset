@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 11
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the purpose of the Wilcoxon signed-rank test?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 1 = ?'
   Choices:
-  - To compare the means of two independent samples.
-  - To compare the means of two related samples.
-  - To compare the means of three or more independent samples.
-  - To determine if there is a significant association between two categorical variables.
-  Answer: To compare the means of two related samples.
+  - 7
+  - 1
+  - 0
+  - 17
+  Answer: 7
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

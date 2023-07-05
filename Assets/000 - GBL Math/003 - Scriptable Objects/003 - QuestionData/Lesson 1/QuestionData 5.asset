@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does numerical data represent?
+  Question: Zero multiplied by any number the answer is zero. What kind of property
+    of multiplication shown?
   Choices:
-  - Ordered categories or rankings.
-  - Qualities or characteristics with no inherent order.
-  - Continuous measurements within a specific range.
-  - Specific values or counts.
-  Answer: Continuous measurements within a specific range.
+  - Identity Property of multiplication
+  - Zero Property of multiplication
+  - Commutative Property of multiplication
+  - None of the above
+  Answer: Zero Property of multiplication
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

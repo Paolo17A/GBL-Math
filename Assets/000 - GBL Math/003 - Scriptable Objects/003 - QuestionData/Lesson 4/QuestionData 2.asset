@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: If two events are mutually exclusive, what is the probability of both
-    events occurring?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 2 = ?'
   Choices:
-  - 0
-  - 1
-  - 0.5
-  - It depends on the specific events.
-  Answer: 0
+  - 8
+  - 12
+  - 4
+  - 16
+  Answer: 8
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

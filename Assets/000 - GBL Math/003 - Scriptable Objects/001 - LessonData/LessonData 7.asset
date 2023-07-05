@@ -28,23 +28,13 @@ MonoBehaviour:
   <EnemyPrefab>k__BackingField: {fileID: 670660200740735042, guid: dd0046fc78ec4ee4293c74bd95cc2c2a, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 18987026d9822b340b6eb030c8071b4e, type: 3}
   <LessonQuestions>k__BackingField:
-  - {fileID: 11400000, guid: cd2a52f4262d9ea4a8c9979d5973a6c3, type: 2}
-  - {fileID: 11400000, guid: 9b2eef21092d2284cb31884a86e333a7, type: 2}
-  - {fileID: 11400000, guid: 4b3f5f9fecde23c4b9f8ee99c88fb220, type: 2}
-  - {fileID: 11400000, guid: 4b2cac2a26eae254d80eb9003067fae3, type: 2}
-  - {fileID: 11400000, guid: e16ad71073e682f47a29c25368a8a8d3, type: 2}
-  - {fileID: 11400000, guid: 6832ade23d032c94cad49f8a2e69ddb5, type: 2}
-  - {fileID: 11400000, guid: 7673674b225569d4c8997bd9137d14f7, type: 2}
-  - {fileID: 11400000, guid: 7727449817c451347aa2004b9eedefd7, type: 2}
-  - {fileID: 11400000, guid: f322f5a9932b6cf488d47332bd0030c8, type: 2}
-  - {fileID: 11400000, guid: 782b2880285dfe944b6aa2c6bdbf5812, type: 2}
-  - {fileID: 11400000, guid: 8bcb1ae7e1b7aa2438814fc5f593a338, type: 2}
-  - {fileID: 11400000, guid: 70541190c47a96e4a9a427c192ba4a30, type: 2}
-  - {fileID: 11400000, guid: 82653cada34fb8643984ed5fce4bedd4, type: 2}
-  - {fileID: 11400000, guid: ff92d928ced7800499d7f6c56a93aa45, type: 2}
-  - {fileID: 11400000, guid: 5d1b8a34739eed141b9623103670d9f4, type: 2}
-  - {fileID: 11400000, guid: 2a39aa83aa687764d8be77dd13de5cae, type: 2}
-  - {fileID: 11400000, guid: f7bc5e91fae1188488e4b7556d22a5f1, type: 2}
-  - {fileID: 11400000, guid: 24c9c829c2d655748bdb6e38215770e2, type: 2}
-  - {fileID: 11400000, guid: c0b95c88f4e86264da66a74b610a0561, type: 2}
-  - {fileID: 11400000, guid: d8101df7d65d6f141be066dffd5b1c81, type: 2}
+  - {fileID: 11400000, guid: 9e394d28c8966ec4595a2a5a300dc933, type: 2}
+  - {fileID: 11400000, guid: 52cc8173aba87f64fad3ff54b8f9164f, type: 2}
+  - {fileID: 11400000, guid: 00b6d7f9784c65b47855c537a3ee07d7, type: 2}
+  - {fileID: 11400000, guid: b0c652c56af40f64baa8486609cc6d89, type: 2}
+  - {fileID: 11400000, guid: d6dfc414ddfee994abb187145275e979, type: 2}
+  - {fileID: 11400000, guid: 4aead7119dc3c0d4ebff15cac7409fd1, type: 2}
+  - {fileID: 11400000, guid: e0ad44f7f34b9734ba6656f95a26a1e1, type: 2}
+  - {fileID: 11400000, guid: 65b780cd158ab744f801f0b6f752ee58, type: 2}
+  - {fileID: 11400000, guid: a1872737e27ad214fab71a33af4bcf86, type: 2}
+  - {fileID: 11400000, guid: 67e40b86bfab5f9459547dec4d4b15ba, type: 2}

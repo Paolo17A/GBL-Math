@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 14
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which statistical technique is used to test whether two samples are significantly
-    different from each other?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 4 = ?'
   Choices:
-  - Chi-square test
-  - T-test
-  - ANOVA
-  - Correlation analysis
-  Answer: T-test
+  - 20
+  - 25
+  - 15
+  - 30
+  Answer: 20
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

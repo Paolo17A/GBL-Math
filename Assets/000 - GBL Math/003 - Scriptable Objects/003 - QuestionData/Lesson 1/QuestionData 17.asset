@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: QuestionData 17
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: How is statistics used in decision-making?
+  Question: 'Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.
+
+
+    9 x
+    5 = 5 x _____'
   Choices:
-  - By flipping a coin.
-  - By analyzing data to inform choices and actions.
-  - By relying on intuition and guess work.
-  - By asking random people on the street.
-  Answer: By analyzing data to inform choices and actions.
+  - 9
+  - 5
+  - 1
+  - 0
+  Answer: 9
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is simple random sampling?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 1 = ?'
   Choices:
-  - A method where individuals are chosen based on their availability or accessibility.
-  - A method where the population is divided into subgroups, and a random sample
-    is taken from each subgroup.
-  - A method where each member of the population has an equal chance of being selected.
-  - A method where every nth individual is selected from the population after an
-    initial random start.
-  Answer: A method where each member of the population has an equal chance of being
-    selected.
+  - 6
+  - 12
+  - 18
+  - 1
+  Answer: 6
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

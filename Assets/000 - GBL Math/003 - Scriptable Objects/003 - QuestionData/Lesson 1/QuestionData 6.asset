@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which of the following is an example of discrete data?
+  Question: "12 x 0 = 0 \n\nThis property of multiplication is called zero Property
+    of Multiplication."
   Choices:
-  - Weight in kilograms.
-  - Age in years.
-  - Number of pets.
-  - Temperature in degrees Fahrenheit.
-  Answer: Number of pets.
+  - True
+  - False
+  Answer: True
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

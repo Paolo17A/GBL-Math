@@ -13,17 +13,14 @@ MonoBehaviour:
   m_Name: QuestionData 4
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which of the following is an example of ordinal data?
+  Question: Any number multiplied by one (1), the answer is the number. What kind
+    of property of multiplication shown?
   Choices:
-  - Gender (Male/Female).
-  - Eye color (Blue/Brown/Green).
-  - Satisfaction rating scale (Very satisfied/Satisfied/Neutral/Dissatisfied/Very
-    dissatisfied).
-  - Number of hours slept.
-  Answer: Satisfaction rating scale (Very satisfied/Satisfied/Neutral/Dissatisfied/Very
-    dissatisfied).
+  - Identity Property of multiplication
+  - Zero Property of multiplication
+  - Commutative Property of multiplication
+  - None of the above
+  Answer: Identity Property of multiplication
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

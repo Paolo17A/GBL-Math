@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 10
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which nonparametric test is used to compare the means of two independent
-    samples?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 10 = ?'
   Choices:
-  - Mann-Whitney U test.
-  - Wilcoxon signed-rank test.
-  - Kruskal-Wallis test.
-  - Chi-square test.
-  Answer: Mann-Whitney U test.
+  - 30
+  - 40
+  - 50
+  - 60
+  Answer: 60
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

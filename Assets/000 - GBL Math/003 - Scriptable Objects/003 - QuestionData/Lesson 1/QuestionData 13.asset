@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 13
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which of the following represents a discrete variable?
+  Question: 'Which number combination makes the following equation INCORRECT
+
+
+    20
+    x ____ = ____'
   Choices:
-  - Time spent on a task.
-  - Temperature in degrees Celsius.
-  - Number of students in a classroom.
-  - Height in centimeters.
-  Answer: Number of students in a classroom.
+  - 0, 0
+  - 1, 20
+  - 2, 2 x 20
+  - 0, 1
+  Answer: 0, 1
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

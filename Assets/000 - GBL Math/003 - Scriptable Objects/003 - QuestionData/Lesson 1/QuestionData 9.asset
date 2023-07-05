@@ -13,15 +13,11 @@ MonoBehaviour:
   m_Name: QuestionData 9
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which of the following is an example of continuous data?
+  Question: "9 x 3 = 3 x 9 \n\nThis demonstrates the Commutative Property of Multiplication"
   Choices:
-  - Number of books read in a month.
-  - 'Blood type '
-  - Shoe size.
-  - Favorite ice cream flavor.
-  Answer: Shoe size.
+  - True
+  - False
+  Answer: True
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

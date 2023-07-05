@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\WardrobeController.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\001 - Camera\CameraScaler.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\ChoiceButtonHandler.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\LessonDataHandler.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\CombatCore.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\HatDataHandler.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\006 - Intro Story\IntroStoryController.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\MainMenuCore.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\Interfaces\IDialogue.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\WardrobeCore.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\005 - Trivia\TriviaData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\006 - Intro Story\GumballAudioHandler.cs" />
@@ -78,6 +81,7 @@
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\002 - BlackboardData\BlackboardData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\PurchaseCore.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\007 - Hat\HatData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
@@ -124,10 +128,6 @@
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\CharacterCombatController.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\004 - ModuleData\ModuleData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\WardrobeCore.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\WardrobeController.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\HatDataHandler.cs" />
-    <Compile Include="Assets\000 - GBL Math\001 - Scripts\008 - Wardrobe\PurchaseCore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ReadOnlyAttribute\README.txt" />

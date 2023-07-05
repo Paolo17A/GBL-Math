@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 5
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the formula for calculating the theoretical probability of an
-    event?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 5 = ?'
   Choices:
-  - Number of favorable outcomes / Total number of possible outcomes
-  - Total number of possible outcomes / Number of favorable outcomes
-  - Number of favorable outcomes * Total number of possible outcomes
-  - Total number of favorable outcomes / Total number of possible outcomes
-  Answer: Number of favorable outcomes / Total number of possible outcomes
+  - 20
+  - 12
+  - 8
+  - 14
+  Answer: 20
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

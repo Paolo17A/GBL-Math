@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 4
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which data collection method allows for the collection of rich, qualitative
-    data?
+  Question: 'Select the proper equation for the following repeated addition.
+
+
+    6
+    + 6 + 6'
   Choices:
-  - Surveys
-  - Experiments
-  - Interviews
-  - Observations
-  Answer: Interviews
+  - 6 x 6
+  - 3 x 6
+  - 6 x 3
+  - 3 x 3
+  Answer: 6 x 3
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

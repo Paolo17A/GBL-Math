@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: QuestionData 14
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is a limitation of using observations for data collection?
+  Question: The price of one ice candy is P 5.00. How much will you pay for 6 pieces
+    of ice candy?
   Choices:
-  - Limited generalizability.
-  - Difficulty in obtaining ethical approval.
-  - Potential for interviewer bias.
-  - High cost.
-  Answer: Limited generalizability.
+  - 10 pesos
+  - 20 pesos
+  - 30 pesos
+  - 40 pesos
+  Answer: 30 pesos
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

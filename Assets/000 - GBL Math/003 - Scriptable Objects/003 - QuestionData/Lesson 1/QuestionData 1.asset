@@ -13,15 +13,13 @@ MonoBehaviour:
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is statistics?
+  Question: "2 x 3 = 3 x 2 \n\nWhat kind of property of multiplication shown? "
   Choices:
-  - The study of stars and galaxies.
-  - The field of study involving data collection and analysis.
-  - The study of ancient civilizations.
-  - The art of storytelling.
-  Answer: The field of study involving data collection and analysis.
+  - Identity Property of multiplication
+  - Zero Property of multiplication
+  - Commutative Property of multiplication
+  - None of the above
+  Answer: Commutative Property of multiplication
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

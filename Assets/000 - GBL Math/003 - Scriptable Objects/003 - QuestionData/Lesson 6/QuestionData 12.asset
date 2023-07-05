@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
-  m_Name: QuestionData 16
+  m_Name: QuestionData 12
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is an advantage of using interviews for data collection?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    9
+    x 2 = ?'
   Choices:
-  - Standardized responses
-  - Large sample size
-  - In-depth and detailed information
-  - Low cost
-  Answer: In-depth and detailed information
+  - 18
+  - 9
+  - 27
+  - 92
+  Answer: 18
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

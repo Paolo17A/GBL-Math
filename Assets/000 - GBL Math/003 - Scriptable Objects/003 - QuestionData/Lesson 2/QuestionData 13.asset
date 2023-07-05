@@ -13,16 +13,13 @@ MonoBehaviour:
   m_Name: QuestionData 13
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which data collection method is often used to collect quantitative data
-    on a large scale?
+  Question: A box weighs 2 kg. What is the total weight of 4 boxes?
   Choices:
-  - Surveys
-  - Experiments
-  - Interviews
-  - Observations
-  Answer: Surveys
+  - 8 kg
+  - 12 kg
+  - 15 kg
+  - 16 kg
+  Answer: 8 kg
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: QuestionData 3
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does nominal data represent?
+  Question: '10 x 1 = 10
+
+
+    What kind of property of multiplication shown? '
   Choices:
-  - Qualities or characteristics with no inherent order.
-  - Continuous measurements within a specific range.
-  - Specific values or counts.
-  - Ordered categories or rankings.
-  Answer: Qualities or characteristics with no inherent order.
+  - Identity Property of multiplication
+  - Zero Property of multiplication
+  - Commutative Property of multiplication
+  - None of the above
+  Answer: Identity Property of multiplication
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

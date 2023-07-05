@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 19
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: 'The interquartile range is a measure of:'
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    3
+    x 9 = ?'
   Choices:
-  - Data dispersion
-  - Data symmetry
-  - Data position
-  - Data variability
-  Answer: Data dispersion
+  - 27
+  - 24
+  - 21
+  - 30
+  Answer: 27
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

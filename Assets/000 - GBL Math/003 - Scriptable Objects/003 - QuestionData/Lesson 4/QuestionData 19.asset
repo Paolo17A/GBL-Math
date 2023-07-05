@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 19
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which measure of central tendency is commonly used to summarize data
-    from a skewed distribution?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 9 = ?'
   Choices:
-  - Mean
-  - Median
-  - Mode
-  - Range
-  Answer: Median
+  - 45
+  - 50
+  - 40
+  - 35
+  Answer: 45
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

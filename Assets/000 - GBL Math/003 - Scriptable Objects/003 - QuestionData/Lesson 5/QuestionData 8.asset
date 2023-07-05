@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 8
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the power of a statistical test?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 8 = ?'
   Choices:
-  - The probability of correctly rejecting the null hypothesis when it is false.
-  - The probability of correctly accepting the null hypothesis when it is true.
-  - The probability of making a Type I error.
-  - The probability of making a Type II error.
-  Answer: The probability of correctly rejecting the null hypothesis when it is false.
+  - 48
+  - 42
+  - 54
+  - 36
+  Answer: 48
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

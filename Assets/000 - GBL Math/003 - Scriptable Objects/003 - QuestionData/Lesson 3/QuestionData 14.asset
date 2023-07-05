@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 14
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which measure of variability indicates the average deviation from the
-    mean?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    3
+    x 4 = ?'
   Choices:
-  - Range
-  - Variance
-  - Standard Deviation
-  - Interquartile Range
-  Answer: Standard Deviation
+  - 12
+  - 15
+  - 9
+  - 18
+  Answer: 12
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

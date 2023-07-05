@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 18
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the purpose of a null hypothesis in hypothesis testing?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 8 = ?'
   Choices:
-  - The claim or assumption we are trying to support.
-  - The alternative claim or assumption.
-  - The opposite of the claim or assumption we are testing.
-  - The absence of any claim or assumption.
-  Answer: The opposite of the claim or assumption we are testing.
+  - 56
+  - 63
+  - 49
+  - 42
+  Answer: 56
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

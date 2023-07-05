@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 1
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which branch of statistics focuses on summarizing and describing data?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    2
+    x 1 = ?'
   Choices:
-  - Descriptive statistics.
-  - Inferential statistics.
-  - Exploratory statistics.
-  - Diagnostic statistics.
-  Answer: Descriptive statistics.
+  - 2
+  - 4
+  - 6
+  - 8
+  Answer: 2
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

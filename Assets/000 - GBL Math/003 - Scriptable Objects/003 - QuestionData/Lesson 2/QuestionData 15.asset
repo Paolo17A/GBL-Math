@@ -13,16 +13,14 @@ MonoBehaviour:
   m_Name: QuestionData 15
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which data collection method involves administering questionnaires to
-    participants?
+  Question: Jana saves 10 pesos everyday. If she saves 5 times a day how many money
+    did she save?
   Choices:
-  - Surveys
-  - Experiments
-  - Interviews
-  - Observations
-  Answer: Surveys
+  - 15 pesos
+  - 25 pesos
+  - 40 pesos
+  - 50 pesos
+  Answer: 50 pesos
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

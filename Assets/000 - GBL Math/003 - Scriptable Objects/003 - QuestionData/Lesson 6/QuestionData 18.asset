@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af09fe42339a95942afcb68a7d350af9, type: 3}
-  m_Name: QuestionData 17
+  m_Name: QuestionData 18
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which data collection method is commonly used in sociological research?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    9
+    x 8 = ?'
   Choices:
-  - Surveys
-  - Experiments
-  - Interviews
-  - Observations
-  Answer: Interviews
+  - 72
+  - 81
+  - 36
+  - 54
+  Answer: 72
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

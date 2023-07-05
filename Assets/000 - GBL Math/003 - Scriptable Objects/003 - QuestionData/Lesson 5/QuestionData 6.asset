@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 6
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What factors should be considered when determining the sample size?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    6
+    x 6 = ?'
   Choices:
-  - Desired level of confidence, margin of error, population variability, and research
-    objectives.
-  - Sample mean, sample standard deviation, population mean, and population standard
-    deviation.
-  - Sample size, significance level, p-value, and effect size.
-  - Sample variability, skewness, kurtosis, and sample distribution.
-  Answer: Desired level of confidence, margin of error, population variability, and
-    research objectives.
+  - 36
+  - 30
+  - 42
+  - 48
+  Answer: 36
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 7
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is an advantage of using experiments for data collection?
+  Question: 'Choose the correct repeated addition to show identity property of multiplication
+
+
+    8
+    X 1'
   Choices:
-  - Large sample size.
-  - Ability to establish cause-and-effect relationships.
-  - Low cost.
-  - Naturalistic observations.
-  Answer: Ability to establish cause-and-effect relationships.
+  - 1 + 1 + 1 + 1 + 1 + 1 + 1
+  - 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+  - 1 + 1 + 1 + 1 + 1
+  - 1 + 1 + 1
+  Answer: 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

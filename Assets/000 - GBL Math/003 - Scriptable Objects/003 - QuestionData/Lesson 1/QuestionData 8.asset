@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: QuestionData 8
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which type of data can take any value within a specific range?
+  Question: "25 X 1 = 25 \n\nThis property of multiplication is called Commutative
+    Property of Multiplication"
   Choices:
-  - Nominal data.
-  - Ordinal data.
-  - Discrete data.
-  - Continuous data.
-  Answer: Continuous data.
+  - True
+  - False
+  Answer: False
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

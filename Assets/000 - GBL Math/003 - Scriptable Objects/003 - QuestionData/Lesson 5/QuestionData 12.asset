@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 12
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does statistical significance indicate in hypothesis testing?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 2 = ?'
   Choices:
-  - The practical importance of the results.
-  - The results are easily replicable.
-  - The results are unlikely to occur by chance alone.
-  - The results are completely accurate.
-  Answer: The results are unlikely to occur by chance alone.
+  - 14
+  - 21
+  - 7
+  - 2
+  Answer: 14
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData 2
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which of the following is an example of categorical data?
+  Question: '6 x 0 = 0
+
+    What kind of property of multiplication shown?'
   Choices:
-  - Temperature in degrees Celsius.
-  - Height in centimeters.
-  - Number of siblings.
-  - Time taken to complete a task.
-  Answer: Number of siblings.
+  - Identity Property of multiplication
+  - Zero Property of multiplication
+  - Commutative Property of multiplication
+  - None of the above
+  Answer: Zero Property of multiplication
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

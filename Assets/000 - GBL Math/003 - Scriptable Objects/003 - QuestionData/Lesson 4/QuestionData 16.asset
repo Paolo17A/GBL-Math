@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 16
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What is the cumulative distribution function (CDF) used to calculate?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 6 = ?'
   Choices:
-  - The probability of a specific value occurring in a continuous random variable.
-  - The probability that a random variable is less than or equal to a specified value.
-  - The expected value of a random variable.
-  - The variance of a random variable.
-  Answer: The probability that a random variable is less than or equal to a specified
-    value.
+  - 30
+  - 25
+  - 35
+  - 40
+  Answer: 30
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

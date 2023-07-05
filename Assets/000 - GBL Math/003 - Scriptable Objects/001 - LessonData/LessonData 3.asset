@@ -22,6 +22,8 @@ MonoBehaviour:
     - Multiplying numbers by 3'
   <CoinReward>k__BackingField: 8
   <StarQuota>k__BackingField: 3
+  <HasDialogueScene>k__BackingField: 0
+  <CorrespondingDialogueScene>k__BackingField: 
   <IntroductoryMessages>k__BackingField:
   - Well done, traveler! You've defeated two of King Slime's warriors already.
   - You're really getting knowledgable when it comes to Multiplication
@@ -34,22 +36,22 @@ MonoBehaviour:
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: d2fd8c0d761f76140ac7f9f07c875011, type: 3}
   <LessonQuestions>k__BackingField:
   - {fileID: 11400000, guid: 3ffc01d40e64ce1479ebcc625a6aa634, type: 2}
-  - {fileID: 11400000, guid: f9b068917ddddbf40bf3fd86963294a0, type: 2}
-  - {fileID: 11400000, guid: fbd2791f9f20e9b40820441b7c5421df, type: 2}
-  - {fileID: 11400000, guid: 6d5b57b7dea8aec4684bae70c3e1ce4b, type: 2}
-  - {fileID: 11400000, guid: 59ce7f6c41d0a9046a536ec548be1909, type: 2}
-  - {fileID: 11400000, guid: 4ef6ed3505b5d834c8a0db1a0cada18d, type: 2}
-  - {fileID: 11400000, guid: 17156fe6b2f058c43a28faeb5a77758a, type: 2}
-  - {fileID: 11400000, guid: 9ef8a40e3d39dc7418ff038ec8ac0397, type: 2}
-  - {fileID: 11400000, guid: a47b19ca0cca71c4581bdc1056a621cb, type: 2}
-  - {fileID: 11400000, guid: bcbdfd6c8262d6546a6e6ac3b17a4fa0, type: 2}
-  - {fileID: 11400000, guid: 352e394f30d623241bd855ae54a1dd46, type: 2}
-  - {fileID: 11400000, guid: f742bbbc93b7b014ea581584e81eb450, type: 2}
-  - {fileID: 11400000, guid: a0f83b32799a00a41ad3fca71da372cf, type: 2}
-  - {fileID: 11400000, guid: 22a437f33e84afb4cacee5cd28780592, type: 2}
-  - {fileID: 11400000, guid: f7f4768e2f2ef9c419de25cc2554968b, type: 2}
-  - {fileID: 11400000, guid: ec7ec80c806aab24b9e440798492435e, type: 2}
-  - {fileID: 11400000, guid: bc144feb6578f7f418fcc8142d6c48ff, type: 2}
-  - {fileID: 11400000, guid: b7ab66642ddcba44ca3d1917387ddd42, type: 2}
-  - {fileID: 11400000, guid: 91c4debdd0a61084ab72f9551ba526e7, type: 2}
-  - {fileID: 11400000, guid: aa59b50551949e2419e540f9e0c18418, type: 2}
+  - {fileID: 11400000, guid: 26cc245925b079644b602dee8bd669e3, type: 2}
+  - {fileID: 11400000, guid: ead71e995bb7e9e4599f7bf145407ecd, type: 2}
+  - {fileID: 11400000, guid: c3ede530a66849144b0f66c41e314631, type: 2}
+  - {fileID: 11400000, guid: b7d6cb343af784a44b5170c0da03a5a0, type: 2}
+  - {fileID: 11400000, guid: 1867e3993e899d54d8b5a3379a0e4dcc, type: 2}
+  - {fileID: 11400000, guid: 2a8770b4233d5834c8dfd46e9477236b, type: 2}
+  - {fileID: 11400000, guid: 127bc7b0921000f4da66d49bad276973, type: 2}
+  - {fileID: 11400000, guid: 9243a6fb9631f424d901342fb1e19a1a, type: 2}
+  - {fileID: 11400000, guid: e7f1864a95e048d43b6f6fc6d025a3c8, type: 2}
+  - {fileID: 11400000, guid: 0c32e59b309e1e3418a8e95da1a9c5c4, type: 2}
+  - {fileID: 11400000, guid: 563eae7ac8ab0e4499b210e463edcb27, type: 2}
+  - {fileID: 11400000, guid: 245a57b091d0be9488f64967190ed5a2, type: 2}
+  - {fileID: 11400000, guid: 46f9b935e20ddda4eb0760e241ebc63b, type: 2}
+  - {fileID: 11400000, guid: 9ca032dbf4cc762419c91352e4b864f0, type: 2}
+  - {fileID: 11400000, guid: 9708aacc1c99e1849abdb4535c62f32a, type: 2}
+  - {fileID: 11400000, guid: a32f49ed1ecfb0a4eb9de06c19f4b47c, type: 2}
+  - {fileID: 11400000, guid: 564f738d8ef3bc94f8099e8b8e85903a, type: 2}
+  - {fileID: 11400000, guid: c59347791a83e2349aea2f817baf6c05, type: 2}
+  - {fileID: 11400000, guid: ce55a0dae251e3646a307a03b7d53297, type: 2}

@@ -1837,6 +1837,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 75f4548981e9cc2499f6e01ba1e29a6d, type: 2}
   - {fileID: 11400000, guid: 930457787f773104698afcc099ccb91f, type: 2}
   - {fileID: 11400000, guid: d7f6eb398adf0704890c28a0867a37f1, type: 2}
+  - {fileID: 11400000, guid: 16cfdf301b759ad4197793457e695138, type: 2}
   PlayerData: {fileID: 11400000, guid: 0eb238cc3ab2cb945895e67ab85bd1ca, type: 2}
   <LoadingPanel>k__BackingField: {fileID: 1739901262}
   ErrorPanel: {fileID: 1912583769}
@@ -2814,7 +2815,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5.4
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2

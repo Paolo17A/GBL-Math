@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 15
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: In which scenario would you use a paired t-test?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    7
+    x 5 = ?'
   Choices:
-  - Comparing the means of two independent samples.
-  - Comparing the means of two related samples.
-  - Comparing the means of three or more independent samples.
-  - Determining the association between two categorical variables.
-  Answer: Comparing the means of two related samples.
+  - 35
+  - 42
+  - 28
+  - 21
+  Answer: 35
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

@@ -129,7 +129,9 @@ MonoBehaviour:
   anim: {fileID: 452180268159858162}
   CharacterOriginPoint: {x: 6.91, y: -4.06, z: 0}
   CharacterAttackPoint: {x: -3.7, y: -4.06, z: 0}
-  MaxHealth: 15
+  AnimatedHat: {fileID: 0}
+  HatSprite: {fileID: 0}
+  MaxHealth: 10
   HealthContainer: {fileID: 0}
   CurrentHealth: 0
   CurrentTravelState: 0

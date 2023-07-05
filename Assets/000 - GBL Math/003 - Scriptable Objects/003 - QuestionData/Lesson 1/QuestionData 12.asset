@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: QuestionData 12
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which type of data can be measured or counted?
+  Question: 'Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.
+
+
+    2 x
+    3 = ____ x 2'
   Choices:
-  - Categorical data.
-  - Numerical data.
-  - Discrete data.
-  - None of the above.
-  Answer: Numerical data.
+  - 3
+  - 1
+  - 0
+  - 2
+  Answer: 3
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

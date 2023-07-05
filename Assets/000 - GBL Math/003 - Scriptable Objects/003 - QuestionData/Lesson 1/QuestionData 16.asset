@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: QuestionData 16
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which of the following is an example of numerical data?
+  Question: 'Use the Identity property, Zero Property and Commutative property of
+    Multiplication to find the missing number in each number sentence.
+
+
+    17 x
+    _____ = 17'
   Choices:
-  - 'Colors of cars '
-  - Favorite movies
-  - Age of students
-  - Types of food
-  Answer: Age of students
+  - 1
+  - 0
+  - 17
+  - 10
+  Answer: 1
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

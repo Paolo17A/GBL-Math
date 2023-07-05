@@ -500,18 +500,22 @@ public class MainMenuCore : MonoBehaviour
     }
     public void BeginSelectedLesson()
     {
-        GameManager.Instance.CurrentLesson = SelectedLessonData;
-
         if(SelectedLessonData.StarQuota > PlayerData.GetTotalStars())
         {
             GameManager.Instance.DisplayErrorPanel("You must have a total of at least " + SelectedLessonData.StarQuota + " stars to play this level. You only have " + PlayerData.GetTotalStars() + " stars.");
             return;
         }
 
+        GameManager.Instance.CurrentLesson = SelectedLessonData;
         if (SelectedLessonData.LessonIndex == PlayerData.CurrentLessonIndex || PlayerData.EnergyCount == 0)
         {
-            GameManager.Instance.AudioManager.KillBackgroundMusic();
-            GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
+            if (SelectedLessonData.HasDialogueScene)
+                GameManager.Instance.SceneController.CurrentScene = GameManager.Instance.CurrentLesson.CorrespondingDialogueScene;
+            else
+            {
+                GameManager.Instance.AudioManager.KillBackgroundMusic();
+                GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
+            }
         }
         else
             GameManager.Instance.SceneController.CurrentScene = "CombatScene";

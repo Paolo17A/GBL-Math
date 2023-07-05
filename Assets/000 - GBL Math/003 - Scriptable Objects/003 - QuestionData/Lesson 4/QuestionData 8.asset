@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 8
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: 'The Law of Large Numbers states that as the number of trials increases:'
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    4
+    x 8 = ?'
   Choices:
-  - Theoretical probability becomes more accurate.
-  - Experimental probability becomes more accurate.
-  - Both theoretical and experimental probabilities converge.
-  - Probability becomes less important.
-  Answer: Both theoretical and experimental probabilities converge.
+  - 32
+  - 36
+  - 28
+  - 24
+  Answer: 32
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

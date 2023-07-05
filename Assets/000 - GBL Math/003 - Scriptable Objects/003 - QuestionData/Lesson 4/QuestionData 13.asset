@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 13
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: What does a p-value represent in hypothesis testing?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 3 = ?'
   Choices:
-  - The probability of making a Type I error.
-  - The probability of making a Type II error.
-  - The level of significance for rejecting the null hypothesis.
-  - The strength of evidence against the null hypothesis.
-  Answer: The strength of evidence against the null hypothesis.
+  - 15
+  - 10
+  - 20
+  - 25
+  Answer: 15
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0

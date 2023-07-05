@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: QuestionData 17
   m_EditorClassIdentifier: 
   ThisQuestionType: 1
-  Direction: Choose the correct answer for each question by selecting the corresponding
-    letter (A, B, C, or D).
-  Question: Which statistical technique is used to determine if a sample is significantly
-    different from a known population?
+  Question: 'Provide the proper answer based on the multiplication table
+
+
+    5
+    x 7 = ?'
   Choices:
-  - Confidence intervals.
-  - Hypothesis testing.
-  - Regression analysis.
-  - Probability distributions.
-  Answer: Hypothesis testing.
+  - 35
+  - 40
+  - 45
+  - 30
+  Answer: 35
   ImageChoices: []
   ImageAnswerIndex: 0
   NumberAnswer: 0
