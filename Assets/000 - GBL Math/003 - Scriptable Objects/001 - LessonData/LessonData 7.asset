@@ -22,7 +22,12 @@ MonoBehaviour:
   <StarQuota>k__BackingField: 15
   <HasDialogueScene>k__BackingField: 0
   <CorrespondingDialogueScene>k__BackingField: 
-  <IntroductoryMessages>k__BackingField: []
+  <IntroductoryMessages>k__BackingField:
+  - Congratulations on defeating the Wind Slime. You sure are pretty smart.
+  - King Slime has one last warrior left. The Evil Slime
+  - This guy us super tough and scary. But if you can multiply by 10s, you'll be
+    fine.
+  - Let me teach you how.
   <IntroTypeSpeed>k__BackingField: 0.03
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 670660200740735042, guid: dd0046fc78ec4ee4293c74bd95cc2c2a, type: 3}

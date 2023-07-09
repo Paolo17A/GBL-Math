@@ -92,11 +92,16 @@ public class DiscussionCore : MonoBehaviour, IDialogue
         }
         else if (CurrentDiscussionState == DiscussionStates.INTRODUCTION)
         {
-            foreach (char c in GameManager.Instance.CurrentLesson.IntroductoryMessages[CurrentDialogueIndex])
+            if (GameManager.Instance.CurrentLesson.IntroductoryMessages.Count > 0)
             {
-                WizardSpeechTMP.text += c;
-                yield return new WaitForSeconds(GameManager.Instance.CurrentLesson.IntroTypeSpeed);
+                foreach (char c in GameManager.Instance.CurrentLesson.IntroductoryMessages[CurrentDialogueIndex])
+                {
+                    WizardSpeechTMP.text += c;
+                    yield return new WaitForSeconds(GameManager.Instance.CurrentLesson.IntroTypeSpeed);
+                }
             }
+            else
+                CurrentDiscussionState = DiscussionStates.VIDEO;
         }
         else if (CurrentDiscussionState == DiscussionStates.INVITATION)
         {

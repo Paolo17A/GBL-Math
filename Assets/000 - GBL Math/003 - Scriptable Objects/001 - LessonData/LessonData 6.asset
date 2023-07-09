@@ -24,7 +24,12 @@ MonoBehaviour:
   <StarQuota>k__BackingField: 12
   <HasDialogueScene>k__BackingField: 0
   <CorrespondingDialogueScene>k__BackingField: 
-  <IntroductoryMessages>k__BackingField: []
+  <IntroductoryMessages>k__BackingField:
+  - Well done, hero. You looked really cool taking down those Icicle Slimes.
+  - The next area is gonna feel both chilly and windy. That's because your next opponent
+    is the Wind Slime
+  - You'll need to learn how to Multiply by 8s and 9s to take them down.
+  - Let's get started with learning
   <IntroTypeSpeed>k__BackingField: 0.03
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 8288717828800691709, guid: 92b04c75ebe73af408d887f4312dba5b, type: 3}

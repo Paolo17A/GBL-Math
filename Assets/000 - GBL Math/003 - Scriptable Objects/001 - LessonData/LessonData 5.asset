@@ -24,7 +24,11 @@ MonoBehaviour:
   <StarQuota>k__BackingField: 9
   <HasDialogueScene>k__BackingField: 0
   <CorrespondingDialogueScene>k__BackingField: 
-  <IntroductoryMessages>k__BackingField: []
+  <IntroductoryMessages>k__BackingField:
+  - The magma slimes have been taken care of. Well done, hero!
+  - I hope you're ready to learn about multiplying by 6s and 7s.
+  - Because it's time to take on Icicle slimes.
+  - Let's get started.
   <IntroTypeSpeed>k__BackingField: 0.03
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 8126981473651609928, guid: 3d528f2a2ac18864ba1f48b6b2cecacd, type: 3}
