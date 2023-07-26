@@ -31,7 +31,7 @@ MonoBehaviour:
   - You'll need to learn how to Multiply by 8s and 9s to take them down.
   - Let's get started with learning
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 8288717828800691709, guid: 92b04c75ebe73af408d887f4312dba5b, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 377325ef0f8fdae4fa1a890b43eaed6d, type: 3}
   <LessonQuestions>k__BackingField:

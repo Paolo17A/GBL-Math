@@ -30,7 +30,7 @@ MonoBehaviour:
   - Because it's time to take on Icicle slimes.
   - Let's get started.
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 8126981473651609928, guid: 3d528f2a2ac18864ba1f48b6b2cecacd, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 24f7af68e122e6343ad1258e310913fb, type: 3}
   <LessonQuestions>k__BackingField:

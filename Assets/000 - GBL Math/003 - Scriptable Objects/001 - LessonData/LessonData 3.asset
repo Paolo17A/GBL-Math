@@ -31,7 +31,7 @@ MonoBehaviour:
     by 2s and 3s to take it down.
   - Let's get to it. King Arthur wants his crown back.
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 8469800212195364157, guid: 725f9b3bbef9abe499605b049c4a8499, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: d2fd8c0d761f76140ac7f9f07c875011, type: 3}
   <LessonQuestions>k__BackingField:

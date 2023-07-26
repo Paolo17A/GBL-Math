@@ -88,6 +88,8 @@ public class PostGameCore : MonoBehaviour
                             PlayerData.GetLevelStar(GameManager.Instance.CurrentLesson.LessonIndex).LevelStars = CombatCore.PlayerCharacter.GetStarCount();
                             UpdateLevelStarsPlayFab();
                         }
+                        else if (CombatCore.PlayerCharacter.GetStarCount() > 1)
+                            GrantCoinsToUser();
                         else
                         {
                             GameManager.Instance.LoadingPanel.SetActive(false);

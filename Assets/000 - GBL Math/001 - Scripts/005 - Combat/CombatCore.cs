@@ -429,23 +429,36 @@ public class CombatCore : MonoBehaviour
 
     public void ContinueToNextLevel()
     {
-        if (PlayerData.CurrentLessonIndex > GameManager.Instance.AllLessons.Count)
+        //  The user has finished all available levels already
+        if (GameManager.Instance.CurrentLesson.LessonIndex >= GameManager.Instance.AllLessons.Count && PlayerData.CurrentLessonIndex > GameManager.Instance.AllLessons.Count)
         {
             GameManager.Instance.AudioManager.KillBackgroundMusic();
             GameManager.Instance.SceneController.CurrentScene = "EndingScene";
         }
         else
         {
-            GameManager.Instance.CurrentLesson = GameManager.Instance.AllLessons[PlayerData.CurrentLessonIndex - 1];
-            if (GameManager.Instance.CurrentLesson.LessonIndex == PlayerData.CurrentLessonIndex)
+            //  Set the new current lesson
+            GameManager.Instance.CurrentLesson = GameManager.Instance.AllLessons[GameManager.Instance.CurrentLesson.LessonIndex];
+
+            //  Check if the user has enough stars to play the next level
+            if (GameManager.Instance.CurrentLesson.StarQuota > PlayerData.GetTotalStars())
             {
-                GameManager.Instance.AudioManager.KillBackgroundMusic();
-                GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
+                Debug.Log("NOT ENOUGH STARS");
+                GameManager.Instance.CurrentLesson = null;
+                GameManager.Instance.SceneController.CurrentScene = "MainMenuScene";
             }
             else
             {
-                CurrentCombatState = CombatStates.COUNTDOWN;
-                ResumeGame();
+                if (GameManager.Instance.CurrentLesson.LessonIndex == PlayerData.CurrentLessonIndex)
+                {
+                    GameManager.Instance.AudioManager.KillBackgroundMusic();
+                    GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
+                }
+                else
+                {
+                    CurrentCombatState = CombatStates.COUNTDOWN;
+                    ResumeGame();
+                }
             }
         }
     }

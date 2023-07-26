@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989019519570124122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.11, y: 1.27, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.64, y: -3.19, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -127,8 +127,10 @@ MonoBehaviour:
   thisCharacterType: 2
   thisAttackType: 1
   anim: {fileID: 989019519570124121}
-  CharacterOriginPoint: {x: 4.44, y: 0.82, z: 0}
-  CharacterAttackPoint: {x: -2.5, y: 0.82, z: 0}
+  CharacterOriginPoint: {x: 6.64, y: -3.19, z: 0}
+  CharacterAttackPoint: {x: -3.7, y: -3.19, z: 0}
+  AnimatedHat: {fileID: 0}
+  HatSprite: {fileID: 0}
   MaxHealth: 15
   HealthContainer: {fileID: 0}
   CurrentHealth: 0

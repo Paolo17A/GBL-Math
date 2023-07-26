@@ -33,7 +33,7 @@ MonoBehaviour:
   - Let's start with learning how to multiply by 4s and 5s. That's all we need to
     take down the Magma Slime.
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 23619443532357410, guid: 0e272584e43a6f042b08446152a08b81, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: daaca68ee7760924587af205357705fa, type: 3}
   <LessonQuestions>k__BackingField:

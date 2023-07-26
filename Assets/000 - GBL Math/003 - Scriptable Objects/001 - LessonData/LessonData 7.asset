@@ -29,7 +29,7 @@ MonoBehaviour:
     fine.
   - Let me teach you how.
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 670660200740735042, guid: dd0046fc78ec4ee4293c74bd95cc2c2a, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 18987026d9822b340b6eb030c8071b4e, type: 3}
   <LessonQuestions>k__BackingField:

@@ -128,7 +128,6 @@ public class DiscussionCore : MonoBehaviour, IDialogue
 
     private void OnVideoPrepared(VideoPlayer player)
     {
-        Debug.Log("video player ready");
         player.prepareCompleted -= OnVideoPrepared;
     }
 
@@ -177,7 +176,10 @@ public class DiscussionCore : MonoBehaviour, IDialogue
                 PlayerData.CoinCount = resultCallback.VirtualCurrency["CO"];
                 PlayerData.EnergyCount = resultCallback.VirtualCurrency["EN"];
                 if(PlayerData.EnergyCount == 3)
+                {
+                    GameManager.Instance.LoadingPanel.SetActive(false);
                     CurrentDiscussionState = DiscussionStates.INVITATION;
+                }
                 else
                     GrantEnergyPlayFab();
             },

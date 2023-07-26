@@ -34,7 +34,7 @@ MonoBehaviour:
     different parts of multiplication.
   - Let's get started.
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 6843458367036956808, guid: 6de6c6f91a0237b45a9dfd6c5a123533, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: dc0a10a54f7042d459bcef1cc9bcd9e8, type: 3}
   <LessonQuestions>k__BackingField:

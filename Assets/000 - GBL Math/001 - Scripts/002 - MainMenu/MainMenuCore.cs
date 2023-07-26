@@ -53,6 +53,7 @@ public class MainMenuCore : MonoBehaviour
     #region VARIABLES
     //=============================================================================================================
     [SerializeField] private PlayerData PlayerData;
+    [SerializeField] private List<HatData> AllAvailableHats;
 
     [Header("PANELS")]
     [SerializeField] private RectTransform LoginRT;
@@ -132,7 +133,6 @@ public class MainMenuCore : MonoBehaviour
     }
     public void ShowMainMenuPanel()
     {
-        EnergyCountTMP.text = PlayerData.EnergyCount.ToString();
         GameManager.Instance.AnimationsLT.FadePanel(MainMenuRT, null, MainMenuCG, 0, 1, () => { });
     }
 
@@ -351,6 +351,12 @@ public class MainMenuCore : MonoBehaviour
                 GameManager.Instance.LoadingPanel.SetActive(false);
                 PlayerData.EnergyCount = resultCallback.VirtualCurrency["EN"];
                 PlayerData.CoinCount = resultCallback.VirtualCurrency["CO"];
+
+                PlayerData.OwnedHats.Clear();
+                foreach (ItemInstance item in resultCallback.Inventory)
+                    if (item.ItemClass == "HAT")
+                        PlayerData.OwnedHats.Add(new PlayerData.OwnedHat(item.ItemInstanceId, GetProperHat(item.ItemId)));
+
                 HideLoginPanel();
                 ResetLoginFields();
                 CurrentMainMenuState = MainMenuStates.MAINMENU;
@@ -478,6 +484,8 @@ public class MainMenuCore : MonoBehaviour
                 AllLessons[i].HideStars();
             }
         }
+        EnergyCountTMP.text = PlayerData.EnergyCount.ToString();
+        StarCountTMP.text = PlayerData.GetTotalStars().ToString("n0");
     }
     #endregion
 
@@ -565,6 +573,16 @@ public class MainMenuCore : MonoBehaviour
         }
         else
             errorAction();
+    }
+    #endregion
+
+    #region UTILITY
+    public HatData GetProperHat(string hatID)
+    {
+        foreach (HatData hat in AllAvailableHats)
+            if (hat.HatID == hatID)
+                return hat;
+        return null;
     }
     #endregion
 }

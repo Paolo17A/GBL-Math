@@ -11759,6 +11759,9 @@ MonoBehaviour:
   - {fileID: 1222846506}
   - {fileID: 854962961}
   - {fileID: 1826011835}
+  - {fileID: 2081316413}
+  - {fileID: 1343541204}
+  - {fileID: 1953736513}
   PopUpLessonPanel: {fileID: 1538181903}
   LessonDetailsTMP: {fileID: 509474433}
   CoinRewardTMP: {fileID: 1720493543}

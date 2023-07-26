@@ -28,7 +28,7 @@ MonoBehaviour:
   <CorrespondingDialogueScene>k__BackingField: DoubleDialogueScene
   <IntroductoryMessages>k__BackingField: []
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 86281b14674b0714ba68de3fd8fd862d, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 989019519570124122, guid: 9f38f0408b72c4f4eb56af6a93d8576b, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: e652d1c649053a949ae2575c972bad81, type: 3}
   <LessonQuestions>k__BackingField:

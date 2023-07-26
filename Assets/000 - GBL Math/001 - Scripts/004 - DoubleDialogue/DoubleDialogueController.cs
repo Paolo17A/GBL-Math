@@ -21,6 +21,7 @@ public class DoubleDialogueController : MonoBehaviour
 
     private void Start()
     {
+        GameManager.Instance.AudioManager.KillBackgroundMusic();
         DoubleDialogueCore.CurrentDoubleDialogueState = DoubleDialogueCore.DoubleDialogueStates.DOUBLE_DIALOGUE;
     }
 
