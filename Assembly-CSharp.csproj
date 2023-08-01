@@ -111,6 +111,7 @@
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\000 - GameManager\AnimationsLT.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\003 - Scriptable Objects\003 - QuestionData\QuestionData.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\000 - GBL Math\001 - Scripts\002 - MainMenu\FinishedLessonDataHandler.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\005 - Combat\PostGameCore.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\000 - GBL Math\001 - Scripts\004 - DoubleDialogue\DoubleDialogueController.cs" />

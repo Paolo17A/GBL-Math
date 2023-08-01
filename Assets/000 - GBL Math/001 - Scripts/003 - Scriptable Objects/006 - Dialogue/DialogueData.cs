@@ -9,4 +9,5 @@ public class DialogueData : ScriptableObject
     [field: SerializeField] public string DialogueSpeaker { get; set; }
     [field: SerializeField][field: TextArea(minLines:5, maxLines: 10)] public string DialogueContent { get; set; }
     [field: SerializeField] public float TypeSpeed { get; set; }
+    [field: SerializeField] public AudioClip DialogueVoiceOver { get; set; }
 }

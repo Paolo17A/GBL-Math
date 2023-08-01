@@ -9,6 +9,7 @@ using UnityEngine.UI;
 using PlayFab;
 using PlayFab.ClientModels;
 using Newtonsoft.Json;
+using UnityEngine.Video;
 
 public class MainMenuCore : MonoBehaviour
 {
@@ -23,7 +24,8 @@ public class MainMenuCore : MonoBehaviour
         LESSON_SELECT,
         SETTINGS,
         QUIT,
-
+        FINISHED_LESSONS,
+        REVIEW_VIDEO
     }
 
     private event EventHandler mainMenuStateChange;
@@ -68,6 +70,10 @@ public class MainMenuCore : MonoBehaviour
     [SerializeField] private CanvasGroup SettingsCG;
     [SerializeField] private RectTransform QuitRT;
     [SerializeField] private CanvasGroup QuitCG;
+    [SerializeField] private RectTransform FinishedLessonsRT;
+    [SerializeField] private CanvasGroup FinishedLessonsCG;
+    [SerializeField] private RectTransform ReviewVideoRT;
+    [SerializeField] private CanvasGroup ReviewVideoCG;
 
     [Header("LOGIN")]
     [SerializeField] private TMP_InputField LoginEmailTMPInput;
@@ -85,8 +91,7 @@ public class MainMenuCore : MonoBehaviour
     [Header("LESSON SELECT")]
     [SerializeField] private TextMeshProUGUI StarCountTMP;
     [SerializeField] private TextMeshProUGUI EnergyCountTMP;
-    [SerializeField] private GameObject LessonButtonsContainer;
-    [SerializeField] private GameObject DiscussionButtonsContainer;
+    [SerializeField] private Button ReviewBtn;
     [SerializeField] private List<LessonDataHandler> AllLessons;
 
     [Header("SELECTED LESSON")]
@@ -96,6 +101,17 @@ public class MainMenuCore : MonoBehaviour
     [SerializeField] private TextMeshProUGUI StarQuotaTMP;
     [SerializeField] private TextMeshProUGUI SelectLevelButtonTMP;
     [ReadOnly] public LessonData SelectedLessonData;
+
+    [Header("FINISHED LESSONS")]
+    [SerializeField] private List<FinishedLessonDataHandler> AllFinishedLessons;
+    [ReadOnly] public LessonData SelectedFinishedLessonData;
+
+    [Header("VIDEO")]
+    [SerializeField] private VideoPlayer videoPlayer;
+    [SerializeField] private RawImage videoPlaybackImage;
+    [SerializeField] private Button PauseBtn;
+    [SerializeField] private Sprite PauseSprite;
+    [SerializeField] private Sprite PlaySprite;
 
     [Header("BACKGROUND MUSIC")]
     [SerializeField] private AudioClip MainMenuBGMusic;
@@ -171,6 +187,26 @@ public class MainMenuCore : MonoBehaviour
         GameManager.Instance.AnimationsLT.FadePanel(QuitRT, QuitRT, QuitCG, 1, 0, () => { });
     }
 
+    public void ShowFinishedLessonsPanel()
+    {
+        GameManager.Instance.AnimationsLT.FadePanel(FinishedLessonsRT, null, FinishedLessonsCG, 0, 1, () => { });
+    }
+
+    public void HideFinishedLessonsPanel()
+    {
+        GameManager.Instance.AnimationsLT.FadePanel(FinishedLessonsRT, FinishedLessonsRT, FinishedLessonsCG, 1, 0, () => { });
+    }
+
+    public void ShowReviewVideoPanel()
+    {
+        GameManager.Instance.AnimationsLT.FadePanel(ReviewVideoRT, null, ReviewVideoCG, 0, 1, () => { });
+    }
+
+    public void HideReviewVideoPanel()
+    {
+        GameManager.Instance.AnimationsLT.FadePanel(ReviewVideoRT, ReviewVideoRT, ReviewVideoCG, 1, 0, () => { });
+    }
+
     public void MainMenuStateToIndex(int index)
     {
         switch (index)
@@ -192,6 +228,9 @@ public class MainMenuCore : MonoBehaviour
                 break;
             case (int)MainMenuStates.QUIT:
                 CurrentMainMenuState = MainMenuStates.QUIT;
+                break;
+            case (int)MainMenuStates.FINISHED_LESSONS:
+                CurrentMainMenuState = MainMenuStates.FINISHED_LESSONS;
                 break;
         }
     }
@@ -466,6 +505,7 @@ public class MainMenuCore : MonoBehaviour
     #region MAIN MENU
     public void InitializePlayerData()
     {
+        //  LESSON SELECT
         for (int i = 0; i < AllLessons.Count; i++)
         {
             if (i < PlayerData.CurrentLessonIndex)
@@ -486,6 +526,20 @@ public class MainMenuCore : MonoBehaviour
         }
         EnergyCountTMP.text = PlayerData.EnergyCount.ToString();
         StarCountTMP.text = PlayerData.GetTotalStars().ToString("n0");
+
+        //  FINISHED LESSONS
+        if (PlayerData.CurrentLessonIndex >= 2)
+            ReviewBtn.gameObject.SetActive(true);
+        else
+            ReviewBtn.gameObject.SetActive(false);
+        for(int i = 0; i < AllFinishedLessons.Count; i++)
+        {
+            if(i  < PlayerData.CurrentLessonIndex - 1)
+                AllFinishedLessons[i].GetComponent<Button>().interactable = true;       
+            else
+                AllFinishedLessons[i].GetComponent<Button>().interactable = false;
+
+        }
     }
     #endregion
 
@@ -558,6 +612,75 @@ public class MainMenuCore : MonoBehaviour
         Application.Quit();
     }
     #endregion
+    #endregion
+
+    #region VIDEO
+    public void InitializeVideoPlayer()
+    {
+        videoPlaybackImage.gameObject.SetActive(false);
+        videoPlayer.clip = SelectedFinishedLessonData.LessonVideo;
+        videoPlayer.Prepare();
+        videoPlayer.prepareCompleted += OnVideoPrepared;
+        videoPlayer.loopPointReached += OnVideoFinish;
+    }
+
+    private void OnVideoPrepared(VideoPlayer player)
+    {
+        player.prepareCompleted -= OnVideoPrepared;
+    }
+
+    public void OnVideoFinish(VideoPlayer player)
+    {
+        player.loopPointReached -= OnVideoFinish;
+    }
+
+    public void PlayVideo()
+    {
+        GameManager.Instance.AudioManager.PauseBGM();
+        videoPlaybackImage.gameObject.SetActive(true);
+        videoPlayer.Play();
+        PauseBtn.GetComponent<Image>().sprite = PauseSprite;
+    }
+
+    public void PauseVideo()
+    {
+        if(videoPlayer.isPlaying)
+        {
+            videoPlayer.Pause();
+            PauseBtn.GetComponent<Image>().sprite = PlaySprite;
+        }
+        else
+        {
+            videoPlayer.Play();
+            PauseBtn.GetComponent<Image>().sprite = PauseSprite;
+        }
+    }
+
+    public void Rewind5Seconds()
+    {
+        if (videoPlayer.time - 5f > 0)
+            videoPlayer.time -= 5f;
+        else
+            videoPlayer.time = 0;
+    }
+
+    public void FastForward5Seconds()
+    {
+        if (videoPlayer.time + 5f > videoPlayer.length)
+            videoPlayer.time += 5f;
+        else
+            videoPlayer.time = videoPlayer.length;
+    }
+
+
+    public void LeaveVideo()
+    {
+        GameManager.Instance.AudioManager.ResumeBGM();
+        videoPlayer.Stop();
+        HideReviewVideoPanel();
+        CurrentMainMenuState = MainMenuStates.FINISHED_LESSONS;
+        SelectedFinishedLessonData = null;
+    }
     #endregion
 
     #region ERROR

@@ -52,6 +52,13 @@ public class MainMenuController : MonoBehaviour
             case MainMenuCore.MainMenuStates.QUIT:
                 MainMenuCore.ShowQuitPanel();
                 break;
+            case MainMenuCore.MainMenuStates.FINISHED_LESSONS:
+                MainMenuCore.ShowFinishedLessonsPanel();
+                break;
+            case MainMenuCore.MainMenuStates.REVIEW_VIDEO:
+                MainMenuCore.ShowReviewVideoPanel();
+                MainMenuCore.PlayVideo();
+                break;
         }
     }
 
