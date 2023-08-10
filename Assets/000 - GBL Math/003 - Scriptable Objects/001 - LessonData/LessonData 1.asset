@@ -27,34 +27,46 @@ MonoBehaviour:
   <HasDialogueScene>k__BackingField: 0
   <CorrespondingDialogueScene>k__BackingField: 
   <IntroductoryMessages>k__BackingField:
-  - 'Hello again, brave explorer. Before you go out on your adventure, you need to
-    prepare. '
-  - King Slime has seven powerful slime warriors that you will have to fight first.
-  - Your first opponent will be the Spiked Slime. To defeat it, you must be knowledgable
-    on multiplication properties.
-  - Let me help you
-  <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
+  - Hi, brave explorer! Before you start your amazing adventure, let's get you all
+    prepared.
+  - King Slime has a team of super strong slime warriors, and guess what? You get
+    to face them! But don't worry, we'll take it one step at a time. Your first challenge
+    is the Spiked Slime.
+  - To conquer this bumpy opponent, you'll need to know all about multiplication
+    properties. And guess who's going to help you learn? Me, your friendly Wizard
+    guide!
+  - Remember your pet slime, Gumball? Well, Gumball will be the one actually battling
+    the Spiked Slime. But don't fret, I'll make sure you're both ready for the challenge.
+  - Alright, let's dive into multiplication and make sure you and Gumball are totally
+    ready to take on that Spiked Slime in the battle!
+  <MessageVoiceovers>k__BackingField:
+  - {fileID: 8300000, guid: 03ab8b834967e0e4b819cca8f1e75392, type: 3}
+  - {fileID: 8300000, guid: 35d7c6a05a1d9004abd8dc62d82f9523, type: 3}
+  - {fileID: 8300000, guid: cc8f6e0191768134dbe46d6f0d1a8d9c, type: 3}
+  - {fileID: 8300000, guid: f8fd055db961bb64b8774f81d8e4f46f, type: 3}
+  - {fileID: 8300000, guid: 9ee688ff97c21234cba068be3dc03717, type: 3}
+  <IntroTypeSpeed>k__BackingField: 0.06
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: d8283b3260bb5ec4fadb50ed01033a9b, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 452180268159858161, guid: 11adf4c9efa5efc49a4f6a3759734c8c, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 47b4dda971af52e41be6fcf8e7b09465, type: 3}
   <LessonQuestions>k__BackingField:
+  - {fileID: 11400000, guid: e51ac9165623adb479584a2ae6d7369d, type: 2}
+  - {fileID: 11400000, guid: 546ecd6b320e7eb42a203208f41f461d, type: 2}
+  - {fileID: 11400000, guid: e3dc39b72092b6a4cad5e141d523af63, type: 2}
+  - {fileID: 11400000, guid: 831436f4241c6184aaa9216de6f14258, type: 2}
+  - {fileID: 11400000, guid: 8813acdc641c37b46ab944e7069ad5c0, type: 2}
+  - {fileID: 11400000, guid: 71e3b10ae2fbd2b4a93514119a40a20f, type: 2}
+  - {fileID: 11400000, guid: db46e3e34bc1dd24b9911edd3197283b, type: 2}
+  - {fileID: 11400000, guid: 3d20edf301e569a4785ec063e7bcf7a1, type: 2}
+  - {fileID: 11400000, guid: 5bab2f74d49e922489d804358af5ab1a, type: 2}
+  - {fileID: 11400000, guid: d581eb53002efe34e83936142726dc57, type: 2}
+  - {fileID: 11400000, guid: be2f0f0198eb3124599c55f72c087a49, type: 2}
+  - {fileID: 11400000, guid: 1ff0e61ee4cbc7e429e9800c1f7c4bd7, type: 2}
+  - {fileID: 11400000, guid: 3206d9c504a906d418c32e1564eef8d9, type: 2}
+  - {fileID: 11400000, guid: 1b52ca72439c221419e073ed215c703b, type: 2}
+  - {fileID: 11400000, guid: 3372cda97e8ff5941b05a270f0f1483a, type: 2}
+  - {fileID: 11400000, guid: a3fc86abe44e1b24c89b853018fc028c, type: 2}
   - {fileID: 11400000, guid: 2875b2e02944e55448b4b0c0980d1709, type: 2}
   - {fileID: 11400000, guid: bee9d28908f6f1b4d9c382031926a89d, type: 2}
-  - {fileID: 11400000, guid: 3206d9c504a906d418c32e1564eef8d9, type: 2}
-  - {fileID: 11400000, guid: 71e3b10ae2fbd2b4a93514119a40a20f, type: 2}
-  - {fileID: 11400000, guid: e3dc39b72092b6a4cad5e141d523af63, type: 2}
-  - {fileID: 11400000, guid: e286be5ec2d261f4fbee91a1e6c1beed, type: 2}
-  - {fileID: 11400000, guid: db46e3e34bc1dd24b9911edd3197283b, type: 2}
-  - {fileID: 11400000, guid: 1b52ca72439c221419e073ed215c703b, type: 2}
-  - {fileID: 11400000, guid: be2f0f0198eb3124599c55f72c087a49, type: 2}
-  - {fileID: 11400000, guid: 831436f4241c6184aaa9216de6f14258, type: 2}
-  - {fileID: 11400000, guid: a3fc86abe44e1b24c89b853018fc028c, type: 2}
-  - {fileID: 11400000, guid: 8813acdc641c37b46ab944e7069ad5c0, type: 2}
-  - {fileID: 11400000, guid: 3d20edf301e569a4785ec063e7bcf7a1, type: 2}
-  - {fileID: 11400000, guid: 3372cda97e8ff5941b05a270f0f1483a, type: 2}
   - {fileID: 11400000, guid: 5a14d15334c9606458ef05b662c59f84, type: 2}
-  - {fileID: 11400000, guid: 1ff0e61ee4cbc7e429e9800c1f7c4bd7, type: 2}
-  - {fileID: 11400000, guid: e51ac9165623adb479584a2ae6d7369d, type: 2}
-  - {fileID: 11400000, guid: 5bab2f74d49e922489d804358af5ab1a, type: 2}
-  - {fileID: 11400000, guid: 546ecd6b320e7eb42a203208f41f461d, type: 2}
-  - {fileID: 11400000, guid: d581eb53002efe34e83936142726dc57, type: 2}
+  - {fileID: 11400000, guid: e286be5ec2d261f4fbee91a1e6c1beed, type: 2}

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: DialogueData 2
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Princess Renata
-  <DialogueContent>k__BackingField: Well done, brave hero!
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: Amazing job, brave hero.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 794d7b03859b0d54a94744980a3c7b5a, type: 3}

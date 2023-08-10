@@ -97,8 +97,17 @@ public class IntroStoryCore : MonoBehaviour, IDialogue
        DialogueContainer.SetActive(true);
         SkipBtn.interactable = true;
         ContinueBtn.interactable = false;
-        if(CurrentIntroStoryState == IntroStoryStates.INTRO_SELF_DIALOGUE)
+        
+        if (CurrentIntroStoryState == IntroStoryStates.INTRO_SELF_DIALOGUE)
         {
+            if (IntroductionDialogues[CurrentDialogueIndex].DialogueVoiceOver != null)
+            {
+                if (GameManager.Instance.AudioManager.IsStillTalking())
+                    GameManager.Instance.AudioManager.KillSoundEffect();
+                if (CurrentDialogueIndex == 0)
+                    yield return new WaitForSeconds(0.5f);
+                GameManager.Instance.AudioManager.PlayAudioClip(IntroductionDialogues[CurrentDialogueIndex].DialogueVoiceOver);
+            }
             foreach (char c in IntroductionDialogues[CurrentDialogueIndex].LessonText)
             {
                 DialogueTMP.text += c;
@@ -107,6 +116,12 @@ public class IntroStoryCore : MonoBehaviour, IDialogue
         }
         else if (CurrentIntroStoryState == IntroStoryStates.GIVE_SLIME_DIALOGUE)
         {
+            if (SlimeRelatedDialogues[CurrentDialogueIndex].DialogueVoiceOver != null)
+            {
+                if (GameManager.Instance.AudioManager.IsStillTalking())
+                    GameManager.Instance.AudioManager.KillSoundEffect();
+                GameManager.Instance.AudioManager.PlayAudioClip(SlimeRelatedDialogues[CurrentDialogueIndex].DialogueVoiceOver);
+            }
             foreach (char c in SlimeRelatedDialogues[CurrentDialogueIndex].LessonText)
             {
                 DialogueTMP.text += c;
@@ -196,6 +211,8 @@ public class IntroStoryCore : MonoBehaviour, IDialogue
     #region USER INPUT
     public void ProceedDialogue()
     {
+        if (GameManager.Instance.AudioManager.IsStillTalking())
+            GameManager.Instance.AudioManager.KillSoundEffect();
         if (CurrentIntroStoryState == IntroStoryStates.INTRO_SELF_DIALOGUE)
         {
             if (IntroductionDialogues.Count == 0 || CurrentDialogueIndex == IntroductionDialogues.Count - 1)

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 0
-  <LessonText>k__BackingField: I believe in you. Now, go, retrieve the princess's
-    crown, defeat King Slime, and bring peace to Math Kingdom!
-  <LessonWriteSpeed>k__BackingField: 0.03
-  <LessonSprite>k__BackingField: {fileID: 0}
-  <LessonDescriptionText>k__BackingField: 
+  <LessonText>k__BackingField: I have full faith in your abilities. Now, embark on
+    your quest, recover the princess's crown, conquer King Slime, and bring harmony
+    to the wondrous realm of Math Kingdom!
+  <LessonWriteSpeed>k__BackingField: 0.06
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 6222d6459ec991a489ce26f86dfee844, type: 3}

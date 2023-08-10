@@ -45,6 +45,11 @@ public class AudioManager : MonoBehaviour
         BGMSource.Stop();
     }
 
+    public void KillSoundEffect()
+    {
+        SFXSource.Stop();
+    }
+
     public void PlayAudioClip(AudioClip clip)
     {
         SFXSource.PlayOneShot(clip);

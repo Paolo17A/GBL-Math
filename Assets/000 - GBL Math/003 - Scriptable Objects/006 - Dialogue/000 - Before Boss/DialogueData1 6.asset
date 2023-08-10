@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData1 6
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Princess Renata
-  <DialogueContent>k__BackingField: Remember, King Slime is very strong. But so are
-    you and Gumball.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: Remember, King Slime is strong, but so are you
+    and Gumball.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: f2b1a8d2b15ac13459cbf5f0d474a8a4, type: 3}

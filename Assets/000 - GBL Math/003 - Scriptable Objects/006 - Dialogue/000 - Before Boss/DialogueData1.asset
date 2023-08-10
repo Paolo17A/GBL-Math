@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: DialogueData1
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Minerva the Wizard
-  <DialogueContent>k__BackingField: You'll need everything you've learned about Multiplication
-    to take him down. It's time for your final test of strength, courage, and knowledge.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: All the multiplication skills you've learned
+    will come in handy. This is your chance to show your bravery, strength, and smarts.
+    You got this!
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: c2d117e5808b1d74ea02b945cc498532, type: 3}

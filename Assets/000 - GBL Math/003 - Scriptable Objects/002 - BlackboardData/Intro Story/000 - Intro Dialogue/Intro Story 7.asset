@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 0
-  <LessonText>k__BackingField: That's why I'm gonna give you a companion for your
-    journey.
-  <LessonWriteSpeed>k__BackingField: 0.03
-  <LessonSprite>k__BackingField: {fileID: 0}
-  <LessonDescriptionText>k__BackingField: 
+  <LessonText>k__BackingField: Say hello to your adventure buddy, Gumball. C'mon
+    over, Gumball, and let's show these slimes some friendly magic!
+  <LessonWriteSpeed>k__BackingField: 0.06
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 9f4580a12adf41e40ab5fbb9258c0c15, type: 3}

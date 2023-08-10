@@ -20,6 +20,7 @@ public class IntroStoryController : MonoBehaviour
 
     private void Start()
     {
+        GameManager.Instance.AudioManager.KillBackgroundMusic();
         IntroStoryCore.CurrentIntroStoryState = IntroStoryCore.IntroStoryStates.INTRO_SELF_DIALOGUE;
     }
 

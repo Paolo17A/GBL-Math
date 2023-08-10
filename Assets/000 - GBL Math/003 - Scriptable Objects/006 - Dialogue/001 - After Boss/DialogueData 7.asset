@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData 7
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Princess Renata
-  <DialogueContent>k__BackingField: The kingdom will now feast and celebrate yoiur
-    intelligence and bravery.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: The kingdom will now admire and cheer for your
+    cleverness and courage.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 23f16bc83c4759f4489744371ce42d9e, type: 3}

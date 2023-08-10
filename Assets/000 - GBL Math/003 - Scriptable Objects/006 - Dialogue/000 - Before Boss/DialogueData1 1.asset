@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData1 1
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Minerva the Wizard
-  <DialogueContent>k__BackingField: Greetings, brave explorer. You have defeated
-    all of King Slime's mightiest warriors.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: Hi, brave friend! You've done an awesome job
+    beating all of King Slime's toughest fighters.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 7d185fc8d76f9644a99bb4517168a8b4, type: 3}

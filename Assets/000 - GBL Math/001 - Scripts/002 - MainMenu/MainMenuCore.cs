@@ -658,18 +658,22 @@ public class MainMenuCore : MonoBehaviour
 
     public void Rewind5Seconds()
     {
+        videoPlayer.Pause();
         if (videoPlayer.time - 5f > 0)
             videoPlayer.time -= 5f;
         else
             videoPlayer.time = 0;
+        videoPlayer.Play();
     }
 
     public void FastForward5Seconds()
     {
+        videoPlayer.Pause();
         if (videoPlayer.time + 5f > videoPlayer.length)
             videoPlayer.time += 5f;
         else
             videoPlayer.time = videoPlayer.length;
+        videoPlayer.Play();
     }
 
 

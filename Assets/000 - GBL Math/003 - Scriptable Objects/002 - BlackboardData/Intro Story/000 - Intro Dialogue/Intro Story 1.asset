@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 1
-  <LessonText>k__BackingField: Hi there, brave hero! Welcome to Slime Valley. I've
-    got an important mission for you.
-  <LessonWriteSpeed>k__BackingField: 0.03
-  <LessonSprite>k__BackingField: {fileID: 0}
-  <LessonDescriptionText>k__BackingField: 
+  <LessonText>k__BackingField: Greetings, brave adventurer! Step into the enchanting
+    realm of Slime Valley, where an exciting quest awaits you.
+  <LessonWriteSpeed>k__BackingField: 0.06
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: b0c5a840ac0bf434ca6a0f0ac3009b2a, type: 3}

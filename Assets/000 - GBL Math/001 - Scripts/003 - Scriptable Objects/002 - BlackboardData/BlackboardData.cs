@@ -12,9 +12,6 @@ public class BlackboardData : ScriptableObject
     [field: Header("TEXT TYPE ONLY")]
     [field: SerializeField][field: TextArea(minLines: 10, maxLines: 20)] public string LessonText { get; set; }
     [field: SerializeField] public float LessonWriteSpeed { get; set; }
+    [field: SerializeField] public AudioClip DialogueVoiceOver { get; set; }
 
-
-    [field: Header("IMAGE TYPE ONLY")]
-    [field: SerializeField] public Sprite LessonSprite { get; set; }
-    [field: SerializeField][field: TextArea(minLines: 10, maxLines: 20)] public string LessonDescriptionText { get; set; }
 }

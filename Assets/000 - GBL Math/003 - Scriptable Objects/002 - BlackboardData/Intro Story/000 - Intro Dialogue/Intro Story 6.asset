@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 0
-  <LessonText>k__BackingField: 'The village needs you, brave hero. But of course,
-    you can''t go on an adventure alone. '
-  <LessonWriteSpeed>k__BackingField: 0.03
-  <LessonSprite>k__BackingField: {fileID: 0}
-  <LessonDescriptionText>k__BackingField: 
+  <LessonText>k__BackingField: The whole kingdom is cheering for you, brave hero.
+    And you won't be alone on this journey!
+  <LessonWriteSpeed>k__BackingField: 0.06
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 723b57e038bd46648a5814f1ca33a75b, type: 3}

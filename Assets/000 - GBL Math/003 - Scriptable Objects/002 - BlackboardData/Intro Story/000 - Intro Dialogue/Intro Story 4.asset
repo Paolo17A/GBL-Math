@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 0
-  <LessonText>k__BackingField: Along the way, you'll encounter King Slime's touchest
-    warriors. Remember, they're weak against Multiplication!
-  <LessonWriteSpeed>k__BackingField: 0.03
-  <LessonSprite>k__BackingField: {fileID: 0}
-  <LessonDescriptionText>k__BackingField: 
+  <LessonText>k__BackingField: "As you travel, you\u2019ll meet King Slime\u2019s
+    toughest fighters. But guess what? They're not very good at dealing with the
+    power of Multiplication!"
+  <LessonWriteSpeed>k__BackingField: 0.06
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 683efb33060df17498ab944910ccfe98, type: 3}

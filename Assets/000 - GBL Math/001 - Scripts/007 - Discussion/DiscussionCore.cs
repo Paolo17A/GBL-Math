@@ -57,10 +57,16 @@ public class DiscussionCore : MonoBehaviour, IDialogue
     [SerializeField][TextArea] private string InvitationText;
     [SerializeField][ReadOnly] private int CurrentDialogueIndex;
 
+    [Header("WELCOME BACK")]
+    [SerializeField] private List<AudioClip> WelcomeBackClips;
+
     [Header("VIDEO")]
     [SerializeField] private VideoPlayer videoPlayer;
     [SerializeField] private RawImage videoPlaybackImage;
     [SerializeField] private Slider VolumeSlider;
+
+    [Header("INVITATION")]
+    [SerializeField] private AudioClip InvitationClip;
 
     [Header("USER INPUT")]
     [SerializeField] private Button ProceedBtn;
@@ -84,6 +90,14 @@ public class DiscussionCore : MonoBehaviour, IDialogue
         ProceedBtn.gameObject.SetActive(false);
         if (CurrentDiscussionState == DiscussionStates.WELCOME_BACK)
         {
+            if(WelcomeBackClips.Count > 0 && WelcomeBackClips.Count >= CurrentDialogueIndex && WelcomeBackClips[CurrentDialogueIndex] != null)
+            {
+                if (GameManager.Instance.AudioManager.IsStillTalking())
+                    GameManager.Instance.AudioManager.KillSoundEffect();
+                if (CurrentDialogueIndex == 0)
+                    yield return new WaitForSeconds(0.5f);
+                GameManager.Instance.AudioManager.PlayAudioClip(WelcomeBackClips[CurrentDialogueIndex]);
+            }
             foreach (char c in WelcomeBackText[CurrentDialogueIndex])
             {
                 WizardSpeechTMP.text += c;
@@ -92,8 +106,17 @@ public class DiscussionCore : MonoBehaviour, IDialogue
         }
         else if (CurrentDiscussionState == DiscussionStates.INTRODUCTION)
         {
+            //  If there are no introductory messages, we will proceed straight to the discussion video.
             if (GameManager.Instance.CurrentLesson.IntroductoryMessages.Count > 0)
             {
+                if (GameManager.Instance.CurrentLesson.MessageVoiceovers.Count > 0 && GameManager.Instance.CurrentLesson.MessageVoiceovers.Count >= CurrentDialogueIndex && GameManager.Instance.CurrentLesson.MessageVoiceovers[CurrentDialogueIndex] != null)
+                {
+                    if (GameManager.Instance.AudioManager.IsStillTalking())
+                        GameManager.Instance.AudioManager.KillSoundEffect();
+                    if (CurrentDialogueIndex == 0)
+                        yield return new WaitForSeconds(0.5f);
+                    GameManager.Instance.AudioManager.PlayAudioClip(GameManager.Instance.CurrentLesson.MessageVoiceovers[CurrentDialogueIndex]);
+                }
                 foreach (char c in GameManager.Instance.CurrentLesson.IntroductoryMessages[CurrentDialogueIndex])
                 {
                     WizardSpeechTMP.text += c;

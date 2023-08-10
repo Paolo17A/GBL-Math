@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData1 3
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Minerva the Wizard
-  <DialogueContent>k__BackingField: But before you go on your final battle, Princess
-    Renata has something to say.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: ' before you head into the final battle, Princess
+    Renata has something special to say.'
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 4c3ca11e70ab72a488139c47265d5202, type: 3}

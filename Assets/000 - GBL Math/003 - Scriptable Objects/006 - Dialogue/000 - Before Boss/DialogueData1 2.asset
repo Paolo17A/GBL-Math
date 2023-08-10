@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData1 2
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Minerva the Wizard
-  <DialogueContent>k__BackingField: All that's left to do is to take on King Slime
+  <DialogueContent>k__BackingField: Now, the big challenge is taking on King Slime
     himself.
-  <TypeSpeed>k__BackingField: 0.03
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: ed448555ef2f043469be3311618a73d3, type: 3}

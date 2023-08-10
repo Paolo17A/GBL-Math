@@ -17,7 +17,8 @@ public class LessonData : ScriptableObject
     [field: SerializeField] public string CorrespondingDialogueScene { get; set; }
 
     [field: Header("DISCUSSION DATA")]
-    [field: SerializeField][field: TextArea] public List<string> IntroductoryMessages { get; set; }
+    [field: SerializeField][field: TextArea(minLines: 5, maxLines:10)] public List<string> IntroductoryMessages { get; set; }
+    [field:SerializeField] public List<AudioClip> MessageVoiceovers { get; set; }
     [field: SerializeField] public float IntroTypeSpeed { get; set; }
     [field: SerializeField] public VideoClip LessonVideo { get; set; }
      

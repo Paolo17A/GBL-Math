@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 0
-  <LessonText>k__BackingField: Your quest is to journey through Slime Valley, face
-    challenges, and get back the stolen crown from King Slime and his army of slime.
-  <LessonWriteSpeed>k__BackingField: 0.03
-  <LessonSprite>k__BackingField: {fileID: 0}
-  <LessonDescriptionText>k__BackingField: 
+  <LessonText>k__BackingField: Your special mission is to journey through the magical
+    Slime Valley, tackle fun challenges, and bring back that crown from the not-so-nice
+    King Slime and his slimy gang.
+  <LessonWriteSpeed>k__BackingField: 0.06
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 5df225ff11b533e4bbd04f617b79e478, type: 3}

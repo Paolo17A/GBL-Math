@@ -23,11 +23,16 @@ MonoBehaviour:
   <HasDialogueScene>k__BackingField: 0
   <CorrespondingDialogueScene>k__BackingField: 
   <IntroductoryMessages>k__BackingField:
-  - Congratulations on defeating the Wind Slime. You sure are pretty smart.
-  - King Slime has one last warrior left. The Evil Slime
-  - This guy us super tough and scary. But if you can multiply by 10s, you'll be
-    fine.
-  - Let me teach you how.
+  - "You did it! Victory over the Wind Slime \u2013 you're one clever hero."
+  - 'Now, King Slime''s last warrior awaits: The Evil Slime.'
+  - This one's a real challenge, tough and spooky. But don't worry, if you can master
+    multiplying by 10s and use multiplication in everyday situations, you'll do great.
+  - I'll guide you through it. Ready to learn and conquer? Let's dive in!
+  <MessageVoiceovers>k__BackingField:
+  - {fileID: 8300000, guid: b8ad7f29917460c4a873b7b9434000e6, type: 3}
+  - {fileID: 8300000, guid: 4ccb9e7fd10c0764081793956c1cb28a, type: 3}
+  - {fileID: 8300000, guid: f580dadec5ecdb842ab7a9ec173b0dc4, type: 3}
+  - {fileID: 8300000, guid: 41c30994486bdae498a392fc3cf25454, type: 3}
   <IntroTypeSpeed>k__BackingField: 0.03
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 670660200740735042, guid: dd0046fc78ec4ee4293c74bd95cc2c2a, type: 3}
@@ -43,3 +48,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 65b780cd158ab744f801f0b6f752ee58, type: 2}
   - {fileID: 11400000, guid: a1872737e27ad214fab71a33af4bcf86, type: 2}
   - {fileID: 11400000, guid: 67e40b86bfab5f9459547dec4d4b15ba, type: 2}
+  - {fileID: 11400000, guid: 335f89ea87b0dd246b86f2ffffe8237c, type: 2}
+  - {fileID: 11400000, guid: 057aa0ddbc31f364695d699a1c8b33ea, type: 2}
+  - {fileID: 11400000, guid: 041f05d0946082b4bb7038174477d094, type: 2}
+  - {fileID: 11400000, guid: abf74e84e419fee4594e3cb8326d2f94, type: 2}
+  - {fileID: 11400000, guid: bcd6d3d4fc207d64db46de9b93b50324, type: 2}
+  - {fileID: 11400000, guid: 6db397ea63c7f0c47af467753d29b096, type: 2}
+  - {fileID: 11400000, guid: 93ed66b485520d544967ea726ae48e91, type: 2}
+  - {fileID: 11400000, guid: fd494ad84908e9f4e9edba7f93d4e32d, type: 2}
+  - {fileID: 11400000, guid: 4dc950b5e3f029344817af316ca77069, type: 2}
+  - {fileID: 11400000, guid: d88da9833f49d1b419ecfb6517deb432, type: 2}

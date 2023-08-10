@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData 3
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Princess Renata
-  <DialogueContent>k__BackingField: You have slain King Slime and brought peace to
-    the Kingdom.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: You've beaten King Slime and brought peace to
+    the whole Kingdom.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 164f4af83380ee240872e8eed0b32c3a, type: 3}

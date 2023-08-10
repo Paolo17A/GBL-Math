@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ThisBlackboardType>k__BackingField: 1
   <IsTopicBeginning>k__BackingField: 0
-  <LessonText>k__BackingField: Use your multiplication skills to defeat the slimes
-    and bring back the the king's crown.
-  <LessonWriteSpeed>k__BackingField: 0.03
-  <LessonSprite>k__BackingField: {fileID: 0}
-  <LessonDescriptionText>k__BackingField: 
+  <LessonText>k__BackingField: "Use your multiplication skills, like magical spells,
+    to defeat these squishy enemies and save the day by getting the princess\u2019s
+    crown back."
+  <LessonWriteSpeed>k__BackingField: 0.06
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: eff64f80943f3ef4ca00cb506e689553, type: 3}

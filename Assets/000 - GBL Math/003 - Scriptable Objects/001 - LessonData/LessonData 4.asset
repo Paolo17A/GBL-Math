@@ -25,15 +25,18 @@ MonoBehaviour:
   <HasDialogueScene>k__BackingField: 0
   <CorrespondingDialogueScene>k__BackingField: 
   <IntroductoryMessages>k__BackingField:
-  - Hello again, brave warrior. Great job defeating the Thunder slime.
-  - You have mastered the basic principles of Multiplication. Well done!
-  - Now it's time to put what you know into practice. King Slime's next warriors
-    are a lot stronger.
-  - You need to learn the Multiplication Table to take them all down.
-  - Let's start with learning how to multiply by 4s and 5s. That's all we need to
-    take down the Magma Slime.
+  - "Great job, adventurer! You\u2019ve beaten three of King Slime's tough fighters.
+    You're becoming a real multiplication expert!"
+  - Up next is the Magma Slime. To win against it, you'll need to practice multiplying
+    by 4s and 5s.
+  - Ready to learn? Princess Renata is counting on you to bring back her crown. Let's
+    do this!
+  <MessageVoiceovers>k__BackingField:
+  - {fileID: 8300000, guid: 6d217bab6c400884e9454fa360d9f1f4, type: 3}
+  - {fileID: 8300000, guid: d1ddde0017405c84587d5c0bb0e42465, type: 3}
+  - {fileID: 8300000, guid: 393d006e566edec4d8112bc9e329c3af, type: 3}
   <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 5316b95f9bd48b941827fe83031d498e, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 23619443532357410, guid: 0e272584e43a6f042b08446152a08b81, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: daaca68ee7760924587af205357705fa, type: 3}
   <LessonQuestions>k__BackingField:

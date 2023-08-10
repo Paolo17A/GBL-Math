@@ -25,16 +25,23 @@ MonoBehaviour:
   <HasDialogueScene>k__BackingField: 0
   <CorrespondingDialogueScene>k__BackingField: 
   <IntroductoryMessages>k__BackingField:
-  - Hello, brave explorer. Well done taking down the Barbed Slime.
-  - Your knowledge of visualizing Math really came in handy.
-  - 'Oh I forgot to tell you: everytime Gumball defeats an enemy slime for the first
-    time, he gets stronger.'
-  - Keep fighting and both of you can take a few more hits.
-  - Your next opponent is the Leaf Slime. This one can be taken down by knowing the
-    different parts of multiplication.
-  - Let's get started.
-  <IntroTypeSpeed>k__BackingField: 0.03
-  <LessonVideo>k__BackingField: {fileID: 32900000, guid: 47eab8ea6c61aa44782d077dcc0013e0, type: 3}
+  - Hi there, brave explorer! You did great defeating the Spiked Slime.
+  - Your cool way of seeing Math really helped out.
+  - 'Oh, I almost forgot to mention: whenever Gumball beats an enemy for the first
+    time, he gets even tougher.'
+  - Keep on fighting, and you and Gumball will be able to handle more hits.
+  - Your next foe is the Leaf Slime. To win this one, you'll need to know the different
+    parts of multiplication.
+  - "Ready to dive in? Let\u2019s go!"
+  <MessageVoiceovers>k__BackingField:
+  - {fileID: 8300000, guid: a7295d5a6d2d79748ba8c63711f9c0b2, type: 3}
+  - {fileID: 8300000, guid: 9f900ab18d490094382dfe68511f7395, type: 3}
+  - {fileID: 8300000, guid: 92f99f5575cebcb44a9a96cac163cc6f, type: 3}
+  - {fileID: 8300000, guid: aa0216a6e5b4cd14394b16ee366124f0, type: 3}
+  - {fileID: 8300000, guid: ec11ef386e009bb46bdb72ff5f5350b8, type: 3}
+  - {fileID: 8300000, guid: 44b17c3bddb963b42b3014951039570f, type: 3}
+  <IntroTypeSpeed>k__BackingField: 0.06
+  <LessonVideo>k__BackingField: {fileID: 32900000, guid: c735e484ddc74824c947416f304e58ba, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 6843458367036956808, guid: 6de6c6f91a0237b45a9dfd6c5a123533, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: dc0a10a54f7042d459bcef1cc9bcd9e8, type: 3}
   <LessonQuestions>k__BackingField:

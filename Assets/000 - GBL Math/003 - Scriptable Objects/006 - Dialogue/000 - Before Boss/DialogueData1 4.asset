@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: DialogueData1 4
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Princess Renata
-  <DialogueContent>k__BackingField: Thank you so much for everything, traveler.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: 'Thank you a bunch for everything, dear traveler. '
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 57647f62616a85940952d78bb8f8d014, type: 3}

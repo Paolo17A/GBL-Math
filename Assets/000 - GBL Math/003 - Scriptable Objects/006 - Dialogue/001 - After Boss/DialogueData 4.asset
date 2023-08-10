@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData 4
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Minerva the Wizard
-  <DialogueContent>k__BackingField: You are now one of the most knowledgabe warriors
-    the kingdom has ever seen.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: You're now one of the smartest warriors in the
+    land.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: f0d289e56a0ce484ea1031a312b947b9, type: 3}

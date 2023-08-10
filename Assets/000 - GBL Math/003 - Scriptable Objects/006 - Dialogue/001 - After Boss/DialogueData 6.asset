@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData 6
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Minerva the Wizard
-  <DialogueContent>k__BackingField: Except for Gumball, of course. For he is now
-    the strongest of all the slime.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: Except for Gumball, who's now the mightiest slime
+    of them all.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: 34b6d17078f822644ba7ca2df2724195, type: 3}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData1 5
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Princess Renata
-  <DialogueContent>k__BackingField: Once you defeat King Slime and get my crown back,
-    the kingdom will forever be grateful.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: When you beat King Slime and bring back my crown,
+    the whole kingdom will be super grateful.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: ca33ce9043abd404c9067bed865821d2, type: 3}

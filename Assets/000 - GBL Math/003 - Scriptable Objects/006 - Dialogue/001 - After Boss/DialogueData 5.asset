@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DialogueData 5
   m_EditorClassIdentifier: 
   <DialogueSpeaker>k__BackingField: Minerva the Wizard
-  <DialogueContent>k__BackingField: With your vast knowledge of Multiplication, all
-    slime will run away in fear.
-  <TypeSpeed>k__BackingField: 0.03
+  <DialogueContent>k__BackingField: Your super multiplication skills will make any
+    bad slime think twice.
+  <TypeSpeed>k__BackingField: 0.05
+  <DialogueVoiceOver>k__BackingField: {fileID: 8300000, guid: f1d5ee15e51ebbb43b4e77c028e36868, type: 3}
