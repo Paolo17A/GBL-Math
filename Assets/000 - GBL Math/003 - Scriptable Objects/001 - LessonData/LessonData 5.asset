@@ -33,7 +33,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 95708047e1331064cba282e216238d3d, type: 3}
   - {fileID: 8300000, guid: 6e91e237fe382864993249b4eae989cf, type: 3}
   - {fileID: 8300000, guid: 9ee4e5b9bf7d65f49a77b2c8d3917623, type: 3}
-  <IntroTypeSpeed>k__BackingField: 0.03
+  <IntroTypeSpeed>k__BackingField: 0.05
   <LessonVideo>k__BackingField: {fileID: 32900000, guid: 4769be6ee5177aa479f022d4e0480116, type: 3}
   <EnemyPrefab>k__BackingField: {fileID: 8126981473651609928, guid: 3d528f2a2ac18864ba1f48b6b2cecacd, type: 3}
   <BackgroundSprite>k__BackingField: {fileID: 21300000, guid: 24f7af68e122e6343ad1258e310913fb, type: 3}
