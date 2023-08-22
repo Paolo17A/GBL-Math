@@ -1820,7 +1820,7 @@ MonoBehaviour:
   - {fileID: 1566619191}
   - {fileID: 839950472}
   <DebugMode>k__BackingField: 0
-  SceneToLoad: WardrobeScene
+  SceneToLoad: EndingScene
   <CanUseButtons>k__BackingField: 0
   CheatsActivated: 0
   <MainCamera>k__BackingField: {fileID: 1879988193}
@@ -2815,7 +2815,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 19.66
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2

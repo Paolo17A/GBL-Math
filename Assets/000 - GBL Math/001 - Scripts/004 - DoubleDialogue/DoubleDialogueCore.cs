@@ -5,7 +5,6 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static IntroStoryCore;
 
 public class DoubleDialogueCore : MonoBehaviour, IDialogue
 {
@@ -83,6 +82,14 @@ public class DoubleDialogueCore : MonoBehaviour, IDialogue
         
         if(CurrentDoubleDialogueState == DoubleDialogueStates.DOUBLE_DIALOGUE)
         {
+            if (Dialogues[CurrentDialogueIndex].DialogueVoiceOver != null)
+            {
+                if (GameManager.Instance.AudioManager.IsStillTalking())
+                    GameManager.Instance.AudioManager.KillSoundEffect();
+                if (CurrentDialogueIndex == 0)
+                    yield return new WaitForSeconds(0.5f);
+                GameManager.Instance.AudioManager.PlayAudioClip(Dialogues[CurrentDialogueIndex].DialogueVoiceOver);
+            }
             foreach (char c in Dialogues[CurrentDialogueIndex].DialogueContent)
             {
                 DialogueContentTMP.text += c;
@@ -116,6 +123,8 @@ public class DoubleDialogueCore : MonoBehaviour, IDialogue
     }
     public void ProceedDialogue()
     {
+        if (GameManager.Instance.AudioManager.IsStillTalking())
+            GameManager.Instance.AudioManager.KillSoundEffect();
         if (CurrentDoubleDialogueState == DoubleDialogueStates.DOUBLE_DIALOGUE)
         {
             if (Dialogues.Count == 0 || CurrentDialogueIndex == Dialogues.Count - 1)

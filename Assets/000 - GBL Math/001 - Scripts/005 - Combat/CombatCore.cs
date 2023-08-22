@@ -452,7 +452,10 @@ public class CombatCore : MonoBehaviour
                 if (GameManager.Instance.CurrentLesson.LessonIndex == PlayerData.CurrentLessonIndex)
                 {
                     GameManager.Instance.AudioManager.KillBackgroundMusic();
-                    GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
+                    if (GameManager.Instance.CurrentLesson.HasDialogueScene)
+                        GameManager.Instance.SceneController.CurrentScene = "DialogueScene";
+                    else
+                        GameManager.Instance.SceneController.CurrentScene = "DiscussionScene";
                 }
                 else
                 {
